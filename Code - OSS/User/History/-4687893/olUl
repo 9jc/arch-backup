@@ -1,0 +1,32 @@
+# for GTK Apps to lauch without delay
+for f in /etc/X11/xinit/xinitrc.d/*.sh; do
+  source "$f"
+done
+
+dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+
+xrdb -merge ~/.Xresources
+lxappearance & killall lxappearance
+nm-applet &
+pamac-tray &
+/usr/bin/dunst &
+
+#gestures app 
+libinput-gestures-setup start
+
+
+# Normal Applications
+#xfce4-clipman &
+mpd &
+xdman &
+# conky &
+megasync &
+aw-qt & 
+copyq &
+ulauncher &
+
+sxhkd &
+
+# Window Managers
+exec bspwm
+

@@ -1,0 +1,32 @@
+{
+    "no_systray": false,
+    "timeout": 0.8,
+    "recent_thr": 0.1,
+    "compr_cnt": 2,
+    "ignore": [],
+    "position": "fixed",
+    "persist": false,
+    "window": null,
+    "font_desc": "Fira Sans Medium 10",
+    "font_size": "medium",
+    "font_color": "white",
+    "bg_color": "black",
+    "opacity": 0.8,
+    "key_mode": "composed",
+    "bak_mode": "normal",
+    "mods_mode": "normal",
+    "mods_only": false,
+    "multiline": false,
+    "vis_shift": false,
+    "vis_space": false,
+    "geometry": [
+        1246,
+        49,
+        670,
+        172
+    ],
+    "screen": 0,
+    "start_disabled": false,
+    "mouse": false,
+    "button_hide_duration": 1
+}

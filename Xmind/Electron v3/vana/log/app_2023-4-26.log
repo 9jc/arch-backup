@@ -1,0 +1,45 @@
+[I 2023-04-25T18:35:00.726Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-25T18:35:00.728Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-26T03:02:43.801Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-26T03:02:43.802Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[W 2023-04-26T08:31:19.488Z ipc] API "POST /command/handle/frame/2" unregistered on webContents "5" destroyed.
+-------- SESSION 2023-04-26T08:33:38.659Z (22.11.3656+202301100025, linux, x64, 16459390976, XMIND LTD., vana_linux) --------
+[I 2023-04-26T08:33:38.673Z main:store:plugins:electron] current pid is "1902902"
+[I 2023-04-26T08:33:38.686Z usage-stats] sync data
+[I 2023-04-26T08:33:38.737Z auto-updater] current version is "22.11.3656"
+[I 2023-04-26T08:33:39.306Z main:store:plugins:electron] Application will finish launching.
+[I 2023-04-26T08:33:39.313Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-04-26T08:33:39.320Z main:store:plugins:electron] Application is ready.
+[I 2023-04-26T08:33:39.355Z main:store:plugins:open-handler] Recover: Map(2) {
+  '1' => [
+    {
+      source: 'file:///home/i0xfce/Documents/Project%20PassFX.xmind',
+      editorId: '14fa8044f29bbf3dc178f8df0f'
+    }
+  ],
+  '2' => [
+    {
+      source: 'new://workbook',
+      editorId: 'cd98384f492b8c5c186f28647f'
+    }
+  ]
+}
+[I 2023-04-26T08:33:39.357Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-04-26T08:33:39.357Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-26T08:33:39.357Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-04-26T08:33:39.357Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-26T08:33:39.838Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[I 2023-04-26T08:33:42.758Z fonts] App Locale: en
+[I 2023-04-26T08:33:42.759Z fonts] start get system fonts
+[I 2023-04-26T08:33:44.816Z fonts] Consuming 2057 ms to get system fonts
+[I 2023-04-26T08:34:10.899Z main:store:plugins:editors:EditorFrame] Frame 2 close
+[I 2023-04-26T08:34:12.949Z main:store:plugins:editors:EditorFrame] Not find editor view: undefined file:///opt/Xmind/resources/app.asar/renderer/editor-frame.html?frameId=2&_apr=dark
+[I 2023-04-26T08:34:13.072Z main:store:plugins:editors:EditorFrame] Frame 2 close
+[I 2023-04-26T08:34:13.127Z main:store:plugins:editors:EditorFrame] Frame 2 webContents destroyed
+[I 2023-04-26T08:34:39.358Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-26T08:34:39.359Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-26T09:34:39.415Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-26T09:34:39.416Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-26T10:34:39.418Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-26T10:34:39.419Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-26T11:05:39.522Z main:store:plugins:electron] Application is intended to quit.

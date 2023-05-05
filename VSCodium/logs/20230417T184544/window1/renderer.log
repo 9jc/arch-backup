@@ -1,0 +1,11 @@
+2023-04-17 18:45:45.307 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/i0xfce/Documents/Vels PDF/java/vector.java","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-04-17 18:45:45.867 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip
+product.json (WINS): notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads
+2023-04-17 18:45:49.004 [info] [perf] Render performance baseline is 44ms
+2023-04-17 18:54:24.871 [error] Internal error.: Error: Internal error.
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861668
+	at re (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861962)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856746
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856766)
+	at process.processImmediate (node:internal/timers:466:21)

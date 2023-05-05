@@ -1,0 +1,465 @@
+[2022-06-08 01:38:59.630] [4041945] (engine.cpp:231): Time: Wed Jun  8 01:38:59 2022 +03 logLevel:2
+[2022-06-08 01:38:59.631] [4041945] (audio_device_impl.cc:83): Create
+[2022-06-08 01:38:59.631] [4041945] (audio_device_impl.cc:91): CreateForTest
+[2022-06-08 01:38:59.631] [4041945] (audio_device_buffer.cc:64): AudioDeviceBuffer::ctor
+[2022-06-08 01:38:59.631] [4041945] (audio_device_impl.cc:129): AudioDeviceModuleImpl
+[2022-06-08 01:38:59.631] [4041945] (audio_device_impl.cc:133): CheckPlatform
+[2022-06-08 01:38:59.631] [4041945] (audio_device_impl.cc:144): current platform is Linux
+[2022-06-08 01:38:59.631] [4041945] (audio_device_impl.cc:163): CreatePlatformSpecificObjects
+[2022-06-08 01:38:59.631] [4041945] (audio_device_impl.cc:992): PlatformAudioLayer
+[2022-06-08 01:38:59.631] [4041945] (audio_device_impl.cc:299): PulseAudio support is enabled.
+[2022-06-08 01:38:59.631] [4041945] (audio_mixer_manager_pulse_linux.cc:57): AudioMixerManagerLinuxPulse created
+[2022-06-08 01:38:59.631] [4041945] (audio_device_pulse_linux.cc:81): AudioDeviceLinuxPulse created
+[2022-06-08 01:38:59.631] [4041945] (audio_device_impl.cc:304): Linux PulseAudio APIs will be utilized
+[2022-06-08 01:38:59.631] [4041945] (audio_device_impl.cc:345): AttachAudioBuffer
+[2022-06-08 01:38:59.631] [4041945] (audio_device_buffer.cc:180): SetRecordingSampleRate(0)
+[2022-06-08 01:38:59.631] [4041945] (audio_device_buffer.cc:186): SetPlayoutSampleRate(0)
+[2022-06-08 01:38:59.631] [4041945] (audio_device_buffer.cc:200): SetRecordingChannels(0)
+[2022-06-08 01:38:59.631] [4041945] (audio_device_buffer.cc:206): SetPlayoutChannels(0)
+[2022-06-08 01:38:59.631] [4041945] (audio_engine.cpp:46): Creating audio engine: standard
+[2022-06-08 01:38:59.631] [4041945] (audio_device_impl.cc:365): Init
+[2022-06-08 01:38:59.637] [4041945] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2022-06-08 01:38:59.637] [4041945] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 1
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2022-06-08 01:38:59.642] [4041945] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2022-06-08 01:38:59.642] [4041945] (audio_device_impl.cc:896): RegisterAudioCallback
+[2022-06-08 01:38:59.642] [4041945] (audio_device_buffer.cc:81): RegisterAudioCallback
+[2022-06-08 01:38:59.708] [4041945] (audio_device_impl.cc:355): ActiveAudioLayer
+[2022-06-08 01:38:59.800] [4041945] (audio_engine.cpp:143): Setting audio input device: 'default'
+[2022-06-08 01:38:59.800] [4041945] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-06-08 01:38:59.800] [4041945] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-06-08 01:38:59.800] [4041945] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2022-06-08 01:38:59.800] [4041945] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2022-06-08 01:38:59.800] [4041945] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2022-06-08 01:38:59.802] [4041945] (audio_device_impl.cc:574): output: 1
+[2022-06-08 01:38:59.802] [4041945] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-06-08 01:38:59.802] [4041945] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-06-08 01:38:59.802] [4041945] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2022-06-08 01:38:59.802] [4041945] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-06-08 01:38:59.802] [4041945] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2022-06-08 01:38:59.802] [4041945] (audio_engine.cpp:154): Setting audio output device: 'default'
+[2022-06-08 01:38:59.802] [4041945] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2022-06-08 01:38:59.802] [4041945] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2022-06-08 01:38:59.802] [4041945] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2022-06-08 01:38:59.802] [4041945] (audio_device_impl.cc:620): output: 1
+[2022-06-08 01:38:59.802] [4041945] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2022-06-08 01:38:59.802] [4041945] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2022-06-08 01:38:59.802] [4041945] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2022-06-08 01:38:59.802] [4041945] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-06-08 01:38:59.802] [4041945] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2022-06-08 01:38:59.804] [4041900] (discord.cpp:551): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 131117, Version Hash: 15be46411d4a2356c07dd1941e42ff386c140e3b"]
+[2022-06-08 01:38:59.874] [4041900] (discord.cpp:551): JS console: ["%c[default]","[NATIVE INFO] host 0.0.17, modules: discord_desktop_core: 3, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 6, discord_game_utils: 1, discord_rpc: 1"]
+[2022-06-08 01:38:59.969] [4041900] (discord.cpp:551): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2022-06-08 01:39:00.020] [4041945] (audio_engine.cpp:143): Setting audio input device: 'default'
+[2022-06-08 01:39:00.020] [4041945] (audio_device_impl.cc:827): RecordingIsInitialized
+[2022-06-08 01:39:00.020] [4041945] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-06-08 01:39:00.020] [4041945] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-06-08 01:39:00.020] [4041945] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2022-06-08 01:39:00.020] [4041945] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2022-06-08 01:39:00.020] [4041945] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2022-06-08 01:39:00.021] [4041945] (audio_device_impl.cc:574): output: 1
+[2022-06-08 01:39:00.021] [4041945] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-06-08 01:39:00.021] [4041945] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-06-08 01:39:00.021] [4041945] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2022-06-08 01:39:00.021] [4041945] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-06-08 01:39:00.021] [4041945] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2022-06-08 01:39:00.021] [4041945] (audio_engine.cpp:154): Setting audio output device: 'default'
+[2022-06-08 01:39:00.021] [4041945] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2022-06-08 01:39:00.021] [4041945] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2022-06-08 01:39:00.021] [4041945] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2022-06-08 01:39:00.021] [4041945] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2022-06-08 01:39:00.021] [4041945] (audio_device_impl.cc:620): output: 1
+[2022-06-08 01:39:00.021] [4041945] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2022-06-08 01:39:00.021] [4041945] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2022-06-08 01:39:00.056] [4041900] (discord.cpp:551): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2022-06-08 01:39:00.616] [4041900] (discord.cpp:551): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discord.com/assets/f54b5e5769b60519346a.js:5555:330)\n    at Vn (https://discord.com/assets/f54b5e5769b60519346a.js:5581:696)\n    at Kn (https://discord.com/assets/f54b5e5769b60519346a.js:5584:356)\n    at Wn (https://discord.com/assets/f54b5e5769b60519346a.js:5584:199)\n    at jn (https://discord.com/assets/f54b5e5769b60519346a.js:5583:886)\n    at zn (https://discord.com/assets/f54b5e5769b60519346a.js:5584:697)\n    at Xn (https://discord.com/assets/f54b5e5769b60519346a.js:5584:731)\n    at i (https://discord.com/assets/f54b5e5769b60519346a.js:5551:961)\n    at Object.962314 (https://discord.com/assets/9b08ff3da585ac46db54.js:1657:11)\n    at l (https://discord.com/assets/5cc055e87f138fa911c3.js:1:154)\n    at Object.72840 (https://discord.com/assets/9b08ff3da585ac46db54.js:1516:772)\n    at l (https://discord.com/assets/5cc055e87f138fa911c3.js:1:154)\n    at Object.900993 (https://discord.com/assets/9b08ff3da585ac46db54.js:54:163)\n    at l (https://discord.com/assets/5cc055e87f138fa911c3.js:1:154)\n    at Object.101327 (https://discord.com/assets/9b08ff3da585ac46db54.js:161:532)\n    at l (https://discord.com/assets/5cc055e87f138fa911c3.js:1:154)\n    at Object.206566 (https://discord.com/assets/9b08ff3da585ac46db54.js:168:344)\n    at l (https://discord.com/assets/5cc055e87f138fa911c3.js:1:154)\n    at Object.998872 (https://discord.com/assets/1e3f57fb48a79256cd28.js:220:237)\n    at Function.l (https://discord.com/assets/5cc055e87f138fa911c3.js:1:154)"]
+[2022-06-08 01:39:00.701] [4041900] (discord.cpp:551): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2022-06-08 01:39:00.783] [4041900] (discord.cpp:551): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2022-06-08 01:39:01.330] [4041900] (discord.cpp:551): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2022-06-08 01:39:01.336] [4041900] (discord.cpp:551): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2022-06-08 01:39:01.845] [4041900] (discord.cpp:551): JS console: ["The vm module of Node.js is deprecated in the renderer process and will be removed."]
+[2022-06-08 01:39:02.048] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Injecting BD Styles"]
+[2022-06-08 01:39:02.053] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing DataStore"]
+[2022-06-08 01:39:02.057] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing LocaleManager"]
+[2022-06-08 01:39:02.063] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Performing incompatibility checks"]
+[2022-06-08 01:39:02.063] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Getting update information"]
+[2022-06-08 01:39:02.064] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing Settings"]
+[2022-06-08 01:39:02.065] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing DOMManager"]
+[2022-06-08 01:39:02.066] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Waiting for connection..."]
+[2022-06-08 01:39:02.642] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:05.029] [4041900] (discord.cpp:551): JS console: ["%c[RPCServer:WSS]","Socket Message: 3","[object Object]"]
+[2022-06-08 01:39:05.193] [4041900] (discord.cpp:551): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=1"]
+[2022-06-08 01:39:05.194] [4041900] (discord.cpp:551): JS console: ["%c[Flux]","Slow batch emitChanges took 158ms recentActions:","BROWSER_HANDOFF_UNAVAILABLE"]
+[2022-06-08 01:39:05.194] [4041900] (discord.cpp:551): JS console: ["%c[Flux]","Slow dispatch on BROWSER_HANDOFF_UNAVAILABLE: 159ms"]
+[2022-06-08 01:39:05.195] [4041900] (discord.cpp:551): JS console: ["%c[Flux]","Slow dispatch on BROWSER_HANDOFF_END: 164ms"]
+[2022-06-08 01:39:05.195] [4041900] (discord.cpp:551): JS console: ["%c[RPCServer:WSS]","Socket Emit: 3","[object Object]"]
+[2022-06-08 01:39:05.504] [4041900] (discord.cpp:551): JS console: ["%c[LoginQRSocket]","[312ms] got hello, auth timeout=144843ms"]
+[2022-06-08 01:39:05.573] [4041900] (discord.cpp:551): JS console: ["%c[LoginQRSocket]","[381ms] connected, handshaking with fingerprint: vIiJ4QA3_GCDy0GC1FUmsa3kB8uHOvLIotChn4SVzOA"]
+[2022-06-08 01:39:05.646] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:05.903] [4041900] (discord.cpp:551): JS console: ["%c[LoginQRSocket]","[711ms] computed nonce proof"]
+[2022-06-08 01:39:06.208] [4041900] (discord.cpp:551): JS console: ["%c[LoginQRSocket]","[1015ms] handshake complete awaiting remote auth."]
+[2022-06-08 01:39:08.649] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:11.652] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:14.652] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:17.655] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:20.656] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:23.659] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:26.662] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:29.666] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:32.669] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:35.672] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:38.675] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:41.676] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:44.679] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:47.682] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:50.685] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:53.686] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:56.689] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:39:57.550] [4041900] (discord.cpp:551): JS console: ["%c[LoginQRSocket]","[52357ms] remote auth handshake started, awaiting finish/cancel."]
+[2022-06-08 01:39:59.067] [4041900] (discord.cpp:551): JS console: ["%c[LoginQRSocket]","[53875ms] remote auth handshake finished."]
+[2022-06-08 01:39:59.077] [4041900] (discord.cpp:551): JS console: ["%c[AuthenticationStore]","setAuthToken called.","[object Object]"]
+[2022-06-08 01:39:59.085] [4041900] (discord.cpp:551): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /app"]
+[2022-06-08 01:39:59.092] [4041900] (discord.cpp:551): JS console: ["%c[LoginQRSocket]","[53900ms] cleaning up"]
+[2022-06-08 01:39:59.119] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2022-06-08 01:39:59.536] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 417 ms"]
+[2022-06-08 01:39:59.537] [4041900] (discord.cpp:551): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2022-06-08 01:39:59.537] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2022-06-08 01:39:59.548] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","[HELLO] via [\"gateway-prd-main-d1p4\",{\"micros\":0.0}], heartbeat interval: 41250, took 428 ms"]
+[2022-06-08 01:39:59.692] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:02.696] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:04.020] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","[READY] took 4900ms, via [\"gateway-prd-main-d1p4\",{\"micros\":386700,\"calls\":[\"discord-sessions-blue-prd-2-30\",{\"micros\":369420,\"calls\":[\"start_session\",{\"micros\":95111,\"calls\":[\"discord-api-75cd6d975c-c5mbd\",{\"micros\":81502,\"calls\":[\"get_user\",{\"micros\":11071},\"add_authorized_ip\",{\"micros\":5482},\"get_guilds\",{\"micros\":6408},\"private_channels\",{\"micros\":27199},\"read_states\",{\"micros\":10297},\"coros_wait\",{\"micros\":2731},\"aliases\",{\"micros\":2583},\"experiments\",{\"micros\":5950}]}]},\"guilds_connect\",{\"micros\":2368,\"calls\":[]},\"presence_connect\",{\"micros\":1,\"calls\":[]}]}]}] as 56af11c5d80ec701970cc5d07f36d751"]
+[2022-06-08 01:40:04.050] [4041900] (discord.cpp:551): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2022-06-08 01:40:04.097] [4041900] (discord.cpp:551): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2022-06-08 01:40:04.371] [4041900] (discord.cpp:551): JS console: ["%c[Flux]","Slow batch emitChanges took 253ms recentActions:",""]
+[2022-06-08 01:40:04.372] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing ReactComponents"]
+[2022-06-08 01:40:04.374] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing ComponentPatcher"]
+[2022-06-08 01:40:04.431] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing Editor"]
+[2022-06-08 01:40:04.536] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 5416ms"]
+[2022-06-08 01:40:04.806] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Initializing Builtins"]
+[2022-06-08 01:40:04.806] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Custom CSS]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Enabled"]
+[2022-06-08 01:40:04.807] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Custom CSS]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Starting to watch content."]
+[2022-06-08 01:40:04.809] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Emotes]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Enabled"]
+[2022-06-08 01:40:04.825] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Emotes]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","TwitchGlobal"]
+[2022-06-08 01:40:04.828] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [PublicServers]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Enabled"]
+[2022-06-08 01:40:04.832] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Loading Plugins"]
+[2022-06-08 01:40:04.859] [4041900] (discord.cpp:551): JS console: ["%c[BDFDB] %c(v2.3.9)","color: #3a71c1; font-weight: 700;","color: #666; font-weight: 600; font-size: 11px;","Loading Library"]
+[2022-06-08 01:40:05.038] [4041900] (discord.cpp:551): JS console: ["%c[ZeresPluginLibrary]%c","color: #3a71c1; font-weight: 700;","","version 2.0.3 has started."]
+[2022-06-08 01:40:05.095] [4041900] (discord.cpp:551): JS console: ["%c[BetterRoleColors]%c","color: #3a71c1; font-weight: 700;","","version 0.8.17 has started."]
+[2022-06-08 01:40:05.472] [4041900] (discord.cpp:551): JS console: ["%c[UserDetails]%c","color: #3a71c1; font-weight: 700;","","version 2.8.1 has started."]
+[2022-06-08 01:40:05.599] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [PluginManager]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Starting to watch plugin addons."]
+[2022-06-08 01:40:05.599] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Loading Themes"]
+[2022-06-08 01:40:05.602] [4041900] (discord.cpp:551): JS console: ["%c[ThemeManager]%c Could not load ClearVision_v6.theme.css:\n\n%c","color: #3a71c1; font-weight: 700;","color: red; font-weight: 700;","color: red;","MetaError: META was not found."]
+[2022-06-08 01:40:05.652] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [ThemeManager]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Starting to watch theme addons."]
+[2022-06-08 01:40:05.652] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Removing Loading Icon"]
+[2022-06-08 01:40:05.653] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Startup]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","Collecting Startup Errors"]
+[2022-06-08 01:40:05.699] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:05.873] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Emotes]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","BTTV"]
+[2022-06-08 01:40:06.290] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:40:07.117] [4041900] (discord.cpp:551): JS console: ["%c[BetterDiscord]%c [Emotes]%c","color: #3E82E5; font-weight: 700;","color: #3a71c1;","","FrankerFaceZ"]
+[2022-06-08 01:40:08.699] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:11.290] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:40:11.702] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:13.679] [4041900] (discord.cpp:551): JS console: ["%c[BDFDB] %c(v2.3.9)","color: #3a71c1; font-weight: 700;","color: #666; font-weight: 600; font-size: 11px;","Finished loading Library"]
+[2022-06-08 01:40:13.704] [4041900] (discord.cpp:551): JS console: ["%c[ReadAllNotificationsButton] %c(v1.7.1)","color: #3a71c1; font-weight: 700;","color: #666; font-weight: 600; font-size: 11px;","has been started"]
+[2022-06-08 01:40:13.737] [4041900] (discord.cpp:551): JS console: ["%c[ServerDetails] %c(v1.1.2)","color: #3a71c1; font-weight: 700;","color: #666; font-weight: 600; font-size: 11px;","has been started"]
+[2022-06-08 01:40:13.754] [4041900] (discord.cpp:551): JS console: ["%c[ShowHiddenChannels] %c(v3.1.2)","color: #3a71c1; font-weight: 700;","color: #666; font-weight: 600; font-size: 11px;","has been started"]
+[2022-06-08 01:40:13.847] [4041900] (discord.cpp:551): JS console: ["%c[SplitLargeMessages] %c(v1.7.6)","color: #3a71c1; font-weight: 700;","color: #666; font-weight: 600; font-size: 11px;","has been started"]
+[2022-06-08 01:40:13.942] [4041900] (discord.cpp:551): JS console: ["%c[ThemeRepo] %c(v2.2.9)","color: #3a71c1; font-weight: 700;","color: #666; font-weight: 600; font-size: 11px;","has been started"]
+[2022-06-08 01:40:13.965] [4041900] (discord.cpp:551): JS console: ["%c[ThemeSettings] %c(v1.3.4)","color: #3a71c1; font-weight: 700;","color: #666; font-weight: 600; font-size: 11px;","has been started"]
+[2022-06-08 01:40:14.005] [4041900] (discord.cpp:551): JS console: ["%c[MessageActionCreators]","Fetching messages for 934805513223438347 between undefined and undefined. jump=undefined"]
+[2022-06-08 01:40:14.296] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2022-06-08 01:40:14.297] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2022-06-08 01:40:14.705] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:15.625] [4041900] (discord.cpp:551): JS console: ["%c[MessageActionCreators]","Fetching messages for 969473892567621643 between undefined and undefined. jump=undefined"]
+[2022-06-08 01:40:16.289] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:40:16.770] [4041900] (discord.cpp:551): JS console: ["%c[MessageActionCreators]","Failed to fetch messages for 934805513223438347"]
+[2022-06-08 01:40:17.706] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:18.304] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2022-06-08 01:40:20.125] [4041900] (discord.cpp:551): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 969473892567621643 isBefore:false isAfter:false"]
+[2022-06-08 01:40:20.330] [4041900] (discord.cpp:551): JS console: ["%c[Flux]","Slow batch emitChanges took 195ms recentActions:","LOAD_MESSAGES_SUCCESS"]
+[2022-06-08 01:40:20.331] [4041900] (discord.cpp:551): JS console: ["%c[Flux]","Slow dispatch on LOAD_MESSAGES_SUCCESS: 206ms"]
+[2022-06-08 01:40:20.709] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:21.297] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:40:23.712] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:26.716] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:26.951] [4045099] (region_latency_tester.cpp:71): Sending 5 latency test pings to region dubai
+[2022-06-08 01:40:26.951] [4045099] (region_latency_tester.cpp:71): Sending 5 latency test pings to region india
+[2022-06-08 01:40:26.951] [4045099] (region_latency_tester.cpp:71): Sending 5 latency test pings to region bucharest
+[2022-06-08 01:40:26.951] [4045099] (region_latency_tester.cpp:71): Sending 5 latency test pings to region finland
+[2022-06-08 01:40:26.951] [4045099] (region_latency_tester.cpp:71): Sending 5 latency test pings to region stockholm
+[2022-06-08 01:40:27.108] [4045099] (region_latency_tester.cpp:270): Average RTT for region dubai is 20.5
+[2022-06-08 01:40:27.108] [4045099] (region_latency_tester.cpp:270): Average RTT for region india is 153
+[2022-06-08 01:40:27.108] [4045099] (region_latency_tester.cpp:270): Average RTT for region bucharest is 132.75
+[2022-06-08 01:40:27.108] [4045099] (region_latency_tester.cpp:270): Average RTT for region finland is 145.5
+[2022-06-08 01:40:27.108] [4045099] (region_latency_tester.cpp:270): Average RTT for region stockholm is 119
+[2022-06-08 01:40:27.109] [4041900] (discord.cpp:551): JS console: ["%c[RTCLatencyTestManager]","RTC region latency test completed: ","dubai,stockholm,bucharest,finland,india"]
+[2022-06-08 01:40:28.412] [4041900] (discord.cpp:551): JS console: ["%c[MessageActionCreators]","Fetching messages for 969473892567621643 between 969479615112429608 and undefined. jump=undefined"]
+[2022-06-08 01:40:28.746] [4041900] (discord.cpp:551): JS console: ["%c[MessageActionCreators]","Fetched 40 messages for 969473892567621643 isBefore:true isAfter:false"]
+[2022-06-08 01:40:28.876] [4041900] (discord.cpp:551): JS console: ["%c[Flux]","Slow batch emitChanges took 126ms recentActions:","LOAD_MESSAGES_SUCCESS"]
+[2022-06-08 01:40:28.876] [4041900] (discord.cpp:551): JS console: ["%c[Flux]","Slow dispatch on LOAD_MESSAGES_SUCCESS: 130ms"]
+[2022-06-08 01:40:29.719] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:31.294] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:40:32.719] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:35.720] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:36.293] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:40:38.722] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:41.725] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:44.726] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:46.295] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:40:47.729] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:50.732] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:53.732] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:56.735] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:40:59.736] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:02.739] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:05.739] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:06.297] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:41:08.742] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:11.744] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:14.746] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:17.749] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:20.751] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:23.752] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:26.303] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:41:26.753] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:29.756] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:32.759] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:35.762] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:38.766] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:41.769] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:44.772] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:47.772] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:50.776] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:51.302] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:41:53.779] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:56.302] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:41:56.779] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:41:59.780] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:02.782] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:05.785] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:08.786] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:11.305] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:42:11.789] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:14.792] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:17.796] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:20.799] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:21.308] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:42:23.802] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:26.805] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:29.806] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:32.809] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:35.809] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:36.312] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:42:38.813] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:41.319] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:42:41.816] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:44.819] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:46.326] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:42:47.822] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:50.825] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:51.326] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:42:53.826] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:56.326] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:42:56.828] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:42:59.829] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:02.832] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:05.832] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:06.330] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:43:08.836] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:11.336] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:43:11.839] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:14.841] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:16.342] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:43:17.842] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:20.845] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:21.342] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:43:23.846] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:26.343] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:43:26.849] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:29.852] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:31.344] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:43:32.855] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:35.859] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:36.345] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:43:38.859] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:41.350] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:43:41.862] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:44.866] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:46.351] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:43:47.869] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:50.871] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:53.873] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:56.355] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:43:56.876] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:43:59.879] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:01.356] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:44:02.881] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:05.882] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:08.886] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:11.888] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:14.889] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:17.892] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:20.895] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:23.896] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:26.899] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:29.902] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:31.359] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:44:32.902] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:35.905] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:36.361] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:44:38.906] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:41.909] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:44.912] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:47.915] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:50.916] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:53.919] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:56.380] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:44:56.922] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:44:59.925] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:01.379] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:45:02.927] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:05.929] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:06.378] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:45:08.932] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:11.935] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:14.936] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:17.939] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:20.939] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:21.379] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:45:23.942] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:26.942] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:29.945] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:31.378] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:45:32.946] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:35.949] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:36.378] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:45:38.949] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:41.378] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:45:41.952] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:44.955] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:47.956] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:50.959] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:51.383] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:45:53.959] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:56.962] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:45:59.962] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:02.875] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2022-06-08 01:46:02.966] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:02.984] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2022-06-08 01:46:03.315] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2022-06-08 01:46:05.969] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:06.382] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:46:08.972] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:11.386] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:46:11.972] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:14.975] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:16.384] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:46:17.976] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:20.979] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:23.980] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:26.982] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:29.983] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:32.986] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:34.896] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2022-06-08 01:46:35.028] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2022-06-08 01:46:35.989] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:38.989] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:40.015] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2022-06-08 01:46:41.396] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:46:41.992] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:44.995] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:46.396] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:46:47.996] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:50.997] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:51.397] [4041900] (discord.cpp:551): JS console: ["%c[RunningGameStore]","games",""]
+[2022-06-08 01:46:53.999] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:46:57.002] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:47:00.003] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:47:00.808] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2022-06-08 01:47:00.914] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected online."]
+[2022-06-08 01:47:01.287] [4041900] (discord.cpp:551): JS console: ["%c[GatewaySocket]","Expedited heartbeat succeeded"]
+[2022-06-08 01:47:03.006] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:47:06.008] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:47:09.009] [4041946] (device_info_linux.cc:45): NumberOfDevices
+[2022-06-08 01:47:10.667] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.668] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.669] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.670] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.671] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.671] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.671] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.671] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.672] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.673] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.673] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.674] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.674] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.675] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.675] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.676] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.676] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.676] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.676] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.681] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]
+[2022-06-08 01:47:10.681] [4041900] (discord.cpp:551): JS console: ["Window state not initialized","window-1"]

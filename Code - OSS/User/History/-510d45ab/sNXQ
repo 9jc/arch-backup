@@ -1,0 +1,238 @@
+conky.config = {
+	background = true,
+	update_interval = 1,
+
+	cpu_avg_samples = 2,
+	net_avg_samples = 2,
+	temperature_unit = celsius,
+
+	double_buffer = true,
+	no_buffers = true,
+	text_buffer_size = 2048,
+
+	gap_x = 1,
+	gap_y = 1,
+
+	minimum_height = 520,
+	minimum_width = 520,
+	maximum_width = 520,
+
+	own_window = true,
+    own_window_class = 'Conky',
+    own_window_type = 'desktop',
+    own_window_argb_visual = true,
+    own_window_argb_value = 0,
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+	border_inner_margin = 0,
+	border_outer_margin = 0,
+	alignment = 'middle_right',
+
+	draw_shades = false,
+	draw_outline = false,
+	draw_borders = false,
+	draw_graph_borders = false,
+
+	override_utf8_locale = true,
+	use_xft = true,
+	xftalpha = 0.8,
+	uppercase = false,
+
+	default_color = 'E5E5E5',
+	color1 = 'E5E5E5',
+	color2 = 'E5E5E5',
+	color3 = '888888',
+	color4 = 'fae4df',
+	color5 = 'e6d5ec',
+
+	lua_load = '~/.lua/scripts/rings-v1.2.1.lua',
+	lua_draw_hook_post = 'conky_main'
+}
+conky.text = [[
+#${font Michroma:size=10}${color1}${goto 350}${voffset 18}Arch Linux
+#${font Michroma:size=10}${color0}${goto 365}${voffset 18}Youtube
+${font Play:normal:size=10}${voffset 5}${color1}${goto 120}${freq_g} Ghz${alignr 330}
+${font Play:normal:size=8}${voffset 0}${goto 120}${color1}CPU 1 ${alignr 330}${color1}${cpu cpu0}%
+${font Play:normal:size=8}${voffset 2}${goto 120}${color1}CPU 2${alignr 330}${color1}${cpu cpu1}%
+${font Play:normal:size=8}${voffset 2}${goto 120}${color1}CPU 3${alignr 330}${color1}${cpu cpu2}%
+${font Play:normal:size=8}${voffset 2}${goto 120}${color1}CPU 4${alignr 330}${color1}${cpu cpu3}%
+${goto 50}${voffset 9}${font Play:normal:size=9}${color1}${top name 1}${alignr 306}${top cpu 1}%
+${goto 50}${font Play:normal:size=9}${color1}${top name 2}${alignr 306}${top cpu 2}%
+${goto 50}${font Play:normal:size=9}${color1}${top name 3}${alignr 306}${top cpu 3}%
+${font Michroma:size=10}${color1}${goto 80}${voffset 4}CPU 
+${font Michroma:size=10}${color1}${goto 394}${voffset 37}MEMORY
+${goto 324}${voffset -6}${font Play:normal:size=9}${color1}${top_mem name 1}${alignr 40}${top_mem mem 1}%
+${goto 324}${font Play:normal:size=8}${color1}${top_mem name 2}${alignr 40}${top_mem mem 2}%
+${goto 324}${font Play:normal:size=8}${color1}${top_mem name 3}${alignr 40}${top_mem mem 3}%
+${font Play:normal:size=9}${voffset 9}${goto 348}${color1}SWAP${alignr 40}${color1}${swap} / ${color1}${swapmax}
+${font Play:normal:size=9}${voffset 2}${goto 348}${color1}RAM ${alignr 40}${color1}${mem} / ${color1}${memmax}
+${font Play:normal:size=8}${goto 80}${voffset -70}Root${color1}${alignr 310}${fs_used /} / ${fs_size /}
+${font Play:normal:size=8}${goto 80}${voffset 0}Home${alignr 310}${color1}${fs_used /home} / ${fs_size /home}
+${font Play:normal:size=8}${goto 80}${voffset 0}Usr${alignr 310}${color1}${fs_used /usr} / ${fs_size /usr}
+${font Michroma:size=10}${color1}${goto 66}${voffset 10}HARD  DRIVE
+${font Michroma:size=10}${color1}${voffset 26}${goto 324}INTERNET  INFO
+
+# EDITION TIME, DATE AND VICYOS LOGO
+
+${font Michroma:size=10}${color1}${voffset -360}${goto 328}${distribution}
+#${font Michroma:size=9}${alignr 298}${voffset -34}${color1}${time %a} ${color0}${time %x}
+#${font Michroma:size=18}${goto 118}${color1}${voffset -4}${time %H}:${time %M}
+#${font Michroma:size=8}${color1}${goto 296}${voffset 18}
+${font Play:normal:size=12}${voffset 30}${goto 320}Uptime${color1}${alignr 60}${uptime_short}
+
+# |--enp4s0
+${if_existing /proc/net/route enp4s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid enp4s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup enp4s0} / ${color1}${upspeed enp4s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown enp4s0} / ${color1}${downspeed enp4s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr enp4s0}
+# |--wlp0s20f3
+${else}${if_existing /proc/net/route wlp0s20f3}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlp0s20f3}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlp0s20f3} / ${color1}${upspeed wlp0s20f3}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlp0s20f3} / ${color1}${downspeed wlp0s20f3}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlp0s20f3}
+# |--fffff
+#${else}${if_existing /proc/net/route wg0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wg0}
+#${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wg0} / ${color1}${upspeed wg0}
+#${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wg0} / ${color1}${downspeed wg0}
+#${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wg0}
+# |--wlan0
+${else}${if_existing /proc/net/route wlan0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlan0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlan0e} / ${color1}${upspeed wlan0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlan0} / ${color1}${downspeed wlan0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlan0}
+# |--enp9s0
+${else}${if_existing /proc/net/route enp9s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid enp9s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup enp9s0} / ${color1}${upspeed enp9s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown enp9s0} / ${color1}${downspeed enp9s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr enp9s0}
+# |--lo
+${else}${if_existing /proc/net/route lo}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid lo}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup lo} / ${color1}${upspeed lo}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown lo} / ${color1}${downspeed lo}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr lo}
+# |--wlp1s0
+${else}${if_existing /proc/net/route wlp1s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlp1s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlp1s0} / ${color1}${upspeed wlp1s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlp1s0} / ${color1}${downspeed wlp1s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlp1s0}
+# |--wlp2s0
+${else}${if_existing /proc/net/route wlp2s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlp2s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlp2s0} / ${color1}${upspeed wlp2s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlp2s0} / ${color1}${downspeed wlp2s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlp2s0}
+# |--enp0s31f6
+${else}${if_existing /proc/net/route enp0s31f6}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid enp0s31f6}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup enp0s31f6} / ${color1}${upspeed enp0s31f6}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown enp0s31f6} / ${color1}${downspeed enp0s31f6}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr enp0s31f6}
+# |--your-network-interface
+${else}${if_existing /proc/net/route your-network-interface}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid your-network-interface}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup your-network-interface} / ${color1}${upspeed your-network-interface}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown your-network-interface} / ${color1}${downspeed your-network-interface}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr your-network-interface}
+# |--wlp4s0
+${else}${if_existing /proc/net/route wlp4s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlp4s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlp4s0} / ${color1}${upspeed wlp4s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlp4s0} / ${color1}${downspeed wlp4s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlp4s0}
+# |--wlp5s0
+${else}${if_existing /proc/net/route wlp5s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlp5s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlp5s0} / ${color1}${upspeed wlp5s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlp5s0} / ${color1}${downspeed wlp5s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlp5s0}
+# |--wlp6s0
+${else}${if_existing /proc/net/route wlp6s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlp6s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlp6s0} / ${color1}${upspeed wlp6s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlp6s0} / ${color1}${downspeed wlp6s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlp6s0}
+# |--wlp7s0
+${else}${if_existing /proc/net/route wlp7s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlp7s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlp7s0} / ${color1}${upspeed wlp7s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlp7s0} / ${color1}${downspeed wlp7s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlp7s0}
+# |--wlp8s0
+${else}${if_existing /proc/net/route wlp8s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlp8s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlp8s0} / ${color1}${upspeed wlp8s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlp8s0} / ${color1}${downspeed wlp8s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlp8s0}
+# |--wlp9s0
+${else}${if_existing /proc/net/route wlp9s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlp9s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlp9s0} / ${color1}${upspeed wlp9s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlp9s0} / ${color1}${downspeed wlp9s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlp9s0}
+# |--enp1s0
+${else}${if_existing /proc/net/route enp1s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid enp1s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup enp1s0} / ${color1}${upspeed enp1s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown enp1s0} / ${color1}${downspeed enp1s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr enp1s0}
+# |--enp2s0
+${else}${if_existing /proc/net/route enp2s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid enp2s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup enp2s0} / ${color1}${upspeed enp2s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown enp2s0} / ${color1}${downspeed enp2s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr enp2s0}
+# |--enp3s0
+${else}${if_existing /proc/net/route enp3s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid enp3s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup enp3s0} / ${color1}${upspeed enp3s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown enp3s0} / ${color1}${downspeed enp3s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr enp3s0}
+# |--enp4s0
+${else}${if_existing /proc/net/route enp4s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid enp4s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup enp4s0} / ${color1}${upspeed enp4s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown enp4s0} / ${color1}${downspeed enp4s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr enp4s0}
+# |--enp5s0
+${else}${if_existing /proc/net/route enp5s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid enp5s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup enp5s0} / ${color1}${upspeed enp5s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown enp5s0} / ${color1}${downspeed enp5s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr enp5s0}
+# |--enp6s0
+${else}${if_existing /proc/net/route enp6s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid enp6s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup enp6s0} / ${color1}${upspeed enp6s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown enp6s0} / ${color1}${downspeed enp6s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr enp6s0}
+# |--enp7s0
+${else}${if_existing /proc/net/route enp7s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid enp7s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup enp7s0} / ${color1}${upspeed enp7s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown enp7s0} / ${color1}${downspeed enp7s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr enp7s0}
+# |--enp8s0
+${else}${if_existing /proc/net/route enp8s0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid enp8s0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup enp8s0} / ${color1}${upspeed enp8s0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown enp8s0} / ${color1}${downspeed enp8s0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr enp8s0}
+# |--wlan1
+${else}${if_existing /proc/net/route wlan1}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlan1}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlan1} / ${color1}${upspeed wlan1}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlan1} / ${color1}${downspeed wlan1}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlan1}
+# |--wlan2
+${else}${if_existing /proc/net/route wlan2}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlan2}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlan2} / ${color1}${upspeed wlan2}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlan2} / ${color1}${downspeed wlan2}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlan2}
+# |--wlan3
+${else}${if_existing /proc/net/route wlan3}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid wlan3}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup wlan3} / ${color1}${upspeed wlan3}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown wlan3} / ${color1}${downspeed wlan3}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr wlan3}
+# |--eth0
+${else}${if_existing /proc/net/route eth0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid eth0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup eth0} / ${color1}${upspeed eth0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown eth0} / ${color1}${downspeed eth0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr eth0}
+# |--docker0
+${else}${if_existing /proc/net/route docker0}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid docker0}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup docker0} / ${color1}${upspeed docker0}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown docker0} / ${color1}${downspeed docker0}
+${font Play:normal:size=8}${goto 300}${voffset 2}Local IP${goto 370}${addr docker0}
+# |--your-network-interface
+${else}${if_existing /proc/net/route your-network-interface}${font Play:normal:size=8}${color1}${alignr 54}${voffset 222}Connected  ${color1}${wireless_essid your-network-interface}
+${font Play:normal:size=8}${color1}${goto 298}${voffset 2}Up${goto 370}${color1}${totalup your-network-interface} / ${color1}${upspeed your-network-interface}
+${font Play:normal:size=8}${goto 298}${color1}Down${goto 370}${color1}${totaldown your-network-interface} / ${color1}${downspeed your-network-interface}
+
+${endif}${endif}
+
+
+
+
+#${execpi 53 $HOME/conky/nagios.sh}
+]];

@@ -1,0 +1,29 @@
+
+-------- SESSION 2023-04-04T05:50:22.725Z (22.11.3656+202301100025, linux, x64, 16459452416, XMIND LTD., vana_linux) --------
+[I 2023-04-04T05:50:22.739Z main:store:plugins:electron] current pid is "1132161"
+[I 2023-04-04T05:50:22.752Z usage-stats] sync data
+[I 2023-04-04T05:50:22.798Z auto-updater] current version is "22.11.3656"
+[I 2023-04-04T05:50:23.278Z main:store:plugins:electron] Application will finish launching.
+[I 2023-04-04T05:50:23.284Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-04-04T05:50:23.291Z main:store:plugins:electron] Application is ready.
+[I 2023-04-04T05:50:23.332Z main:store:plugins:open-handler] Recover: Map(1) {
+  '1' => [
+    {
+      source: 'file:///home/i0xfce/Documents/Daily%20Routine.xmind',
+      editorId: 'c95b5409271b1a7aa8f86849b4'
+    }
+  ]
+}
+[I 2023-04-04T05:50:23.335Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-04-04T05:50:23.336Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-04T05:50:23.336Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-04-04T05:50:23.336Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-04T05:50:23.701Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[I 2023-04-04T05:50:26.316Z snowbrush] Export image collect time: 22
+[I 2023-04-04T05:50:26.330Z snowbrush] Export image time: 36
+[I 2023-04-04T05:51:23.337Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-04T05:51:23.338Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-04T08:15:32.698Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-04T08:15:32.699Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-04T10:53:41.188Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-04T10:53:41.188Z main:store:plugins:activation-updater] Schedule refresh timeout(null).

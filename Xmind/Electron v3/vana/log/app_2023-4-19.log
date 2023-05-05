@@ -1,0 +1,53 @@
+
+-------- SESSION 2023-04-19T03:46:32.353Z (22.11.3656+202301100025, linux, x64, 16459452416, XMIND LTD., vana_linux) --------
+[I 2023-04-19T03:46:32.367Z main:store:plugins:electron] current pid is "1692450"
+[I 2023-04-19T03:46:32.380Z usage-stats] sync data
+[I 2023-04-19T03:46:32.423Z auto-updater] current version is "22.11.3656"
+[I 2023-04-19T03:46:32.820Z main:store:plugins:electron] Application will finish launching.
+[I 2023-04-19T03:46:32.826Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-04-19T03:46:32.832Z main:store:plugins:electron] Application is ready.
+[I 2023-04-19T03:46:32.857Z main:store:plugins:open-handler] Recover: Map(2) {
+  '2' => [
+    {
+      source: 'file:///home/i0xfce/Documents/Daily%20Routine.xmind',
+      editorId: '343af1637f6a86c6addf9b6a45'
+    }
+  ],
+  '1' => [
+    {
+      source: 'file:///home/i0xfce/Documents/Goals.xmind',
+      editorId: 'ce2a7b6fb74a1d0f00a119dc25'
+    }
+  ]
+}
+[I 2023-04-19T03:46:32.859Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-04-19T03:46:32.860Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-19T03:46:32.860Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-04-19T03:46:32.860Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-19T03:46:33.307Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[I 2023-04-19T03:46:36.093Z snowbrush] Export image collect time: 12
+[I 2023-04-19T03:46:36.537Z snowbrush] Export image time: 456
+[I 2023-04-19T03:47:14.497Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-04-19T03:47:17.059Z snowbrush] Export image collect time: 20
+[I 2023-04-19T03:47:17.074Z snowbrush] Export image time: 36
+[I 2023-04-19T03:47:18.067Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-04-19T03:47:19.590Z main:store:plugins:editors:EditorFrame] Not find editor view: undefined file:///opt/Xmind/resources/app.asar/renderer/editor-frame.html?frameId=1&_apr=dark
+[I 2023-04-19T03:47:19.746Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-04-19T03:47:19.788Z main:store:plugins:editors:EditorFrame] Frame 1 webContents destroyed
+[I 2023-04-19T03:47:21.196Z main:store:plugins:editors:EditorFrame] Frame 2 close
+[I 2023-04-19T03:47:23.603Z snowbrush] Export image collect time: 6
+[I 2023-04-19T03:47:23.986Z snowbrush] Export image time: 389
+[I 2023-04-19T03:47:24.100Z main:store:plugins:editors:EditorFrame] Not find editor view: undefined file:///opt/Xmind/resources/app.asar/renderer/editor-frame.html?frameId=2&_apr=dark
+[I 2023-04-19T03:47:24.244Z main:store:plugins:editors:EditorFrame] Frame 2 close
+[I 2023-04-19T03:47:24.281Z main:store:plugins:editors:EditorFrame] Frame 2 webContents destroyed
+[I 2023-04-19T03:47:24.447Z main:store:plugins:electron] All windows closed. Quit application....
+[I 2023-04-19T03:47:24.447Z main:store:plugins:electron] Application is intended to quit.
+[I 2023-04-19T03:47:24.447Z main:store:plugins:electron] Application status is quitting:  false
+[I 2023-04-19T03:47:24.448Z main:store:plugins:electron] Asking all editors to close their documents...
+[I 2023-04-19T03:47:24.448Z main:store:plugins:electron] All documents are closed.
+[I 2023-04-19T03:47:24.448Z main:store:plugins:activation-updater] Stop updating per-machine license information periodically.
+[I 2023-04-19T03:47:24.448Z main:store:plugins:activation-updater] Stop updating subscription information periodically.
+[I 2023-04-19T03:47:24.449Z main:store:plugins:electron] Application is intended to quit.
+[I 2023-04-19T03:47:24.449Z main:store:plugins:electron] Application status is quitting:  true
+[I 2023-04-19T03:47:24.449Z main:store:plugins:electron] Application will quit.
+[I 2023-04-19T03:47:24.449Z main:store:plugins:electron] Application quitted.

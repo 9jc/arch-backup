@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="command" mtime="1652393838" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="sound_repeat" mtime="1652393838" type="bool" value="true"/>
+	<entry name="sound_file" mtime="1652393838" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="notify_type" mtime="1652393838" type="string">
+		<stringvalue>sound</stringvalue>
+	</entry>
+	<entry name="repeat" mtime="1652393838" type="list" ltype="string">
+	</entry>
+	<entry name="message" mtime="1652393838" type="string">
+		<stringvalue>Alarm!</stringvalue>
+	</entry>
+	<entry name="active" mtime="1653231637" type="bool" value="false"/>
+	<entry name="timestamp" mtime="1652393843" type="int" value="1652393843"/>
+	<entry name="time" mtime="1652393838" type="int" value="0"/>
+	<entry name="type" mtime="1652393840" type="string">
+		<stringvalue>timer</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,24 @@
+Telemetry level is off
+Experiments are disabled, only manually opted experiments are active.
+> conda info --json
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+Python interpreter path: /bin/python
+> /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/interpreterInfo.py
+> /bin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-2-22 21:21:20.655]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /bin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/interpreterInfo.py
+> /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/interpreterInfo.py
+> /sbin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-2-22 21:21:20.781]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /sbin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/interpreterInfo.py
+> /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-2-22 21:21:20.809]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /usr/bin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/interpreterInfo.py
+> /usr/sbin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-2-22 21:21:20.818]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /usr/sbin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/pythonFiles/interpreterInfo.py
+Starting Jedi language server for default.
+Send text to terminal: /bin/python "/home/i0xfce/Telegram Desktop/v2.py"

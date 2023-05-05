@@ -1,0 +1,30 @@
+for f in /etc/X11/xinit/xinitrc.d/*.sh; do
+  source "$f"
+done
+
+xrdb -merge ~/.Xresources
+
+#for gtk applications to load without delay
+dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+
+
+nm-applet &
+pamac-tray &
+/usr/bin/dunst &
+
+
+# Normal Applications
+mpd &
+xdman &
+ulauncher &
+megasync &
+conky &
+aw-qt & 
+copyq &
+#xfce4-clipman &
+redshift &
+
+sxhkd &
+
+# Window Managers
+exec bspwm

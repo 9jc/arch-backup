@@ -1,0 +1,6 @@
+2022/12/19-21:51:48.537 24685b Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_latestnews.fresherslive.com_0.indexeddb.leveldb since it was missing.
+2022/12/19-21:51:48.541 24685b Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_latestnews.fresherslive.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/19-21:52:34.512 243bd7 Level-0 table #5: started
+2022/12/19-21:52:34.514 243bd7 Level-0 table #5: 3696 bytes OK
+2022/12/19-21:52:34.516 243bd7 Delete type=0 #3
+2022/12/19-21:52:34.516 243bd7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

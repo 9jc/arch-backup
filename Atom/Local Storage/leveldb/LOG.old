@@ -1,0 +1,6 @@
+2022/04/26-18:39:00.534 3ff7bc Reusing MANIFEST /home/i0xfce/.config/Atom/Local Storage/leveldb/MANIFEST-000001
+2022/04/26-18:39:00.534 3ff7bc Recovering log #21
+2022/04/26-18:39:00.535 3ff7bc Reusing old log /home/i0xfce/.config/Atom/Local Storage/leveldb/000021.log 
+2022/04/26-19:17:51.706 423cf Level-0 table #25: started
+2022/04/26-19:17:51.708 423cf Level-0 table #25: 104065 bytes OK
+2022/04/26-19:17:51.709 423cf Delete type=0 #21

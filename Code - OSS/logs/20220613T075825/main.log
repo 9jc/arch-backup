@@ -1,0 +1,19 @@
+[2022-06-13 07:58:25.104] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-13 07:58:25.158] [main] [info] window#load: attempt to load window (id: 2)
+[2022-06-13 07:58:25.220] [main] [info] window#load: attempt to load window (id: 3)
+[2022-06-13 07:58:25.227] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-06-13 07:58:25.323] [main] [info] window#load: attempt to load window (id: 4)
+[2022-06-13 07:58:25.331] [main] [info] ExtensionHostStarterWorker created
+[2022-06-13 07:58:26.461] [main] [info] window#load: window reported ready (id: 2)
+[2022-06-13 07:58:26.558] [main] [info] window#load: window reported ready (id: 4)
+[2022-06-13 07:58:26.558] [main] [info] window#load: window reported ready (id: 3)
+[2022-06-13 07:58:26.758] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-13 07:58:26.794] [main] [info] Starting extension host with pid 515717 (fork() took 16 ms).
+[2022-06-13 07:58:26.795] [main] [info] ExtensionHostStarterWorker.start() took 20 ms.
+[2022-06-13 07:58:26.943] [main] [info] Starting extension host with pid 515731 (fork() took 11 ms).
+[2022-06-13 07:58:26.944] [main] [info] ExtensionHostStarterWorker.start() took 27 ms.
+[2022-06-13 07:58:26.944] [main] [info] Starting extension host with pid 515732 (fork() took 12 ms).
+[2022-06-13 07:58:26.945] [main] [info] ExtensionHostStarterWorker.start() took 14 ms.
+[2022-06-13 07:58:27.142] [main] [info] Starting extension host with pid 515756 (fork() took 37 ms).
+[2022-06-13 07:58:27.142] [main] [info] ExtensionHostStarterWorker.start() took 39 ms.
+[2022-06-13 07:58:59.107] [main] [warning] Sending IPC message to channel 'vscode:electron-main->shared-process=exit' for shared process window that is destroyed

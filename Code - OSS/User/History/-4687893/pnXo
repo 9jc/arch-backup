@@ -1,0 +1,22 @@
+xrdb -merge ~/.Xresources
+lxappearance & killall lxappearance
+nm-applet &
+pamac-tray &
+/usr/bin/dunst &
+
+
+# Normal Applications
+#xfce4-clipman &
+mpd &
+xdman &
+conky &
+megasync &
+aw-qt & 
+copyq &
+ulauncher &
+
+sxhkd &
+
+# Window Managers
+exec bspwm
+

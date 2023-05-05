@@ -1,0 +1,19 @@
+[I 2023-04-17T21:18:30.916Z snowbrush] db write {
+  'text/plain': 'Java ',
+  'text/x-array-json': [ { data: [Object], xapPaths: [] } ],
+  'text/x-type': 'branch',
+  'text/x-other-object-json': {
+    relationship: [],
+    boundary: [],
+    summary: [],
+    sheetId: '87db0dc3505b4f15478eda3f6e'
+  },
+  xapInfoMap: {}
+}
+[I 2023-04-17T21:20:55.171Z snowbrush] Export image collect time: 15
+[I 2023-04-17T21:20:55.663Z snowbrush] Export image time: 507
+[I 2023-04-18T07:19:05.801Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-18T07:19:05.802Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-18T08:20:55.331Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-18T08:20:55.332Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[W 2023-04-18T09:08:47.745Z ipc] API "POST /command/handle/frame/2" unregistered on webContents "5" destroyed.

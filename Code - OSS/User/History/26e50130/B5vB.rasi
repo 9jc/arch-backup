@@ -1,0 +1,22 @@
+/* colors */
+
+* {
+  al:    #00090cFF;
+  bg:    #00090cFF;
+  bga:   #00090cFF;
+  fg:   #bfc1c2FF;
+  ac:   #C4DDE1FF;
+  se:    #C4DDE1FF;
+}
+
+* {
+    font: "SauceCodePro Nerd Font Semibold 11";
+    foreground:                 #f8f8f2;
+    background-color:           #000000;
+    selected-foreground:        #e53935;
+    selected-background:        #b2b2b250;
+    separatorcolor:             #ff79c6;
+    bordercolor:                #ff79c6;
+    highlightcolor:             #8be9fd;
+    transparent:                #00000000;
+}

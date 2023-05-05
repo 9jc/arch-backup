@@ -1,0 +1,10 @@
+2023-04-30 00:21:24.619 [info] Starting worker process with pid 1907002 (type: fileWatcher, window: 1).
+2023-04-30 00:21:30.983 [info] Getting Manifest... franneck94.c-cpp-runner
+2023-04-30 00:21:30.993 [info] Getting Manifest... ms-python.python
+2023-04-30 00:21:30.997 [info] Getting Manifest... redhat.java
+2023-04-30 00:21:30.999 [info] Getting Manifest... vscjava.vscode-java-debug
+2023-04-30 00:21:33.120 [info] Installing extension: franneck94.c-cpp-runner
+2023-04-30 00:21:33.374 [info] Installing extension: vscjava.vscode-java-debug
+2023-04-30 00:21:33.376 [info] Installing extension: redhat.java
+2023-04-30 00:21:33.589 [info] Getting Manifest... vadimcn.vscode-lldb
+2023-04-30 00:21:33.591 [info] Installing extension: ms-python.python

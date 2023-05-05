@@ -1,0 +1,7 @@
+2023/05/02-01:41:13.272 182c Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_beta.elevenlabs.io_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/02-01:41:13.273 182c Recovering log #4
+2023/05/02-01:41:13.273 182c Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_beta.elevenlabs.io_0.indexeddb.leveldb/000004.log 
+2023/05/02-01:41:13.295 182d Level-0 table #8: started
+2023/05/02-01:41:13.296 182d Level-0 table #8: 1863 bytes OK
+2023/05/02-01:41:13.298 182d Delete type=0 #4
+2023/05/02-01:41:13.298 182d Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

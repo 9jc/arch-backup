@@ -1,0 +1,63 @@
+{
+   "background": {
+      "scripts": [ "background/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icons/128.png",
+         "16": "icons/16.png",
+         "19": "icons/19.png",
+         "32": "icons/32.png",
+         "38": "icons/38.png",
+         "48": "icons/48.png",
+         "512": "icons/512.png",
+         "64": "icons/64.png"
+      },
+      "default_popup": "popup/index.html"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "description": "__MSG_openPopupDescription__",
+         "suggested_key": {
+            "default": "Ctrl+Shift+Space"
+         }
+      },
+      "translatePage": {
+         "description": "__MSG_translatePageMenu__"
+      },
+      "translateSelectedText": {
+         "description": "__MSG_translateTextMenu__",
+         "suggested_key": {
+            "default": "Ctrl+Space"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "content/content.css" ],
+      "js": [ "content/content.js" ],
+      "match_about_blank": true,
+      "matches": [ "http://*/*", "https://*/*", "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "differential_fingerprint": "1.b3ae7191c176fde1eec7b243fa45ed0d0deef1cd9f87beab1b0ee2f2b964b82b",
+   "icons": {
+      "128": "icons/128.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "512": "icons/512.png",
+      "64": "icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjCTcIs4CNJTDB2NJM7nwjxPjPZJkGYfS0RRUfihpisXCtwXbWRFzRPo7VCRDXsQSyIUy2NYL5inQJZM8F+lgChf1+4ZYEmqb7lmkYevrdjxCmUy1B7UBWqFS+t8B/7/UL5zb2w+TIJhmONGMDHzLOL+2REobqnfTRQcRgfc52/JKfCJPN2ssi9ROsIBFdI0lwAhpDeB7z50sWxllKimy1r0YWPd0mBaz//dn8OC3KrtMsrFnyH5Qp1+vp5xeQjlZZMiLzX8/9duxFd1+GOsKXttW+mVLLENq2qz7izaxd+0hRQuFV59CNiIhNA2mkkaA6l+g8icVpnfHwLUDjrkAdwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options/index.html"
+   },
+   "permissions": [ "\u003Call_urls>", "storage", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.8.1",
+   "web_accessible_resources": [ "icons/512.png" ]
+}

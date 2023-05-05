@@ -1,0 +1,13 @@
+{
+    "ShowHiddenChannels": true,
+    "BetterRoleColors": true,
+    "UserDetails": true,
+    "ZeresPluginLibrary": true,
+    "BDFDB": true,
+    "DoubleClickToEdit": true,
+    "ReadAllNotificationsButton": true,
+    "ServerDetails": true,
+    "SplitLargeMessages": true,
+    "ThemeSettings": true,
+    "ThemeRepo": true
+}

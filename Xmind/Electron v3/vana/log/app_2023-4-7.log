@@ -1,0 +1,30 @@
+
+-------- SESSION 2023-04-07T07:34:57.935Z (22.11.3656+202301100025, linux, x64, 16459448320, XMIND LTD., vana_linux) --------
+[I 2023-04-07T07:34:57.949Z main:store:plugins:electron] current pid is "630401"
+[I 2023-04-07T07:34:57.964Z usage-stats] sync data
+[I 2023-04-07T07:34:58.020Z auto-updater] current version is "22.11.3656"
+[I 2023-04-07T07:34:58.639Z main:store:plugins:electron] Application will finish launching.
+[I 2023-04-07T07:34:58.647Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-04-07T07:34:58.665Z main:store:plugins:electron] Application is ready.
+[I 2023-04-07T07:34:58.697Z main:store:plugins:open-handler] Recover: Map(0) {}
+[I 2023-04-07T07:34:58.698Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-04-07T07:34:58.698Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-07T07:34:58.699Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-04-07T07:34:58.699Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-07T07:34:58.946Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[I 2023-04-07T07:35:58.700Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-07T07:35:58.701Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-07T08:35:58.700Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-07T08:35:58.701Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-07T09:35:58.700Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-07T09:35:58.701Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-07T10:35:58.701Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-07T10:35:58.701Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-07T11:42:24.702Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-07T11:42:24.703Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-07T12:42:24.704Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-07T12:42:24.704Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-07T13:15:23.619Z main:store:plugins:electron] Application is intended to quit.
+[I 2023-04-07T13:15:23.620Z main:store:plugins:electron] Application status is quitting:  false
+[I 2023-04-07T13:15:23.620Z main:store:plugins:electron] Asking all editors to close their documents...
+[W 2023-04-07T13:15:23.674Z ipc] API "POST /command/handle/frame/1" unregistered on webContents "4" destroyed.

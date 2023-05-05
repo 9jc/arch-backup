@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Aura Dark",
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "telemetry.telemetryLevel": "off",
+    "files.autoSave": "onFocusChange",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/local/bin/nvim"
+}

@@ -1,0 +1,15 @@
+2023/04/20-16:53:32.962 1fae4 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/20-16:53:32.963 1fae4 Recovering log #15
+2023/04/20-16:53:32.963 1fae4 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000015.log 
+2023/04/20-16:54:15.456 1fae4 Level-0 table #20: started
+2023/04/20-16:54:15.458 1fae4 Level-0 table #20: 2710 bytes OK
+2023/04/20-16:54:15.462 1fae4 Delete type=0 #15
+2023/04/20-16:54:15.463 1fae4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/04/20-16:54:15.463 1fae4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 226 : 1
+2023/04/20-16:54:15.463 1fae4 Compacting 1@1 + 1@2 files
+2023/04/20-16:54:15.465 1fae4 Generated table #21@1: 21 keys, 1444 bytes
+2023/04/20-16:54:15.465 1fae4 Compacted 1@1 + 1@2 files => 1444 bytes
+2023/04/20-16:54:15.466 1fae4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/20-16:54:15.467 1fae4 Delete type=2 #17
+2023/04/20-16:54:15.467 1fae4 Delete type=2 #20
+2023/04/20-16:54:15.467 1fae4 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 226 : 1 .. (end); will stop at (end)

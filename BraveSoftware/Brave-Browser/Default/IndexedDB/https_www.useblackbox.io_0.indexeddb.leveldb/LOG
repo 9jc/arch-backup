@@ -1,0 +1,13 @@
+2022/10/10-21:10:53.452 1da837 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.useblackbox.io_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/10-21:10:53.452 1da837 Recovering log #6
+2022/10/10-21:10:53.500 1da837 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.useblackbox.io_0.indexeddb.leveldb/000006.log 
+2022/10/10-21:10:53.507 1b6be1 Level-0 table #10: started
+2022/10/10-21:10:53.508 1b6be1 Level-0 table #10: 1779 bytes OK
+2022/10/10-21:10:53.509 1b6be1 Delete type=0 #6
+2022/10/10-21:10:53.510 1b6be1 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 133 : 1
+2022/10/10-21:10:53.510 1b6be1 Compacting 1@0 + 1@1 files
+2022/10/10-21:10:53.511 1b6be1 Generated table #11@0: 54 keys, 1735 bytes
+2022/10/10-21:10:53.511 1b6be1 Compacted 1@0 + 1@1 files => 1735 bytes
+2022/10/10-21:10:53.512 1b6be1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/10-21:10:53.512 1b6be1 Delete type=2 #10
+2022/10/10-21:10:53.512 1b6be1 Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 133 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

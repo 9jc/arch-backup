@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCState Version="1" MinVersion="1">
+	<TBcState>
+		<FirstStartup Value="False"/>
+		<FormPositions>
+			<TViewFrame Value="1001;33;1915;1045"/>
+		</FormPositions>
+	</TBcState>
+	<TCheckForUpdatesState>
+		<Build Value="26655"/>
+		<LastChecked Value="2022-10-13 16:19:56"/>
+		<MsgBody Value="Beyond Compare is not affected by the Log4J vulnerability. Our IT systems are also secured against it."/>
+		<MsgDate Value="2022-04-25 00:00:00"/>
+		<MsgDays Value="10"/>
+		<MsgDaysDate Value="2022-04-25 00:00:00"/>
+		<MsgTitle Value="LOG4J"/>
+	</TCheckForUpdatesState>
+	<TDirCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="/home/i0xfce/.config/ncmpcpp"/>
+		</LeftMRUSpecs>
+		<RightMRUSpecs>
+			<_0 Value="/home/i0xfce/.config/ncmpcpp.back2"/>
+		</RightMRUSpecs>
+	</TDirCompareState>
+	<THomeState>
+		<SessionType Value="TDirCompareSession"/>
+	</THomeState>
+	<TTextCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="/home/i0xfce/Documents/Python/Stuff/gcd-vig.py"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Andale Mono;9"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="/home/i0xfce/Documents/Python/Stuff/gcd-ard.py"/>
+		</RightMRUSpecs>
+	</TTextCompareState>
+	<TTextEditState>
+		<LeftMRUSpecs>
+			<_0 Value="/home/i0xfce/Documents/dmenu.sh"/>
+			<_1 Value="/home/i0xfce/Documents/61a8828b8890a.jpeg"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Andale Mono;9"/>
+		</MRUFonts>
+	</TTextEditState>
+</BCState>

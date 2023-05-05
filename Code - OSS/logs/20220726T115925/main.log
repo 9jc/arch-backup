@@ -1,0 +1,4 @@
+[2022-07-26 11:59:25.317] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-07-26 11:59:26.268] [main] [info] Starting extension host with pid 7120 (fork() took 27 ms).
+[2022-07-26 13:18:49.215] [main] [warning] Sending IPC message to channel 'vscode:electron-main->shared-process=exit' for shared process window that is destroyed
+[2022-07-26 13:18:49.216] [main] [info] Waiting for extension host with pid 7120 to exit.

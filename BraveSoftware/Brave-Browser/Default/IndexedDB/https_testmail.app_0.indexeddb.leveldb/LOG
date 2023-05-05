@@ -1,0 +1,6 @@
+2022/08/25-15:54:02.162 1a1b7f Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_testmail.app_0.indexeddb.leveldb since it was missing.
+2022/08/25-15:54:02.165 1a1b7f Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_testmail.app_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/25-15:54:22.158 1a1b7f Level-0 table #5: started
+2022/08/25-15:54:22.160 1a1b7f Level-0 table #5: 1146 bytes OK
+2022/08/25-15:54:22.162 1a1b7f Delete type=0 #3
+2022/08/25-15:54:22.162 1a1b7f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

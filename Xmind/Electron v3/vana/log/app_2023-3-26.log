@@ -1,0 +1,128 @@
+
+-------- SESSION 2023-03-25T18:48:20.244Z (22.11.3656+202301100025, linux, x64, 16459456512, XMIND LTD., vana_linux) --------
+[I 2023-03-25T18:48:20.259Z main:store:plugins:electron] current pid is "3130934"
+[I 2023-03-25T18:48:20.270Z usage-stats] sync data
+[I 2023-03-25T18:48:20.317Z auto-updater] current version is "22.11.3656"
+[I 2023-03-25T18:48:20.397Z main:store:plugins:memento] Migration start
+[I 2023-03-25T18:48:20.397Z main:store:plugins:memento] Migration stop, vud directory doesn't exist
+[I 2023-03-25T18:48:20.398Z main:store:plugins:memento] Migration completed [] . used time: 0.001 sec.
+[I 2023-03-25T18:48:20.400Z main:store:plugins:memento] Migration 2 start
+[I 2023-03-25T18:48:20.400Z main:store:plugins:memento] Migration 2 completed.
+[I 2023-03-25T18:48:20.400Z main:store:plugins:memento] Migration 3 start
+[I 2023-03-25T18:48:20.401Z main:store:plugins:memento] perMachineLicense.json Reading...
+[I 2023-03-25T18:48:20.401Z main:store:plugins:memento] Migration 3 completed.
+[I 2023-03-25T18:48:20.694Z main:store:plugins:electron] Application will finish launching.
+[I 2023-03-25T18:48:20.699Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-03-25T18:48:20.707Z main:store:plugins:electron] Application is ready.
+[I 2023-03-25T18:48:20.917Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[I 2023-03-25T18:48:23.241Z main:store:plugins:electron] Application is intended to quit.
+[I 2023-03-25T18:48:23.241Z main:store:plugins:electron] Application status is quitting:  false
+[I 2023-03-25T18:48:23.242Z main:store:plugins:electron] Asking all editors to close their documents...
+[I 2023-03-25T18:48:23.243Z main:store:plugins:electron] All documents are closed.
+[I 2023-03-25T18:48:23.244Z main:store:plugins:electron] Application is intended to quit.
+[I 2023-03-25T18:48:23.244Z main:store:plugins:electron] Application status is quitting:  true
+[I 2023-03-25T18:48:23.335Z main:store:plugins:electron] Application will quit.
+[I 2023-03-25T18:48:23.335Z main:store:plugins:electron] Application quitted.
+
+-------- SESSION 2023-03-25T18:48:27.164Z (22.11.3656+202301100025, linux, x64, 16459456512, XMIND LTD., vana_linux) --------
+[I 2023-03-25T18:48:27.178Z main:store:plugins:electron] current pid is "3131235"
+[I 2023-03-25T18:48:27.190Z usage-stats] sync data
+[I 2023-03-25T18:48:27.235Z auto-updater] current version is "22.11.3656"
+[I 2023-03-25T18:48:27.608Z main:store:plugins:electron] Application will finish launching.
+[I 2023-03-25T18:48:27.614Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-03-25T18:48:27.622Z main:store:plugins:electron] Application is ready.
+[I 2023-03-25T18:48:27.776Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[I 2023-03-25T18:49:13.255Z main:store:plugins:open-handler] Recover: Map(0) {}
+[I 2023-03-25T18:49:13.257Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-03-25T18:49:13.258Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-03-25T18:49:13.258Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-03-25T18:49:13.258Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-03-25T18:50:13.304Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-25T18:50:13.305Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-25T19:50:13.347Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-25T19:50:13.347Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-25T20:50:13.348Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-25T20:50:13.348Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-25T21:50:13.349Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-25T21:50:13.349Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-25T22:50:13.350Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-25T22:50:13.350Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-25T23:50:13.350Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-25T23:50:13.350Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T00:50:13.351Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T00:50:13.351Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T01:50:13.351Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T01:50:13.352Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T02:50:13.353Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T02:50:13.353Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T03:50:13.354Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T03:50:13.354Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T04:35:08.024Z fonts] App Locale: en
+[I 2023-03-26T04:35:08.024Z fonts] start get system fonts
+[I 2023-03-26T04:35:09.934Z fonts] Consuming 1910 ms to get system fonts
+[W 2023-03-26T04:35:10.177Z ipc] API "POST /command/handle/frame/1" unregistered on webContents "5" destroyed.
+-------- SESSION 2023-03-26T04:35:14.066Z (22.11.3656+202301100025, linux, x64, 16459456512, XMIND LTD., vana_linux) --------
+[I 2023-03-26T04:35:14.080Z main:store:plugins:electron] current pid is "3954750"
+[I 2023-03-26T04:35:14.092Z usage-stats] sync data
+[I 2023-03-26T04:35:14.136Z auto-updater] current version is "22.11.3656"
+[I 2023-03-26T04:35:14.514Z main:store:plugins:electron] Application will finish launching.
+[I 2023-03-26T04:35:14.520Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-03-26T04:35:14.527Z main:store:plugins:electron] Application is ready.
+[I 2023-03-26T04:35:14.549Z main:store:plugins:open-handler] Recover: Map(1) {
+  '1' => [
+    {
+      source: 'new://workbook',
+      editorId: 'c95b5409271b1a7aa8f86849b4'
+    }
+  ]
+}
+[I 2023-03-26T04:35:14.552Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-03-26T04:35:14.552Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-03-26T04:35:14.552Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-03-26T04:35:14.552Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-03-26T04:35:14.864Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[I 2023-03-26T04:35:16.872Z fonts] App Locale: en
+[I 2023-03-26T04:35:16.872Z fonts] start get system fonts
+[I 2023-03-26T04:35:17.855Z fonts] Consuming 983 ms to get system fonts
+[I 2023-03-26T04:36:14.553Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T04:36:14.554Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T04:37:28.989Z snowbrush] Export image collect time: 11
+[I 2023-03-26T04:37:28.992Z snowbrush] Export image time: 14
+[I 2023-03-26T04:38:12.984Z snowbrush] null
+[I 2023-03-26T04:38:14.463Z snowbrush] null
+[I 2023-03-26T04:40:47.892Z snowbrush] null
+[I 2023-03-26T05:03:56.092Z snowbrush] null
+[I 2023-03-26T05:04:01.233Z snowbrush] null
+[I 2023-03-26T05:39:22.851Z snowbrush] null
+[I 2023-03-26T05:48:10.541Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T05:48:10.541Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T05:54:15.739Z snowbrush] null
+[I 2023-03-26T05:54:17.848Z snowbrush] null
+[I 2023-03-26T05:55:58.879Z snowbrush] null
+[I 2023-03-26T05:56:13.134Z snowbrush] null
+[I 2023-03-26T05:56:19.758Z snowbrush] null
+[I 2023-03-26T05:57:00.688Z snowbrush] null
+[I 2023-03-26T05:57:10.461Z snowbrush] null
+[I 2023-03-26T06:00:55.965Z snowbrush] null
+[I 2023-03-26T06:02:01.388Z snowbrush] Export image collect time: 12
+[I 2023-03-26T06:02:01.402Z snowbrush] Export image time: 26
+[I 2023-03-26T06:02:35.546Z snowbrush] null
+[I 2023-03-26T06:09:23.233Z fonts] App Locale: en
+[I 2023-03-26T06:09:24.493Z main:store:plugins:editors:EditorFrame] Frame 2 close
+[I 2023-03-26T06:09:26.743Z main:store:plugins:editors:EditorFrame] Not find editor view: undefined file:///opt/Xmind/resources/app.asar/renderer/editor-frame.html?frameId=2&_apr=dark
+[I 2023-03-26T06:09:26.891Z main:store:plugins:editors:EditorFrame] Frame 2 close
+[I 2023-03-26T06:09:26.941Z main:store:plugins:editors:EditorFrame] Frame 2 webContents destroyed
+[I 2023-03-26T06:14:28.347Z snowbrush] null
+[I 2023-03-26T06:14:39.913Z snowbrush] null
+[I 2023-03-26T06:14:48.674Z snowbrush] null
+[I 2023-03-26T06:14:51.234Z snowbrush] Export image collect time: 15
+[I 2023-03-26T06:14:51.249Z snowbrush] Export image time: 30
+[I 2023-03-26T06:18:43.322Z fonts] App Locale: en
+[I 2023-03-26T13:07:34.081Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T13:07:34.082Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T13:31:24.778Z snowbrush] null
+[I 2023-03-26T13:31:26.855Z snowbrush] null
+[I 2023-03-26T15:58:39.749Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T15:58:39.749Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T18:20:52.232Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T18:20:52.233Z main:store:plugins:activation-updater] Schedule refresh timeout(null).

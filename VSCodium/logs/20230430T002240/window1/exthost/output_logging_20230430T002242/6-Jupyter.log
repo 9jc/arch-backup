@@ -1,0 +1,21 @@
+VSCodium (1.77.3, undefined, desktop)
+Jupyter Extension Version: 2023.3.100.
+Python Extension Version: 2023.4.1.
+Workspace folder /home/i0xfce/MEGAsync/Projects/Python/Wallpaper_Downloader
+info 00:22:52.611: LSP Notebooks experiment is enabled
+warn 00:22:52.680: Failed to get activated env vars with python /bin/python in 47ms
+info 00:22:52.689: Process Execution: > /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+info 00:22:52.719: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+info 00:58:26.223: Ending debug session 5e70afeb-51c2-4b64-8cb5-3df782f25277
+info 00:58:26.223: Ending debug session 5e70afeb-51c2-4b64-8cb5-3df782f25277
+info 01:02:56.689: Ending debug session eef7009d-1a5b-4506-9f10-23df85689547
+info 01:02:56.689: Ending debug session eef7009d-1a5b-4506-9f10-23df85689547
+info 01:03:06.148: Ending debug session 6d1944c3-b310-4a1d-ba76-6fa24e31d308
+info 01:03:06.148: Ending debug session 6d1944c3-b310-4a1d-ba76-6fa24e31d308
+info 01:04:04.789: Ending debug session 622b12e1-3d18-4ffb-afff-aa94cab2ef31
+info 01:04:04.789: Ending debug session 622b12e1-3d18-4ffb-afff-aa94cab2ef31
+info 01:43:02.980: Shutting down notebooks for 7a335ed4-313a-4a6d-9835-80198afbe4d2
+info 01:43:02.980: Disposing HostJupyterExecution a1a1578f-54e0-4e14-98c1-22aa4a52cfd5
+info 01:43:02.980: Disposing HostJupyterExecution a1a1578f-54e0-4e14-98c1-22aa4a52cfd5

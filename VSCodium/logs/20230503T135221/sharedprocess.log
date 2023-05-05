@@ -1,0 +1,6 @@
+2023-05-03 13:52:23.114 [info] Starting worker process with pid 749472 (type: fileWatcher, window: 1).
+2023-05-03 13:52:23.867 [info] Deleted from disk franneck94.c-cpp-runner /home/i0xfce/.vscode-oss/extensions/franneck94.c-cpp-runner-4.3.1-universal
+2023-05-03 13:52:23.906 [info] Deleted from disk redhat.java /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64
+2023-05-03 13:52:23.940 [info] Deleted from disk ms-python.python /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.4.1-universal
+2023-05-03 16:11:55.099 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-03 23:20:26.230 [warning] No ptyHost heartbeat after 6 seconds

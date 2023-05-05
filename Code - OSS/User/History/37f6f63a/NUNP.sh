@@ -1,0 +1,122 @@
+#!/usr/bin/env bash
+
+# Color files
+XFILE="$HOME/.Xresources"
+
+
+# Get colors
+pywal_get() {
+    wal -t -e -i ${my_array[$(( $RANDOM % ${#my_array[@]}))]} -a 80
+}
+
+# Change colors
+change_color() {
+	# polybar
+	
+	# rofi
+	cat > $RFILE <<- EOF
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.autohint:	0
+Xft.hintstyle:	hintslight
+Xft.rgba:	rgb
+Xft.lcdfilter:	lcddefault
+
+! window padding
+st.borderpx: 18
+
+!-- values between 0.1  - 1.0 --! 
+
+st.alpha: .8
+st.font:           JetBrainsMono Nerd Font:style:medium:pixelsize=20
+
+! Colors
+*.background: ${FG}FF
+*.foreground: ${FG}FF
+*.cursorColor: ${SH14}FF
+*.selection_background: ${SH1}FF
+*.color0: ${SH0}FF
+*.color1: ${SH1}FF
+*.color2: ${SH2}FF
+*.color3: ${SH3}FF
+*.color4: ${SH4}FF
+*.color5: ${SH5}FF
+*.color6: ${SH6}FF
+*.color7: ${SH7}FF
+*.color8: ${SH8}FF
+*.color9: ${SH9}FF
+*.color10: ${SH10}FF
+*.color11: ${SH11}FF
+*.color12: ${SH12}FF
+*.color:13 ${SH13}FF
+*.color14: ${SH14}FF
+*.color15: ${SH15}FF
+*.selection_foreground: ${SH0}FF
+
+! Urxvt Settings
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt*depth: 32
+URxvt.background: [70]${SH0}FF
+URxvt*internalBorder: 50
+urxvt.iso14755: false
+urxvt.keysym.Shift-Control-V: eval:paste_clipboard
+urxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+
+Xcursor.theme: Volantes_Light_Curser
+
+! just remove this if you dont use my tabbed
+
+tabbed.selfgcolor:   #d6d8eb
+tabbed.selbgcolor:   #1e222a
+
+tabbed.normfgcolor:  #9294a8
+tabbed.normbgcolor:  #282c34
+	EOF
+
+	polybar-msg cmd restart &
+	# bspc wm -r &
+}
+
+# Main
+if [[ -f "x" ]]; then
+	if [[ "$1" ]]; then
+		pywal_get "$1"
+
+		# Source the pywal color file
+		. "$HOME/.cache/wal/colors.sh"
+
+		BG=`printf "%s\n" "$background"`
+		FG=`printf "%s\n" "$foreground"`
+		FGA=`printf "%s\n" "$color7"`
+		SH0=`printf "%s\n" "$color0"`
+		SH1=`printf "%s\n" "$color1"`
+		SH2=`printf "%s\n" "$color2"`
+		SH3=`printf "%s\n" "$color3"`
+		SH4=`printf "%s\n" "$color4"`
+		SH5=`printf "%s\n" "$color5"`
+		SH6=`printf "%s\n" "$color6"`
+		SH7=`printf "%s\n" "$color7"`
+		SH8=`printf "%s\n" "$color8"`
+		SH9=`printf "%s\n" "$color9"`
+		SH10=`printf "%s\n" "$color10"`
+		SH11=`printf "%s\n" "$color11"`
+		SH12=`printf "%s\n" "$color12"`
+		SH13=`printf "%s\n" "$color13"`
+		SH14=`printf "%s\n" "$color14"`
+		SH15=`printf "%s\n" "$color15"`
+
+		# SH9 = $(printf $color14 | cut -c2-)
+		change_color
+
+		
+	else
+		echo -e "[!] Please enter the path to wallpaper. \n"
+		echo "Usage : ./pywal.sh path/to/image"
+	fi
+else
+	echo "[!] 'pywal' is not installed."
+fi

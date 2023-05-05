@@ -1,0 +1,7 @@
+2023/04/26-22:57:04.734 11de Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ttsreader.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/26-22:57:04.735 11de Recovering log #3
+2023/04/26-22:57:04.735 11de Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ttsreader.com_0.indexeddb.leveldb/000003.log 
+2023/04/26-22:57:07.765 11df Level-0 table #5: started
+2023/04/26-22:57:07.766 11df Level-0 table #5: 1358 bytes OK
+2023/04/26-22:57:07.768 11df Delete type=0 #3
+2023/04/26-22:57:07.768 11df Manual compaction at level-0 from (begin) .. (end); will stop at (end)

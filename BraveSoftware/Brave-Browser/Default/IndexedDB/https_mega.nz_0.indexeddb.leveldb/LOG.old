@@ -1,0 +1,6 @@
+2022/09/09-03:00:18.022 45bf2 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/09-03:00:18.022 45bf2 Recovering log #365
+2022/09/09-03:00:18.045 45bf2 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/000365.log 
+2022/09/09-03:00:45.047 45bf2 Level-0 table #381: started
+2022/09/09-03:00:45.061 45bf2 Level-0 table #381: 3064895 bytes OK
+2022/09/09-03:00:45.115 45bf2 Delete type=0 #365

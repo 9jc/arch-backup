@@ -1,0 +1,15 @@
+2022/11/16-18:34:52.849 8b9f6 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_todoist.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/16-18:34:52.849 8b9f6 Recovering log #35
+2022/11/16-18:34:52.851 8b9f6 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_todoist.com_0.indexeddb.leveldb/000035.log 
+2022/11/16-18:34:54.878 8b9f6 Level-0 table #40: started
+2022/11/16-18:34:54.893 8b9f6 Level-0 table #40: 743519 bytes OK
+2022/11/16-18:34:54.895 8b9f6 Delete type=0 #35
+2022/11/16-18:34:54.896 8b9f6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/11/16-18:34:54.897 8b9f6 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01 \x03\x00\xc0\x0e\x88\xc9GxB\x00\x01_\x00s\x00t\x00a\x00t\x00i\x00c\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00d\x003\x00p\x00t\x00y\x00y\x00x\x00y\x002\x00a\x00t\x009\x00u\x00i\x00.\x00c\x00l\x00o\x00u\x00d\x00f\x00r\x00o\x00n\x00t\x00.\x00n\x00e\x00t\x00/\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x005\x009\x001\x002\x00c\x00b\x006\x007\x004\x00b\x004\x004\x00a\x00b\x003\x00d\x007\x008\x009\x00e\x00a\x009\x008\x00c\x009\x005\x00d\x001\x00c\x00f\x00e\x003\x00.\x00j\x00p\x00g' @ 29178 : 0
+2022/11/16-18:34:54.897 8b9f6 Compacting 1@1 + 1@2 files
+2022/11/16-18:34:54.902 8b9f6 Generated table #41@1: 89 keys, 12530 bytes
+2022/11/16-18:34:54.902 8b9f6 Compacted 1@1 + 1@2 files => 12530 bytes
+2022/11/16-18:34:54.903 8b9f6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/11/16-18:34:54.904 8b9f6 Delete type=2 #37
+2022/11/16-18:34:54.904 8b9f6 Delete type=2 #40
+2022/11/16-18:34:54.904 8b9f6 Manual compaction at level-1 from '\x00\x02\x01 \x03\x00\xc0\x0e\x88\xc9GxB\x00\x01_\x00s\x00t\x00a\x00t\x00i\x00c\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00d\x003\x00p\x00t\x00y\x00y\x00x\x00y\x002\x00a\x00t\x009\x00u\x00i\x00.\x00c\x00l\x00o\x00u\x00d\x00f\x00r\x00o\x00n\x00t\x00.\x00n\x00e\x00t\x00/\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00i\x00m\x00a\x00g\x00e\x00s\x00/\x005\x009\x001\x002\x00c\x00b\x006\x007\x004\x00b\x004\x004\x00a\x00b\x003\x00d\x007\x008\x009\x00e\x00a\x009\x008\x00c\x009\x005\x00d\x001\x00c\x00f\x00e\x003\x00.\x00j\x00p\x00g' @ 29178 : 0 .. (end); will stop at (end)

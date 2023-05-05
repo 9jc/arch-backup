@@ -1,0 +1,6 @@
+2022/10/15-14:58:36.262 a94ed Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_portal.azure.com_0.indexeddb.leveldb since it was missing.
+2022/10/15-14:58:36.269 a94ed Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_portal.azure.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/15-14:58:39.481 aaa14 Level-0 table #5: started
+2022/10/15-14:58:39.487 aaa14 Level-0 table #5: 116812 bytes OK
+2022/10/15-14:58:39.489 aaa14 Delete type=0 #3
+2022/10/15-14:58:39.489 aaa14 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

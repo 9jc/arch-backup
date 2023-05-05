@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace name="Classic">
+  <dock bounds="0 0 1920 968">
+    <area bounds="0 0 1920 968" vertical="0" barSize="4" sizes="30:-1:996">
+      <area bounds="0 0 1920 968" vertical="1" barSize="4" sizes="30:-1:616:4:4:4:30:-1:97">
+        <area bounds="0 0 1920 832" vertical="0" barSize="4" sizes="30:-1:200:4:4:4:30:-1:786:4:4:4:30:-1:114">
+          <area bounds="0 0 347 832" vertical="1" barSize="4" sizes="30:-1:167:4:4:4:30:-1:167:4:4:4:30:-1:231">
+            <item bounds="0 0 347 242" mode="tabs" panel="0">
+              <panel name="MIDI" type="nodeMidi" bounds="0 0 343 218"/>
+            </item>
+            <item bounds="0 0 347 242" mode="tabs" panel="0">
+              <panel name="Node" type="nodeEditor" bounds="0 0 343 218"/>
+            </item>
+            <item bounds="0 0 347 340" mode="tabs" panel="0">
+              <panel name="Plugins" type="plugins" bounds="0 0 343 316"/>
+            </item>
+          </area>
+          <item bounds="0 0 1362 832" mode="tabs" panel="1">
+            <panel name="Graph Mixer" type="graphMixer" bounds="0 0 1358 808"/>
+            <panel name="Graph Editor" type="graphEditor" bounds="0 0 1358 808"/>
+          </item>
+          <item bounds="0 0 203 832" mode="tabs" panel="0">
+            <panel name="Strip" type="nodeChannelStrip" bounds="0 0 199 808"/>
+          </item>
+        </area>
+        <item bounds="0 0 1920 132" mode="tabs" panel="0">
+          <panel name="Virtual Keyboard" type="virtualKeyboard" bounds="0 0 1916 108"/>
+        </item>
+      </area>
+    </area>
+  </dock>
+</workspace>

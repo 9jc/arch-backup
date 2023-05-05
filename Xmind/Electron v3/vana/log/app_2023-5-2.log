@@ -1,0 +1,17 @@
+[I 2023-05-01T18:31:58.263Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-05-01T18:31:58.265Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-05-01T20:12:31.226Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-05-01T20:12:31.227Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-05-02T03:47:07.968Z main:store:plugins:editors:EditorFrame] Frame 2 close
+[I 2023-05-02T03:47:12.785Z snowbrush] Export image collect time: 14
+[I 2023-05-02T03:47:12.801Z snowbrush] Export image time: 30
+[I 2023-05-02T03:47:15.411Z main:store:plugins:editors:EditorFrame] Not find editor view: undefined file:///opt/Xmind/resources/app.asar/renderer/editor-frame.html?frameId=2&_apr=dark
+[I 2023-05-02T03:47:15.561Z main:store:plugins:editors:EditorFrame] Frame 2 close
+[I 2023-05-02T03:47:15.602Z main:store:plugins:editors:EditorFrame] Frame 2 webContents destroyed
+[I 2023-05-02T04:01:07.525Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-05-02T04:01:07.525Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-05-02T04:02:13.441Z main:store:plugins:editors:EditorFrame] Frame 3 close
+[I 2023-05-02T04:02:13.513Z main:store:plugins:editors:EditorFrame] Not find editor view: undefined file:///opt/Xmind/resources/app.asar/renderer/editor-frame.html?frameId=3&_apr=dark
+[I 2023-05-02T04:02:13.640Z main:store:plugins:editors:EditorFrame] Frame 3 close
+[I 2023-05-02T04:02:13.677Z main:store:plugins:editors:EditorFrame] Frame 3 webContents destroyed
+[W 2023-05-02T04:02:25.323Z ipc] API "POST /generate/image" unregistered on webContents "3" destroyed.

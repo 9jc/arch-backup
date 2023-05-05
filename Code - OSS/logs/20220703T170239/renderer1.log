@@ -1,0 +1,2 @@
+[2022-07-03 17:02:41.357] [renderer1] [warning] Skipping extension /home/i0xfce/.vscode-oss/extensions/ms-vscode.references-view-0.0.89 with lower version 0.0.89.
+[2022-07-03 17:02:41.357] [renderer1] [critical] Extension 'ms-python.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver, notebookEditor'. You MUST start in extension development mode or use the --enable-proposed-api command line flag

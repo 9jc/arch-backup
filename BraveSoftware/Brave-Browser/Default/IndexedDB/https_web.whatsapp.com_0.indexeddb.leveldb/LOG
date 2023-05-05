@@ -1,0 +1,30 @@
+2023/05/05-03:14:04.656 b4cdd Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-020418
+2023/05/05-03:14:04.657 b4cdd Recovering log #20940
+2023/05/05-03:14:04.724 b4cdd Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/020940.log 
+2023/05/05-03:14:26.115 b4cdb Level-0 table #20951: started
+2023/05/05-03:14:26.130 b4cdb Level-0 table #20951: 1383939 bytes OK
+2023/05/05-03:14:26.131 b4cdb Delete type=0 #20940
+2023/05/05-03:14:26.132 b4cdb Compacting 1@1 + 7@2 files
+2023/05/05-03:14:26.172 b4cdb Generated table #20952@1: 58879 keys, 2448606 bytes
+2023/05/05-03:14:26.208 b4cdb Generated table #20953@1: 1873 keys, 2879962 bytes
+2023/05/05-03:14:26.232 b4cdb Generated table #20954@1: 13467 keys, 2322648 bytes
+2023/05/05-03:14:26.247 b4cdb Generated table #20955@1: 5247 keys, 2153167 bytes
+2023/05/05-03:14:26.282 b4cdb Generated table #20956@1: 25670 keys, 2255048 bytes
+2023/05/05-03:14:26.312 b4cdb Generated table #20957@1: 69994 keys, 2211057 bytes
+2023/05/05-03:14:26.328 b4cdb Generated table #20958@1: 36965 keys, 1024809 bytes
+2023/05/05-03:14:26.328 b4cdb Compacted 1@1 + 7@2 files => 15295297 bytes
+2023/05/05-03:14:26.330 b4cdb compacted to: files[ 0 0 7 0 0 0 0 ]
+2023/05/05-03:14:26.330 b4cdb Delete type=2 #20945
+2023/05/05-03:14:26.330 b4cdb Delete type=2 #20951
+2023/05/05-03:14:26.330 b4cdb Delete type=2 #20944
+2023/05/05-03:14:26.330 b4cdb Delete type=2 #20942
+2023/05/05-03:14:26.330 b4cdb Delete type=2 #20948
+2023/05/05-03:14:26.330 b4cdb Delete type=2 #20946
+2023/05/05-03:14:26.330 b4cdb Delete type=2 #20947
+2023/05/05-03:14:26.331 b4cdb Delete type=2 #20943
+2023/05/05-11:37:14.697 b4cdb Level-0 table #20960: started
+2023/05/05-11:37:14.714 b4cdb Level-0 table #20960: 1116880 bytes OK
+2023/05/05-11:37:14.715 b4cdb Delete type=0 #20950
+2023/05/05-11:37:14.717 b4cdb Compacting 1@1 + 7@2 files
+2023/05/05-11:37:14.775 b4cdb Generated table #20961@1: 33999 keys, 2614182 bytes
+2023/05/05-11:37:14.775 b4cdb compacted to: files[ 0 1 7 0 0 0 0 ]

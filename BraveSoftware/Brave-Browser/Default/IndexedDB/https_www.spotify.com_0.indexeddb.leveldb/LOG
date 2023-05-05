@@ -1,0 +1,6 @@
+2023/05/01-13:44:49.143 1948d Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.spotify.com_0.indexeddb.leveldb since it was missing.
+2023/05/01-13:44:49.197 1948d Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/01-13:45:00.108 1948e Level-0 table #5: started
+2023/05/01-13:45:00.110 1948e Level-0 table #5: 1317 bytes OK
+2023/05/01-13:45:00.111 1948e Delete type=0 #3
+2023/05/01-13:45:00.111 1948e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

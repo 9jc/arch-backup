@@ -1,0 +1,7 @@
+{"_id":"autoplayPlaylists","value":false}
+{"_id":"autoplayVideos","value":false}
+{"_id":"barColor","value":false}
+{"_id":"externalPlayer","value":"mpv"}
+{"_id":"externalPlayerIgnoreWarnings","value":false}
+{"_id":"hideLabelsSideBar","value":false}
+{"_id":"hideTrendingVideos","value":true}

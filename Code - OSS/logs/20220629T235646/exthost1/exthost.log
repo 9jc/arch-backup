@@ -1,0 +1,18 @@
+[2022-06-29 23:56:48.334] [exthost] [info] Extension host with pid 1136202 started
+[2022-06-29 23:56:48.414] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-29 23:56:48.423] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-29 23:56:48.430] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-29 23:56:48.448] [exthost] [info] ExtensionService#_doActivateExtension activitywatch.aw-watcher-vscode, startup: true, activationEvent: '*'
+[2022-06-29 23:56:48.466] [exthost] [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+[2022-06-29 23:56:48.518] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2022-06-29 23:56:48.535] [exthost] [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+[2022-06-29 23:56:48.537] [exthost] [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: true, activationEvent: '*'
+[2022-06-29 23:56:48.604] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-29 23:56:48.717] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-29 23:56:48.833] [exthost] [info] Eager extensions activated
+[2022-06-29 23:56:48.861] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 23:56:48.888] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 23:56:48.892] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 23:56:48.898] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-29 23:56:54.241] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-06-29 23:56:54.245] [exthost] [info] Extension host with pid 1136202 exiting with code 0

@@ -1,0 +1,285 @@
+
+-------- SESSION 2023-04-21T04:43:42.177Z (22.11.3656+202301100025, linux, x64, 16459452416, XMIND LTD., vana_linux) --------
+[I 2023-04-21T04:43:42.191Z main:store:plugins:electron] current pid is "745811"
+[I 2023-04-21T04:43:42.205Z usage-stats] sync data
+[I 2023-04-21T04:43:42.254Z auto-updater] current version is "22.11.3656"
+[I 2023-04-21T04:43:42.836Z main:store:plugins:electron] Application will finish launching.
+[I 2023-04-21T04:43:42.844Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-04-21T04:43:42.862Z main:store:plugins:electron] Application is ready.
+[I 2023-04-21T04:43:42.894Z main:store:plugins:open-handler] Recover: Map(0) {}
+[I 2023-04-21T04:43:42.896Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-04-21T04:43:42.896Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-21T04:43:42.896Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-04-21T04:43:42.896Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-21T04:43:43.143Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[I 2023-04-21T04:44:42.897Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T04:44:42.898Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T04:56:29.113Z fonts] App Locale: en
+[I 2023-04-21T04:56:29.114Z fonts] start get system fonts
+[I 2023-04-21T04:56:31.369Z fonts] Consuming 2255 ms to get system fonts
+[I 2023-04-21T04:56:50.890Z fonts] App Locale: en
+[I 2023-04-21T04:57:18.481Z fonts] App Locale: en
+[I 2023-04-21T04:57:19.983Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-04-21T04:57:22.110Z main:store:plugins:editors:EditorFrame] Not find editor view: undefined file:///opt/Xmind/resources/app.asar/renderer/editor-frame.html?frameId=1&_apr=dark
+[I 2023-04-21T04:57:22.265Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-04-21T04:57:22.332Z main:store:plugins:editors:EditorFrame] Frame 1 webContents destroyed
+[I 2023-04-21T05:01:41.749Z snowbrush] null
+[I 2023-04-21T05:06:58.025Z snowbrush] null
+[I 2023-04-21T05:08:12.114Z snowbrush] null
+[I 2023-04-21T05:08:16.183Z snowbrush] null
+[I 2023-04-21T05:08:33.901Z snowbrush] null
+[I 2023-04-21T05:09:59.198Z snowbrush] null
+[I 2023-04-21T05:10:00.472Z snowbrush] null
+[I 2023-04-21T05:10:19.477Z snowbrush] null
+[I 2023-04-21T05:10:51.314Z snowbrush] null
+[I 2023-04-21T05:14:41.232Z snowbrush] null
+[I 2023-04-21T05:30:38.507Z snowbrush] null
+[I 2023-04-21T05:30:46.049Z snowbrush] null
+[I 2023-04-21T05:31:44.165Z snowbrush] null
+[I 2023-04-21T05:31:46.925Z snowbrush] null
+[I 2023-04-21T05:31:49.338Z snowbrush] null
+[I 2023-04-21T05:31:50.821Z snowbrush] null
+[I 2023-04-21T05:31:54.550Z snowbrush] null
+[I 2023-04-21T05:32:22.117Z snowbrush] null
+[I 2023-04-21T05:32:23.749Z snowbrush] null
+[I 2023-04-21T05:32:26.739Z snowbrush] null
+[I 2023-04-21T05:33:06.988Z snowbrush] null
+[I 2023-04-21T05:33:34.763Z snowbrush] null
+[I 2023-04-21T05:33:36.357Z snowbrush] null
+[I 2023-04-21T05:33:44.301Z snowbrush] null
+[I 2023-04-21T05:33:49.135Z snowbrush] null
+[I 2023-04-21T05:34:40.431Z snowbrush] null
+[I 2023-04-21T05:34:41.476Z snowbrush] null
+[I 2023-04-21T05:35:46.667Z snowbrush] null
+[I 2023-04-21T05:36:54.252Z snowbrush] null
+[I 2023-04-21T05:36:55.577Z snowbrush] null
+[I 2023-04-21T05:36:57.871Z snowbrush] null
+[I 2023-04-21T05:36:59.975Z snowbrush] null
+[I 2023-04-21T05:37:19.135Z snowbrush] null
+[I 2023-04-21T05:37:44.643Z snowbrush] db write {
+  'text/plain': 'Enter Username\r\n' +
+    '\tEnter Password\r\n' +
+    '\t\tRe-enter Password\r\n' +
+    '\t\t\tEnter Email\r\n' +
+    '\t\t\t\t✅ CONFIRM',
+  'text/x-array-json': [ { data: [Object], xapPaths: [] } ],
+  'text/x-type': 'branch',
+  'text/x-other-object-json': {
+    relationship: [],
+    boundary: [],
+    summary: [],
+    sheetId: '73eaac5d9f9bcd78a2ba2a5aea'
+  },
+  xapInfoMap: {}
+}
+[I 2023-04-21T05:38:52.054Z snowbrush] null
+[I 2023-04-21T05:39:00.376Z snowbrush] null
+[I 2023-04-21T05:39:01.971Z snowbrush] null
+[I 2023-04-21T05:39:06.686Z snowbrush] null
+[I 2023-04-21T05:39:11.262Z snowbrush] null
+[I 2023-04-21T05:40:05.552Z snowbrush] null
+[I 2023-04-21T05:40:08.220Z snowbrush] null
+[I 2023-04-21T05:40:09.956Z snowbrush] null
+[I 2023-04-21T05:40:12.434Z snowbrush] null
+[I 2023-04-21T05:40:23.788Z snowbrush] null
+[I 2023-04-21T05:40:26.379Z snowbrush] null
+[I 2023-04-21T05:40:49.999Z snowbrush] null
+[I 2023-04-21T05:40:55.153Z snowbrush] null
+[I 2023-04-21T05:41:09.836Z snowbrush] null
+[I 2023-04-21T05:41:13.269Z snowbrush] null
+[I 2023-04-21T05:42:48.511Z snowbrush] null
+[I 2023-04-21T05:42:52.363Z snowbrush] null
+[I 2023-04-21T05:42:54.709Z snowbrush] null
+[I 2023-04-21T05:46:33.043Z snowbrush] null
+[I 2023-04-21T05:46:36.478Z snowbrush] null
+[I 2023-04-21T05:46:39.517Z snowbrush] null
+[I 2023-04-21T05:46:41.171Z snowbrush] null
+[I 2023-04-21T05:55:31.598Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T05:55:31.599Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T05:59:28.724Z snowbrush] null
+[I 2023-04-21T05:59:34.180Z snowbrush] null
+[I 2023-04-21T05:59:37.572Z snowbrush] null
+[I 2023-04-21T05:59:42.151Z snowbrush] null
+[I 2023-04-21T05:59:44.568Z snowbrush] null
+[I 2023-04-21T05:59:45.805Z snowbrush] null
+[I 2023-04-21T06:00:27.368Z snowbrush] null
+[I 2023-04-21T06:00:33.677Z snowbrush] null
+[I 2023-04-21T06:00:37.237Z snowbrush] null
+[W 2023-04-21T06:08:56.011Z ipc] API "POST /command/handle/frame/2" unregistered on webContents "7" destroyed.
+-------- SESSION 2023-04-21T06:15:55.288Z (22.11.3656+202301100025, linux, x64, 16459452416, XMIND LTD., vana_linux) --------
+[I 2023-04-21T06:15:55.302Z main:store:plugins:electron] current pid is "858356"
+[I 2023-04-21T06:15:55.314Z usage-stats] sync data
+[I 2023-04-21T06:15:55.357Z auto-updater] current version is "22.11.3656"
+[I 2023-04-21T06:15:55.760Z main:store:plugins:electron] Application will finish launching.
+[I 2023-04-21T06:15:55.766Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-04-21T06:15:55.773Z main:store:plugins:electron] Application is ready.
+[I 2023-04-21T06:15:55.802Z main:store:plugins:open-handler] Recover: Map(1) {
+  '2' => [
+    {
+      source: 'new://workbook',
+      editorId: '90d8ea034ce840e70096eb053b'
+    }
+  ]
+}
+[I 2023-04-21T06:15:55.805Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-04-21T06:15:55.805Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-21T06:15:55.805Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-04-21T06:15:55.806Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[E 2023-04-21T06:15:56.094Z main:store:plugins:feature-request] Error: Request to https://www.xmind.app/_api/check_vana_trial failed, reason: net::ERR_INTERNET_DISCONNECTED
+    at ClientRequest.<anonymous> (/opt/Xmind/resources/app.asar/main/main.js:1:336935)
+    at ClientRequest.emit (node:events:390:28)
+    at ClientRequest._die (node:electron/js2c/browser_init:101:8492)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7229)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[I 2023-04-21T06:15:56.097Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[W 2023-04-21T06:15:56.097Z main:store:plugins:electron] Failed to load pricing: Error: Request to https://www.xmind.app/_res/get-vana-price?p=vana_linux&v=22.11.3656.202301100025&os=linux&ar=x64&nl=en-US failed, reason: net::ERR_INTERNET_DISCONNECTED
+    at ClientRequest.<anonymous> (/opt/Xmind/resources/app.asar/main/main.js:1:336935)
+    at ClientRequest.emit (node:events:390:28)
+    at ClientRequest._die (node:electron/js2c/browser_init:101:8492)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7229)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[E 2023-04-21T06:15:56.098Z Notification] Error: Request to https://www.xmind.app/_api/events?p=vana_linux&v=22.11.3656.202301100025&ar=x64&nl=en-US&ac=trial&lic=&ts0=1679770155159&ts1=1681735349574&ts2=1681875994257&ts3=1682052225021&os=linux&version=22.11.3656&buildid=22.11.3656.202301100025&arch=x64&distrib=vana_linux&account_type=trial&license_info=&firstStartTimestamp=1679770155159&startTimestamp1=1681735349574&startTimestamp2=1681875994257&startTimestamp3=1682052225021 failed, reason: net::ERR_INTERNET_DISCONNECTED
+    at ClientRequest.<anonymous> (/opt/Xmind/resources/app.asar/main/main.js:1:336935)
+    at ClientRequest.emit (node:events:390:28)
+    at ClientRequest._die (node:electron/js2c/browser_init:101:8492)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7229)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[I 2023-04-21T06:15:59.017Z fonts] App Locale: en
+[I 2023-04-21T06:15:59.018Z fonts] start get system fonts
+[I 2023-04-21T06:16:00.317Z fonts] Consuming 1299 ms to get system fonts
+[I 2023-04-21T06:16:35.782Z snowbrush] null
+[I 2023-04-21T06:16:47.463Z snowbrush] null
+[I 2023-04-21T06:16:55.806Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T06:16:55.807Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T06:17:01.219Z snowbrush] null
+[I 2023-04-21T07:33:49.222Z snowbrush] db write {
+  'text/plain': 'Toggle On/Off',
+  'text/x-array-json': [ { data: [Object], xapPaths: [] } ],
+  'text/x-type': 'branch',
+  'text/x-other-object-json': {
+    relationship: [],
+    boundary: [],
+    summary: [],
+    sheetId: '73eaac5d9f9bcd78a2ba2a5aea'
+  },
+  xapInfoMap: {}
+}
+[I 2023-04-21T07:53:56.569Z snowbrush] null
+[I 2023-04-21T07:54:04.116Z snowbrush] null
+[I 2023-04-21T08:00:08.282Z snowbrush] null
+[I 2023-04-21T08:00:10.599Z snowbrush] null
+[I 2023-04-21T08:00:17.799Z snowbrush] null
+[I 2023-04-21T08:01:50.372Z snowbrush] null
+[I 2023-04-21T08:01:57.943Z snowbrush] null
+[I 2023-04-21T08:02:10.836Z snowbrush] null
+[I 2023-04-21T08:02:25.609Z snowbrush] null
+[I 2023-04-21T08:02:50.166Z snowbrush] null
+[I 2023-04-21T08:02:53.819Z snowbrush] null
+[I 2023-04-21T08:03:54.386Z snowbrush] null
+[I 2023-04-21T08:04:07.267Z snowbrush] null
+[I 2023-04-21T08:04:22.948Z snowbrush] null
+[I 2023-04-21T08:04:26.974Z snowbrush] null
+[I 2023-04-21T08:04:41.015Z snowbrush] null
+[I 2023-04-21T08:04:51.459Z snowbrush] null
+[I 2023-04-21T08:04:54.928Z snowbrush] null
+[I 2023-04-21T08:04:58.370Z snowbrush] null
+[I 2023-04-21T08:05:23.131Z snowbrush] null
+[I 2023-04-21T08:05:25.935Z snowbrush] null
+[I 2023-04-21T08:09:20.126Z snowbrush] null
+[I 2023-04-21T08:13:07.956Z snowbrush] null
+[I 2023-04-21T08:13:20.152Z snowbrush] null
+[I 2023-04-21T08:13:24.846Z snowbrush] null
+[I 2023-04-21T08:13:43.081Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T08:13:43.082Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T08:14:01.651Z snowbrush] Export image collect time: 16
+[I 2023-04-21T08:14:02.150Z snowbrush] Export image time: 515
+[I 2023-04-21T08:14:09.969Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-04-21T08:14:10.114Z main:store:plugins:editors:EditorFrame] Not find editor view: undefined file:///opt/Xmind/resources/app.asar/renderer/editor-frame.html?frameId=1&_apr=dark
+[I 2023-04-21T08:14:10.223Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-04-21T08:14:10.274Z main:store:plugins:editors:EditorFrame] Frame 1 webContents destroyed
+[I 2023-04-21T08:14:10.431Z main:store:plugins:electron] All windows closed. Quit application....
+[I 2023-04-21T08:14:10.431Z main:store:plugins:electron] Application is intended to quit.
+[I 2023-04-21T08:14:10.431Z main:store:plugins:electron] Application status is quitting:  false
+[I 2023-04-21T08:14:10.431Z main:store:plugins:electron] Asking all editors to close their documents...
+[I 2023-04-21T08:14:10.432Z main:store:plugins:electron] All documents are closed.
+[I 2023-04-21T08:14:10.432Z main:store:plugins:activation-updater] Stop updating per-machine license information periodically.
+[I 2023-04-21T08:14:10.432Z main:store:plugins:activation-updater] Stop updating subscription information periodically.
+[I 2023-04-21T08:14:10.433Z main:store:plugins:electron] Application is intended to quit.
+[I 2023-04-21T08:14:10.433Z main:store:plugins:electron] Application status is quitting:  true
+[I 2023-04-21T08:14:10.433Z main:store:plugins:electron] Application will quit.
+[I 2023-04-21T08:14:10.433Z main:store:plugins:electron] Application quitted.
+
+-------- SESSION 2023-04-21T08:14:13.567Z (22.11.3656+202301100025, linux, x64, 16459452416, XMIND LTD., vana_linux) --------
+[I 2023-04-21T08:14:13.576Z main:store:plugins:electron] current pid is "943299"
+[I 2023-04-21T08:14:13.583Z usage-stats] sync data
+[I 2023-04-21T08:14:13.610Z auto-updater] current version is "22.11.3656"
+[I 2023-04-21T08:14:13.860Z main:store:plugins:electron] Application will finish launching.
+[I 2023-04-21T08:14:13.865Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-04-21T08:14:13.871Z main:store:plugins:electron] Application is ready.
+[I 2023-04-21T08:14:13.896Z main:store:plugins:open-handler] Recover: Map(0) {}
+[I 2023-04-21T08:14:13.896Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-04-21T08:14:13.897Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-21T08:14:13.897Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-04-21T08:14:13.897Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-21T08:14:14.060Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[I 2023-04-21T08:14:32.114Z snowbrush] null
+[I 2023-04-21T08:14:33.718Z snowbrush] null
+[I 2023-04-21T08:14:39.843Z snowbrush] null
+[I 2023-04-21T08:14:46.568Z snowbrush] null
+[I 2023-04-21T08:14:51.621Z fonts] App Locale: en
+[I 2023-04-21T08:14:51.621Z fonts] start get system fonts
+[I 2023-04-21T08:14:52.897Z fonts] Consuming 1275 ms to get system fonts
+[I 2023-04-21T08:15:11.123Z main:store:plugins:electron] Application is intended to quit.
+[I 2023-04-21T08:15:11.123Z main:store:plugins:electron] Application status is quitting:  false
+[I 2023-04-21T08:15:11.124Z main:store:plugins:electron] Asking all editors to close their documents...
+
+-------- SESSION 2023-04-21T08:16:56.727Z (22.11.3656+202301100025, linux, x64, 16459452416, XMIND LTD., vana_linux) --------
+[I 2023-04-21T08:16:56.736Z main:store:plugins:electron] current pid is "3909"
+[I 2023-04-21T08:16:56.746Z usage-stats] sync data
+[I 2023-04-21T08:16:56.786Z auto-updater] current version is "22.11.3656"
+[I 2023-04-21T08:16:57.119Z main:store:plugins:electron] Application will finish launching.
+[I 2023-04-21T08:16:57.126Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-04-21T08:16:57.152Z main:store:plugins:electron] Application is ready.
+[I 2023-04-21T08:16:57.195Z main:store:plugins:open-handler] Recover: Map(1) {
+  '1' => [
+    {
+      source: 'file:///home/i0xfce/Documents/Project%20PassFX.xmind',
+      editorId: '14fa8044f29bbf3dc178f8df0f'
+    }
+  ]
+}
+[I 2023-04-21T08:16:57.197Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-04-21T08:16:57.198Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-21T08:16:57.198Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-04-21T08:16:57.198Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-04-21T08:16:57.504Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[I 2023-04-21T08:17:57.198Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T08:17:57.198Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T08:25:21.657Z snowbrush] null
+[I 2023-04-21T08:25:25.606Z snowbrush] null
+[I 2023-04-21T08:25:42.127Z snowbrush] null
+[I 2023-04-21T08:25:50.341Z snowbrush] null
+[I 2023-04-21T08:25:55.114Z snowbrush] null
+[I 2023-04-21T08:25:59.979Z snowbrush] null
+[I 2023-04-21T08:26:05.665Z snowbrush] null
+[I 2023-04-21T08:26:11.337Z snowbrush] null
+[I 2023-04-21T08:26:13.150Z snowbrush] null
+[I 2023-04-21T08:30:01.752Z snowbrush] null
+[I 2023-04-21T08:33:29.346Z fonts] App Locale: en
+[I 2023-04-21T08:33:29.346Z fonts] start get system fonts
+[I 2023-04-21T08:33:33.407Z fonts] Consuming 4061 ms to get system fonts
+[I 2023-04-21T08:39:20.234Z fonts] App Locale: en
+[I 2023-04-21T08:48:57.059Z snowbrush] null
+[I 2023-04-21T08:53:17.275Z snowbrush] null
+[I 2023-04-21T08:53:19.845Z snowbrush] null
+[I 2023-04-21T08:56:44.189Z snowbrush] null
+[I 2023-04-21T08:59:13.947Z snowbrush] null
+[I 2023-04-21T09:00:30.418Z snowbrush] null
+[I 2023-04-21T09:00:33.570Z snowbrush] null
+[I 2023-04-21T09:17:57.258Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T09:17:57.259Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T09:21:38.069Z main:store:plugins:editors:EditorView] User cancel closing editor
+[I 2023-04-21T16:49:26.975Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T16:49:26.975Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T17:49:26.977Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-04-21T17:49:26.977Z main:store:plugins:activation-updater] Schedule refresh timeout(null).

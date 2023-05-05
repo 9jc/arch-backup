@@ -1,0 +1,6 @@
+2022/11/19-07:08:59.215 223d1 Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.aliexpress.com_0.indexeddb.leveldb since it was missing.
+2022/11/19-07:08:59.220 223d1 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.aliexpress.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/19-07:09:31.238 223d1 Level-0 table #5: started
+2022/11/19-07:09:31.240 223d1 Level-0 table #5: 842 bytes OK
+2022/11/19-07:09:31.241 223d1 Delete type=0 #3
+2022/11/19-07:09:31.241 223d1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

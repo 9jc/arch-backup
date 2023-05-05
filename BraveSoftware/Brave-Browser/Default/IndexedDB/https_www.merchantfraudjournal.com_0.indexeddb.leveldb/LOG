@@ -1,0 +1,6 @@
+2022/10/07-01:00:58.965 dd1 Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.merchantfraudjournal.com_0.indexeddb.leveldb since it was missing.
+2022/10/07-01:00:58.968 dd1 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.merchantfraudjournal.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/07-01:01:13.096 2177 Level-0 table #5: started
+2022/10/07-01:01:13.098 2177 Level-0 table #5: 597 bytes OK
+2022/10/07-01:01:13.099 2177 Delete type=0 #3
+2022/10/07-01:01:13.099 2177 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,15 @@
+2023/05/05-03:14:04.035 b4cda Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/05/05-03:14:04.035 b4cda Recovering log #187
+2023/05/05-03:14:04.037 b4cda Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000187.log 
+2023/05/05-11:17:17.965 b4cdd Level-0 table #191: started
+2023/05/05-11:17:17.992 b4cdd Level-0 table #191: 57989 bytes OK
+2023/05/05-11:17:17.995 b4cdd Delete type=0 #187
+2023/05/05-11:17:17.995 b4cdd Compacting 4@0 + 1@1 files
+2023/05/05-11:17:18.000 b4cdd Generated table #192@0: 8 keys, 2203 bytes
+2023/05/05-11:17:18.000 b4cdd Compacted 4@0 + 1@1 files => 2203 bytes
+2023/05/05-11:17:18.001 b4cdd compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/05-11:17:18.001 b4cdd Delete type=2 #191
+2023/05/05-11:17:18.001 b4cdd Delete type=2 #185
+2023/05/05-11:17:18.001 b4cdd Delete type=2 #179
+2023/05/05-11:17:18.001 b4cdd Delete type=2 #188
+2023/05/05-11:17:18.001 b4cdd Delete type=2 #182

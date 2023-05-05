@@ -1,0 +1,17 @@
+) "$SDIR"/styles.sh --dark-pink
+) "$SDIR"/styles.sh --dark-pink2
+) "$SDIR"/styles.sh --dark-purple
+) "$SDIR"/styles.sh --dark-blue
+) "$SDIR"/styles.sh --dark-cyan
+) "$SDIR"/styles.sh --dark-green
+) "$SDIR"/styles.sh --dark-lgreen
+) "$SDIR"/styles.sh --dark-red
+) "$SDIR"/styles.sh --dark-yellow
+) "$SDIR"/styles.sh --dark-orange
+) "$SDIR"/styles.sh --dark-white
+) "$SDIR"/styles.sh --dark-brown
+) "$SDIR"/styles.sh --grey-blue
+) "$SDIR"/styles.sh --grey-green
+) "$SDIR"/styles.sh --gruvbox
+) "$SDIR"/styles.sh --dark
+) "$SDIR"/styles.sh --cherry

@@ -1,0 +1,1 @@
+n=int("enter the input :")

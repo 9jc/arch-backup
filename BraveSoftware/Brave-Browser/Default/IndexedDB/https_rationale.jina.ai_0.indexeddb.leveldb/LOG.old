@@ -1,0 +1,16 @@
+2023/04/26-23:21:10.046 11de Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_rationale.jina.ai_0.indexeddb.leveldb since it was missing.
+2023/04/26-23:21:10.060 11de Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_rationale.jina.ai_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/26-23:21:10.077 11df Level-0 table #5: started
+2023/04/26-23:21:10.079 11df Level-0 table #5: 1227 bytes OK
+2023/04/26-23:21:10.081 11df Delete type=0 #3
+2023/04/26-23:21:10.081 11df Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/04/26-23:22:06.015 11ed Level-0 table #7: started
+2023/04/26-23:22:06.016 11ed Level-0 table #7: 6936 bytes OK
+2023/04/26-23:22:06.018 11ed Delete type=0 #4
+2023/04/26-23:22:06.018 11ed Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/04/26-23:22:44.424 11df Compacting 1@1 + 1@2 files
+2023/04/26-23:22:44.458 11df Generated table #8@1: 55 keys, 4480 bytes
+2023/04/26-23:22:44.458 11df Compacted 1@1 + 1@2 files => 4480 bytes
+2023/04/26-23:22:44.459 11df compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/26-23:22:44.459 11df Delete type=2 #5
+2023/04/26-23:22:44.459 11df Delete type=2 #7

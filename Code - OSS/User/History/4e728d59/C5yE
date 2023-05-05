@@ -1,0 +1,385 @@
+# Disabling annoying terminal help window 
+F1
+    ;
+
+    #releasing keys, so I won't end up calling something like super + m ...
+    #also it prevents from infinite loop of changing layouts
+#################################################################
+# SUPER + ... KEYS
+#################################################################
+
+#VS Code
+super + e
+    code
+
+#Browser
+super + r
+    librewolf
+
+#Conky-toggle
+super + c
+    killall conky
+
+super + shift + c
+    conky &
+
+#Htop
+super + l
+    betterlockscreen -l --text "Error 404:Desktop Crashed"
+
+#Rofi theme selector
+super + r
+    
+
+#power menu
+super + m
+    $HOME/.config/rofi/powermenu/powermenu.sh
+
+#rolfi menu
+super + a
+    ~/.config/rofi/launchers/colorful/launcher.sh
+#Pavucontrol
+super + v
+    pavucontrol
+
+#emoji selector
+super + x
+    emoji-picker
+
+#terminal
+super + t
+    alacritty
+
+#Xkill
+super + Escape
+    xkill
+
+#terminal default
+super + Return
+	kitty
+
+#Hide polybar
+super + y
+    polybar-msg cmd toggle
+
+#################################################################
+# SUPER + SHIFT KEYS
+#################################################################
+
+#File-Manager
+super + shift + Return
+	thunar
+
+# Keyboard dependent
+super + shift + KP_Enter
+	thunar
+
+#dmenu
+super + shift + d
+	dmenu_run -i -nb '#070a00' -nf '#31d702' -sb '#31d702' -sf '#070a00' -fn 'NotoMonoRegular:bold:pixelsize=14'
+
+
+#################################################################
+# SUPER + FUNCTION KEYS
+#################################################################
+
+# Vivaldi
+super + F1
+	~/.config/leftwm/themes/current/scripts/pavolume.sh --togmute
+
+# volume down
+super + F2
+	~/.config/leftwm/themes/current/scripts/pavolume.sh --down
+
+# volume up
+super + F3
+    ~/.config/leftwm/themes/current/scripts/pavolume.sh --up
+
+#Gimp
+super + F4
+    amixer set Capture toggle && amixer get Capture | grep '\[off\]' && notify-send "MIC switched OFF" || notify-send "MIC switched ON"
+
+#brightness decrease
+super + F5
+    brillo -q -U 5
+
+#brightness increase
+super + F6
+    brillo -q -A 5
+
+#Virtualbox
+super + F7
+    vmware
+
+#Thunar
+super + F8
+    thunar
+
+#Evolution
+super + F9
+    telegram-desktop
+
+#Spotify
+super + F10
+    chromium
+
+#Rofi Fullscreen
+super + F11
+    microsoft-edge-stable
+
+#obsidian
+super + F12
+    obsidian
+
+
+#################################################################
+# SUPER + ALT + KEYS
+#################################################################
+
+#reload sxhkd:
+super + alt + s
+	pkill -USR1 -x sxhkd
+
+#Picom Toggle
+ctrl + alt + o
+    ~/.config/leftwm/scripts/picom-toggle.sh
+
+#Chromium
+ctrl + alt + g
+    chromium -no-default-browser-check
+
+#Firefox
+ctrl + alt + f
+    firefox
+
+#Nitrogen
+ctrl + alt + i
+    nitrogen
+
+#user-logout
+ctrl + alt + k
+    loginctl kill-session $XDG_SESSION_ID
+
+#arcolinux-logout
+ctrl + alt + l
+    loginctl kill-session $XDG_SESSION_ID
+
+#Pamac-manager
+ctrl + alt + p
+    pamac-manager
+
+#Xfce4-settings-manager
+ctrl + alt + m
+     xfce4-settings-manager
+
+#Pulse Audio Control
+ctrl + alt + u
+     pavucontrol
+
+#Rofi theme selector
+ctrl + alt + r
+  rofi-theme-selector
+
+#Spotify
+ctrl + alt + s
+   spotify
+
+#urxvt
+ctrl + alt + Return
+    alacritty   
+
+#urxvt
+ctrl + alt + t
+    st
+
+#  ------------ bspwm hotkeys ------------ # 
+
+# quit/restart bspwm and sxhkd
+super + shift + r
+	killall xidlehook && killall sxhkd && bspc wm -r
+
+super + shift + Delete
+	bspc quit
+
+# close and kill
+super + {_,shift + }q
+	bspc node -{c,k}
+
+# alternate between the tiled and monocle layout
+super + space
+    bsp-layout cycle --layouts even,tiled,tall
+	
+
+
+# state/flags  
+
+# set the window state
+super + shift + a
+	bspc node -t tiled && bash ~/.config/polybar/launch.sh --cuts &
+
+super + shift + s
+	bspc node -t floating
+
+super + f
+	bspc node -t fullscreen && polybar-msg cmd toggle
+
+
+# focus the node in the given direction
+# super + {_,shift + }{h,j,k,l}
+# 	bspc node -{f,s} {west,south,north,east}
+
+# focus the node for the given path jump
+super + {p,b}
+	bspc node -f @{parent,brother}
+
+# focus the next/previous node in the current desktop
+super + {j,k}
+	bspc node -f {next,prev}.local
+
+# focus the next/previous desktop in the current monitor
+super + Tab
+	bspc desktop -f next.local
+    
+super + shift + Tab
+	bspc desktop -f prev.local
+
+# focus the last node/desktop
+super + w
+	bspc desktop -f last
+
+# focus the older or newer node in the focus history
+super + {o,i}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}' --follow
+
+# preselect ( select the direction you want the window to be opened in )
+
+# preselect the direction
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+# preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+super + ctrl + space
+	bspc node -p cancel
+
+# cancel the preselection for the focused desktop
+super + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+# move/resize
+
+# expand a window by moving one of its side outward
+super + shift + {Left,Right}
+	bspc node -z {left -20 0,left 20 0}
+	# bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# contract a window by moving one of its side inward
+super + shift + {Up,Down}
+	bspc node -z {top 0 -20,top 0 20}
+
+# move a floating window
+super + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+
+
+# -------------- take screenshots ------------- #
+
+#fullscreen screenshot save
+super + Print
+     maim "/home/$USER/Pictures/$(date).png"
+
+#cropped save
+super + shift + s
+      maim --select "/home/$USER/Pictures/$(date).png"
+
+#  clipboard fullscreen
+super + u
+     maim | xclip -selection clipboard -t image/png
+
+# clipboard cropped
+super + shift + u
+    maim --select | xclip -selection clipboard -t image/png
+
+
+
+# super + {_,shift + }{a,b,c,d,e,0}
+#       bspc {desktop -f,node -d} '^{1-5,5}' --follow 
+
+
+
+#################################################################
+#     MULTIMEDIA KEYS
+#################################################################
+
+#Raises volume
+XF86AudioRaiseVolume
+    ~/.config/leftwm/themes/current/scripts/pavolume.sh --up
+
+#Lowers volume
+XF86AudioLowerVolume
+    ~/.config/leftwm/themes/current/scripts/pavolume.sh --down
+
+#Mute
+XF86AudioMute
+    ~/.config/leftwm/themes/current/scripts/pavolume.sh --togmute
+
+
+#PLAY
+XF86AudioPlay
+    mpc toggle
+
+#Next
+XF86AudioNext
+    mpc next
+
+#previous
+XF86AudioPrev
+    mpc prev
+
+#Stop
+XF86AudioStop
+    mpc stop
+
+#Brightness up
+XF86MonBrightnessUp
+    xbacklight -inc 10
+
+#Brightness down
+XF86MonBrightnessDown
+    xbacklight -dec 10
+
+
+#Playerctl works for Pragha, Spotify and others
+#Delete the line for playerctl if you want to use mpc
+#and replace it with the corresponding code
+#mpc works for e.g.ncmpcpp
+#mpc toggle
+#mpc next
+#mpc prev
+#mpc stop
+
+# #PLAY
+# XF86AudioPlay
+#     playerctl play-pause
+
+# #Next
+# XF86AudioNext
+#     playerctl next
+
+# #previous
+# XF86AudioPrev
+#     playerctl previous
+
+# #Stop
+# XF86AudioStop
+#     playerctl stop

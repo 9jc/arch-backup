@@ -1,0 +1,6 @@
+2023/04/12-01:18:30.259 11b0 Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www-instagram-com.translate.goog_0.indexeddb.leveldb since it was missing.
+2023/04/12-01:18:30.262 11b0 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www-instagram-com.translate.goog_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/12-01:18:34.832 11b1 Level-0 table #5: started
+2023/04/12-01:18:34.833 11b1 Level-0 table #5: 2462 bytes OK
+2023/04/12-01:18:34.835 11b1 Delete type=0 #3
+2023/04/12-01:18:34.835 11b1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

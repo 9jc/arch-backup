@@ -1,0 +1,14 @@
+2022/11/11-20:43:47.036 16bb0b Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb since it was missing.
+2022/11/11-20:43:47.041 16bb0b Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/11-22:44:32.666 17b125 Level-0 table #5: started
+2022/11/11-22:44:32.716 17b125 Level-0 table #5: 746732 bytes OK
+2022/11/11-22:44:32.722 17b125 Delete type=0 #3
+2022/11/12-00:45:16.757 17b125 Level-0 table #7: started
+2022/11/12-00:45:16.776 17b125 Level-0 table #7: 737703 bytes OK
+2022/11/12-00:45:16.778 17b125 Delete type=0 #4
+2022/11/12-00:49:06.874 172477 Compacting 1@1 + 1@2 files
+2022/11/12-00:49:06.893 172477 Generated table #8@1: 126 keys, 5591 bytes
+2022/11/12-00:49:06.893 172477 Compacted 1@1 + 1@2 files => 5591 bytes
+2022/11/12-00:49:06.894 172477 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/11/12-00:49:06.895 172477 Delete type=2 #5
+2022/11/12-00:49:06.895 172477 Delete type=2 #7

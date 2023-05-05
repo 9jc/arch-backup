@@ -1,0 +1,6 @@
+2023/04/05-15:33:21.414 109817 Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_cloud.google.com_0.indexeddb.leveldb since it was missing.
+2023/04/05-15:33:21.419 109817 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_cloud.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/05-15:34:11.464 109817 Level-0 table #5: started
+2023/04/05-15:34:11.465 109817 Level-0 table #5: 1865 bytes OK
+2023/04/05-15:34:11.467 109817 Delete type=0 #3
+2023/04/05-15:34:11.467 109817 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

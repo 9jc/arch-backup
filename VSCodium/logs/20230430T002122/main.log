@@ -1,0 +1,4 @@
+2023-04-30 00:21:22.547 [info] update#ctor - updates are disabled as there is no update URL
+2023-04-30 00:21:23.779 [info] Starting extension host with pid 1906936 (fork() took 12 ms).
+2023-04-30 00:21:37.807 [warning] Sending IPC message to channel 'vscode:electron-main->shared-process=exit' for shared process that is destroyed
+2023-04-30 00:21:37.808 [info] Waiting for extension host with pid 1906936 to exit.

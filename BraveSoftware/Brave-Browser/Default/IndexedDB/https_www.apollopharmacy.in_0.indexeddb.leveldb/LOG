@@ -1,0 +1,14 @@
+2023/01/29-10:07:54.446 17d0 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.apollopharmacy.in_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/29-10:07:54.446 17d0 Recovering log #40
+2023/01/29-10:07:54.446 17d0 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.apollopharmacy.in_0.indexeddb.leveldb/000040.log 
+2023/01/29-10:07:54.446 17d0 Delete type=2 #39
+2023/01/29-10:07:55.107 17de Level-0 table #45: started
+2023/01/29-10:07:55.109 17de Level-0 table #45: 1691 bytes OK
+2023/01/29-10:07:55.110 17de Delete type=0 #40
+2023/01/29-10:07:55.110 17de Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 1528 : 1
+2023/01/29-10:07:55.110 17de Compacting 1@0 + 1@1 files
+2023/01/29-10:07:55.112 17de Generated table #46@0: 396 keys, 6422 bytes
+2023/01/29-10:07:55.112 17de Compacted 1@0 + 1@1 files => 6422 bytes
+2023/01/29-10:07:55.116 17de compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/01/29-10:07:55.116 17de Delete type=2 #45
+2023/01/29-10:07:55.116 17de Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 1528 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)

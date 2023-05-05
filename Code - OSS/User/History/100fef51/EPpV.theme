@@ -1,0 +1,96 @@
+# Colors should be in 6 or 2 character hexadecimal or single spaced rgb decimal: "#RRGGBB", "#BW" or "0-255 0-255 0-255"
+# example for white: "#ffffff", "#ff" or "255 255 255".
+
+# All graphs and meters can be gradients
+# For single color graphs leave "mid" and "end" variable empty.
+# Use "start" and "end" variables for two color gradient
+# Use "start", "mid" and "end" for three color gradient
+
+
+pywall_fg='#FFFFFF'
+#pywall_bg=''
+pywall_sh14='#BA4505'
+#pywall_sh13=''
+#pywall_sh12=''
+#pywall_sh11=''
+#pywall_sh10=''
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#1C1C31"
+
+# Main text color
+theme[main_fg]="#${pywall_fg}"
+
+# Title color for boxes
+theme[title]="${pywall_fg}"
+
+# Higlight color for keyboard shortcuts
+theme[hi_fg]="${pywall_theme}"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#100E23"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#FFE6B3"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#585273"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#2D2B40"
+
+# Cpu box outline color
+theme[cpu_box]="#585273"
+
+# Memory/disks box outline color
+theme[mem_box]="#585273"
+
+# Net up/down box outline color
+theme[net_box]="#585273"
+
+# Processes box outline color
+theme[proc_box]="#585273"
+
+# Box divider line and small boxes line color
+theme[div_line]="#3E3859"
+
+# Temperature graph colors
+theme[temp_start]="#A1EFD3"
+theme[temp_mid]="${pywall_theme}"
+theme[temp_end]="#FFE6B3"
+
+# CPU graph colors
+theme[cpu_start]="${pywall_theme}"
+theme[cpu_end]="#FFE6B3"
+
+# Mem/Disk free meter
+# End is hight start is low
+theme[free_end]="${pywall_theme}"
+theme[free_mid]="#FFE6B3"
+theme[free_start]="#F48FB1"
+
+# Mem/Disk cached meter
+# End is hight start is low
+theme[cached_start]="${pywall_theme}"
+theme[cached_mid]="#FFE6B3"
+theme[cached_end]="#F48FB1"
+
+# Mem/Disk available meter
+# End is hight start is low
+theme[available_end]="${pywall_theme}"
+theme[available_mid]="#FFE6B3"
+theme[available_start]="#F48FB1"
+
+# Mem/Disk used meter
+theme[used_start]="${pywall_theme}"
+theme[used_end]="#FFE6B3"
+
+# Download graph colors
+theme[download_start]="#91DDFF"
+theme[download_mid]="#A1EFD3"
+theme[download_end]="${pywall_theme}"
+
+# Upload graph colors
+theme[upload_start]="#91DDFF"
+theme[upload_mid]="#A1EFD3"
+theme[upload_end]="${pywall_theme}"
+

@@ -1,0 +1,15 @@
+2023/03/09-22:02:51.695 302e41 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.flipkart.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/09-22:02:51.695 302e41 Recovering log #7
+2023/03/09-22:02:51.695 302e41 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.flipkart.com_0.indexeddb.leveldb/000007.log 
+2023/03/09-22:13:24.682 302e42 Level-0 table #12: started
+2023/03/09-22:13:24.683 302e42 Level-0 table #12: 3393 bytes OK
+2023/03/09-22:13:24.685 302e42 Delete type=0 #7
+2023/03/09-22:13:24.686 302e42 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/03/09-22:13:24.686 302e42 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0d\x00c\x00l\x00i\x00e\x00n\x00t\x00S\x00e\x00s\x00s\x00i\x00o\x00n' @ 268 : 1
+2023/03/09-22:13:24.686 302e42 Compacting 1@1 + 1@2 files
+2023/03/09-22:13:24.687 302e42 Generated table #13@1: 23 keys, 683 bytes
+2023/03/09-22:13:24.688 302e42 Compacted 1@1 + 1@2 files => 683 bytes
+2023/03/09-22:13:24.689 302e42 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/03/09-22:13:24.689 302e42 Delete type=2 #12
+2023/03/09-22:13:24.689 302e42 Delete type=2 #9
+2023/03/09-22:13:24.689 302e42 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0d\x00c\x00l\x00i\x00e\x00n\x00t\x00S\x00e\x00s\x00s\x00i\x00o\x00n' @ 268 : 1 .. (end); will stop at (end)

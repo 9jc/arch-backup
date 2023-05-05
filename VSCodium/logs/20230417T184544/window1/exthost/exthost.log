@@ -1,0 +1,72 @@
+2023-04-17 18:45:46.194 [info] Extension host with pid 53859 started
+2023-04-17 18:45:46.338 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-17 18:45:46.339 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-17 18:45:46.399 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-17 18:45:46.400 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-17 18:45:46.486 [info] Eager extensions activated
+2023-04-17 18:45:46.508 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-17 18:45:46.509 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-17 18:45:46.509 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2023-04-17 18:47:17.948 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2023-04-17 18:47:21.487 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2023-04-17 18:47:21.659 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-04-17 18:47:21.704 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-04-17 18:47:53.449 [error] [redhat.java] provider FAILED
+2023-04-17 18:47:53.453 [error] Error: The request (id: 37, method: 'textDocument/hover') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861668
+	at re (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861962)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856746
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856766)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-17 18:48:19.079 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-04-17 18:48:25.896 [error] [redhat.java] provider FAILED
+2023-04-17 18:48:25.901 [error] Error: The request (id: 114, method: 'textDocument/hover') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861668
+	at re (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861962)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856746
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856766)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-17 18:50:06.907 [error] [redhat.java] provider FAILED
+2023-04-17 18:50:06.907 [error] Error: The request (id: 203, method: 'textDocument/hover') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861668
+	at re (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861962)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856746
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856766)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-17 18:50:38.448 [error] [redhat.java] provider FAILED
+2023-04-17 18:50:38.453 [error] Error: The request (id: 267, method: 'textDocument/hover') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861668
+	at re (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861962)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856746
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856766)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-17 18:54:24.855 [error] [redhat.java] provider FAILED
+2023-04-17 18:54:24.855 [error] Error: Internal error.
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861668
+	at re (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861962)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856746
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856766)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-17 18:54:57.890 [error] [redhat.java] provider FAILED
+2023-04-17 18:54:57.891 [error] Error: The request (id: 454, method: 'textDocument/hover') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861668
+	at re (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861962)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856746
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856766)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-17 18:55:02.463 [error] [redhat.java] provider FAILED
+2023-04-17 18:55:02.463 [error] Error: The request (id: 477, method: 'textDocument/hover') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861668
+	at re (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861962)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856746
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856766)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-17 18:56:50.247 [error] [redhat.java] provider FAILED
+2023-04-17 18:56:50.247 [error] Error: The request (id: 635, method: 'textDocument/hover') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861668
+	at re (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:861962)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856746
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64/dist/extension.js:2:856766)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-18 02:20:06.589 [info] Extension host terminating: renderer closed the socket
+2023-04-18 02:20:06.603 [info] Extension host with pid 53859 exiting with code 0

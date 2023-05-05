@@ -1,0 +1,15 @@
+2022/04/21-16:14:12.233 11643 Reusing MANIFEST /home/i0xfce/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/21-16:14:12.233 11643 Recovering log #20
+2022/04/21-16:14:12.248 11643 Reusing old log /home/i0xfce/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/000020.log 
+2022/04/21-16:18:12.722 11e93 Compacting 1@0 + 1@1 files
+2022/04/21-16:18:12.736 11e93 Generated table #23@0: 14139 keys, 704758 bytes
+2022/04/21-16:18:12.736 11e93 Compacted 1@0 + 1@1 files => 704758 bytes
+2022/04/21-16:18:12.738 11e93 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/21-16:18:12.738 11e93 Delete type=2 #19
+2022/04/21-16:18:12.738 11e93 Delete type=2 #21
+2022/04/21-16:29:34.705 11e93 Compacting 1@1 + 1@2 files
+2022/04/21-16:29:34.720 11e93 Generated table #24@1: 6931 keys, 645795 bytes
+2022/04/21-16:29:34.720 11e93 Compacted 1@1 + 1@2 files => 645795 bytes
+2022/04/21-16:29:34.722 11e93 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/21-16:29:34.722 11e93 Delete type=2 #5
+2022/04/21-16:29:34.722 11e93 Delete type=2 #23

@@ -1,0 +1,7 @@
+Telemetry level is off
+Experiments are disabled, only manually opted experiments are active.
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+[ERROR 2023-2-22 21:20:7.690]: Not allowed to refresh environments in an untrusted workspace
+Only Pylance is supported in untrusted workspaces, setting language server to None.
+Starting Jedi language server for default.

@@ -1,0 +1,5 @@
+Telemetry level is off
+Experiments are disabled, only manually opted experiments are active.
+> /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python
+Starting Jedi language server for scripts.

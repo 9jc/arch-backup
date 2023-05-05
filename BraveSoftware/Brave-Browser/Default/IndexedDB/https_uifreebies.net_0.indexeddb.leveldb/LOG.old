@@ -1,0 +1,13 @@
+2022/10/08-19:33:04.885 a1e Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_uifreebies.net_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/08-19:33:04.885 a1e Recovering log #10
+2022/10/08-19:33:04.885 a1e Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_uifreebies.net_0.indexeddb.leveldb/000010.log 
+2022/10/08-19:33:05.524 a1e Level-0 table #14: started
+2022/10/08-19:33:05.525 a1e Level-0 table #14: 553 bytes OK
+2022/10/08-19:33:05.526 a1e Delete type=0 #10
+2022/10/08-19:33:05.526 a1e Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 47 : 1
+2022/10/08-19:33:05.526 a1e Compacting 1@0 + 1@1 files
+2022/10/08-19:33:05.527 a1e Generated table #15@0: 4 keys, 259 bytes
+2022/10/08-19:33:05.527 a1e Compacted 1@0 + 1@1 files => 259 bytes
+2022/10/08-19:33:05.528 a1e compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/10/08-19:33:05.528 a1e Delete type=2 #14
+2022/10/08-19:33:05.528 a1e Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 47 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

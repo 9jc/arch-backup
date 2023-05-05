@@ -1,0 +1,33 @@
+2023/04/26-08:30:56.822 10ec54 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/26-08:30:56.822 10ec54 Recovering log #6
+2023/04/26-08:30:56.826 10ec54 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000006.log 
+2023/04/26-08:31:02.908 10ec55 Level-0 table #10: started
+2023/04/26-08:31:02.911 10ec55 Level-0 table #10: 96761 bytes OK
+2023/04/26-08:31:02.912 10ec55 Delete type=0 #6
+2023/04/26-08:31:02.913 10ec54 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 3947 : 1
+2023/04/26-08:31:02.913 10ec54 Compacting 1@0 + 1@1 files
+2023/04/26-08:31:02.916 10ec54 Generated table #11@0: 1462 keys, 19105 bytes
+2023/04/26-08:31:02.916 10ec54 Compacted 1@0 + 1@1 files => 19105 bytes
+2023/04/26-08:31:02.917 10ec54 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/04/26-08:31:02.917 10ec54 Delete type=2 #10
+2023/04/26-08:31:02.917 10ec54 Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 3947 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/04/26-08:31:04.921 10ec54 Level-0 table #13: started
+2023/04/26-08:31:04.922 10ec54 Level-0 table #13: 256 bytes OK
+2023/04/26-08:31:04.923 10ec54 Delete type=0 #9
+2023/04/26-08:31:04.923 10ec54 Delete type=2 #7
+2023/04/26-08:31:04.923 10ec54 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x0d\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 3961 : 0
+2023/04/26-08:31:04.923 10ec54 Compacting 1@0 + 1@1 files
+2023/04/26-08:31:04.925 10ec54 Generated table #14@0: 1464 keys, 19111 bytes
+2023/04/26-08:31:04.925 10ec54 Compacted 1@0 + 1@1 files => 19111 bytes
+2023/04/26-08:31:04.926 10ec54 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/04/26-08:31:04.926 10ec54 Delete type=2 #13
+2023/04/26-08:31:04.926 10ec54 Delete type=2 #11
+2023/04/26-08:31:04.926 10ec54 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x0d\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 3961 : 0 .. (end); will stop at (end)
+2023/04/26-08:31:04.926 10ec54 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x02"\x01$\x008\x00f\x00e\x00f\x009\x00e\x009\x00e\x00-\x001\x006\x007\x006\x00-\x004\x00e\x00c\x004\x00-\x008\x006\x000\x00b\x00-\x000\x005\x00f\x00e\x004\x00b\x00f\x004\x004\x00d\x00a\x006\x00\x03\x00\x00\x00\x00\x00\xc0P@' @ 3847 : 1
+2023/04/26-08:31:04.926 10ec54 Compacting 1@1 + 1@2 files
+2023/04/26-08:31:04.927 10ec54 Generated table #15@1: 258 keys, 8560 bytes
+2023/04/26-08:31:04.927 10ec54 Compacted 1@1 + 1@2 files => 8560 bytes
+2023/04/26-08:31:04.929 10ec54 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/26-08:31:04.929 10ec54 Delete type=2 #5
+2023/04/26-08:31:04.929 10ec54 Delete type=2 #14
+2023/04/26-08:31:04.929 10ec54 Manual compaction at level-1 from '\x00\x02\x02"\x01$\x008\x00f\x00e\x00f\x009\x00e\x009\x00e\x00-\x001\x006\x007\x006\x00-\x004\x00e\x00c\x004\x00-\x008\x006\x000\x00b\x00-\x000\x005\x00f\x00e\x004\x00b\x00f\x004\x004\x00d\x00a\x006\x00\x03\x00\x00\x00\x00\x00\xc0P@' @ 3847 : 1 .. (end); will stop at (end)

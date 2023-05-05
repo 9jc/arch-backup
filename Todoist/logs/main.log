@@ -1,0 +1,529 @@
+[2022-08-25 17:10:53.751] [info] Checking for update
+[2022-08-25 17:10:53.942] [info] Generated new staging user ID: f2246c43-f1e8-5edd-b7f5-8bfc4e5c4564
+[2022-08-25 17:10:55.131] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-08-25 17:10:55.132] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-08-25 17:10:57.019] [info] File has 3738 changed blocks
+[2022-08-25 17:10:57.046] [info] Full: 89,490.01 KB, To download: 77,043.98 KB (86%)
+[2022-08-25 17:11:22.004] [info] New version 1.0.9 has been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage
+[2022-08-25 22:47:51.917] [info] Checking for update
+[2022-08-25 22:47:53.306] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-08-25 22:47:53.307] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-08-25 22:47:53.543] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage).
+[2022-08-25 23:16:18.043] [info] Auto install update on quit
+[2022-08-25 23:16:18.044] [info] Install: isSilent: true, isForceRunAfter: false
+[2022-08-25 23:16:18.044] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todoisWHBKwg/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_todoisWHBKwg/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_todoisWHBKwg/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_todoisWHBKwg/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todoisWHBKwg/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:63:25)
+    at App.<anonymous> (/tmp/.mount_todoisWHBKwg/resources/app.asar/webpack/electron/electron.js:1:30587)
+[2022-08-26 00:04:44.463] [info] Checking for update
+[2022-08-26 00:04:46.888] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-08-26 00:04:46.889] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-08-26 00:04:47.230] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage).
+[2022-08-26 00:06:15.245] [info] Auto install update on quit
+[2022-08-26 00:06:15.247] [info] Install: isSilent: true, isForceRunAfter: false
+[2022-08-26 00:06:15.249] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todoisGj8EZX/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_todoisGj8EZX/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_todoisGj8EZX/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_todoisGj8EZX/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todoisGj8EZX/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:63:25)
+    at App.<anonymous> (/tmp/.mount_todoisGj8EZX/resources/app.asar/webpack/electron/electron.js:1:30587)
+[2022-08-26 08:25:02.071] [info] Checking for update
+[2022-08-26 08:25:04.511] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-08-26 08:25:04.512] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-08-26 08:25:04.724] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage).
+[2022-08-27 00:26:19.546] [info] Auto install update on quit
+[2022-08-27 00:26:19.547] [info] Install: isSilent: true, isForceRunAfter: false
+[2022-08-27 00:26:19.551] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todoisby1L5t/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_todoisby1L5t/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_todoisby1L5t/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_todoisby1L5t/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todoisby1L5t/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:63:25)
+    at App.<anonymous> (/tmp/.mount_todoisby1L5t/resources/app.asar/webpack/electron/electron.js:1:30587)
+[2022-08-27 13:38:12.728] [info] Checking for update
+[2022-08-27 13:38:14.011] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-08-27 13:38:14.013] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-08-27 13:38:14.243] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage).
+[2022-08-27 14:24:56.589] [info] Checking for update
+[2022-08-27 14:24:57.889] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-08-27 14:24:57.890] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-08-27 14:24:58.185] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage).
+[2022-08-29 14:29:01.562] [info] Auto install update on quit
+[2022-08-29 14:29:01.564] [info] Install: isSilent: true, isForceRunAfter: false
+[2022-08-29 14:29:01.565] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todoiskIF5cj/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_todoiskIF5cj/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_todoiskIF5cj/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_todoiskIF5cj/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todoiskIF5cj/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:63:25)
+    at App.<anonymous> (/tmp/.mount_todoiskIF5cj/resources/app.asar/webpack/electron/electron.js:1:30587)
+[2022-08-30 00:29:42.137] [info] Checking for update
+[2022-08-30 00:29:42.439] [error] Error: Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-08-30 17:11:07.410] [info] Checking for update
+[2022-08-30 17:11:08.413] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-08-30 17:11:08.414] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-08-30 17:11:08.695] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage).
+[2022-08-30 17:11:12.760] [info] Auto install update on quit
+[2022-08-30 17:11:12.761] [info] Install: isSilent: true, isForceRunAfter: false
+[2022-08-30 17:11:12.763] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todoisAQBmlK/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_todoisAQBmlK/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_todoisAQBmlK/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_todoisAQBmlK/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todoisAQBmlK/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:63:25)
+    at App.<anonymous> (/tmp/.mount_todoisAQBmlK/resources/app.asar/webpack/electron/electron.js:1:30587)
+[2022-08-30 17:24:13.717] [info] Checking for update
+[2022-08-30 17:24:19.963] [info] Checking for update
+[2022-08-30 17:24:21.664] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-08-30 17:24:21.665] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-08-30 17:24:21.973] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage).
+[2022-08-31 01:33:03.193] [info] Auto install update on quit
+[2022-08-31 01:33:03.196] [info] Install: isSilent: true, isForceRunAfter: false
+[2022-08-31 01:33:03.199] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todois3Lq2wr/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_todois3Lq2wr/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_todois3Lq2wr/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_todois3Lq2wr/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todois3Lq2wr/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:63:25)
+[2022-08-31 01:34:20.942] [info] Checking for update
+[2022-09-01 02:10:47.857] [info] Checking for update
+[2022-09-01 02:10:49.165] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-09-01 02:10:49.165] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-09-01 02:10:50.645] [info] File has 3738 changed blocks
+[2022-09-01 02:10:50.651] [info] Full: 89,490.01 KB, To download: 77,043.98 KB (86%)
+[2022-09-01 02:11:35.111] [info] New version 1.0.9 has been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage
+[2022-09-06 19:31:52.142] [info] Auto install update on quit
+[2022-09-06 19:31:52.148] [info] Install: isSilent: true, isForceRunAfter: false
+[2022-09-06 19:31:52.155] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todoisNLAkLR/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_todoisNLAkLR/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_todoisNLAkLR/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_todoisNLAkLR/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todoisNLAkLR/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:63:25)
+    at App.<anonymous> (/tmp/.mount_todoisNLAkLR/resources/app.asar/webpack/electron/electron.js:1:30587)
+[2022-09-06 23:41:54.681] [info] Checking for update
+[2022-09-06 23:41:56.997] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-09-06 23:41:56.999] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-09-06 23:42:08.773] [info] File has 3738 changed blocks
+[2022-09-06 23:42:08.826] [info] Full: 89,490.01 KB, To download: 77,043.98 KB (86%)
+[2022-09-06 23:42:16.753] [error] Cannot download differentially, fallback to full download: Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-09-06 23:42:16.858] [error] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-09-08 05:39:17.322] [info] Checking for update
+[2022-09-08 05:39:17.870] [error] Error: Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-09-08 23:36:45.813] [info] Checking for update
+[2022-09-08 23:36:47.358] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-09-08 23:36:47.359] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-09-09 03:01:40.354] [info] Checking for update
+[2022-09-09 03:01:42.055] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-09-09 03:01:42.056] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-09-09 03:08:06.567] [info] Checking for update
+[2022-09-09 03:08:07.534] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-09-09 03:08:07.535] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-09-09 19:16:01.627] [info] Checking for update
+[2022-09-09 19:16:02.210] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-09-09 19:16:02.211] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-09-09 19:16:03.903] [info] File has 3738 changed blocks
+[2022-09-09 19:16:03.911] [info] Full: 89,490.01 KB, To download: 77,043.98 KB (86%)
+[2022-09-09 19:16:21.346] [info] Checking for update
+[2022-09-09 19:16:21.919] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-09-09 19:16:21.920] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-09-09 19:16:22.174] [info] File has 3738 changed blocks
+[2022-09-09 19:16:22.207] [info] Full: 89,490.01 KB, To download: 77,043.98 KB (86%)
+[2022-09-09 19:16:58.426] [info] New version 1.0.9 has been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage
+[2022-09-09 19:18:12.913] [info] Auto install update on quit
+[2022-09-09 19:18:12.914] [info] Install: isSilent: true, isForceRunAfter: false
+[2022-09-09 19:18:12.915] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todoistKBJpl/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_todoistKBJpl/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_todoistKBJpl/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_todoistKBJpl/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todoistKBJpl/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:63:25)
+    at App.<anonymous> (/tmp/.mount_todoistKBJpl/resources/app.asar/webpack/electron/electron.js:1:30587)
+[2022-09-11 04:08:40.945] [info] Checking for update
+[2022-09-11 04:08:42.653] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-09-11 04:08:42.653] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-09-11 04:08:43.141] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage).
+[2022-09-11 04:30:20.908] [info] Checking for update
+[2022-09-11 04:30:22.616] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-09-11 04:30:22.617] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-09-11 04:30:23.103] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage).
+[2022-09-11 04:30:24.984] [info] Auto install update on quit
+[2022-09-11 04:30:24.985] [info] Install: isSilent: true, isForceRunAfter: false
+[2022-09-11 04:30:24.987] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todoisarihWr/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:146:24)
+    at AppImageUpdater.install (/tmp/.mount_todoisarihWr/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:71:19)
+    at /tmp/.mount_todoisarihWr/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:104:12
+    at App.<anonymous> (/tmp/.mount_todoisarihWr/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:62:44)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todoisarihWr/resources/app.asar/node_modules/@sentry/electron/dist/main/integrations/electron.js:63:25)
+    at App.<anonymous> (/tmp/.mount_todoisarihWr/resources/app.asar/webpack/electron/electron.js:1:30587)
+[2022-09-11 09:23:09.558] [info] Checking for update
+[2022-09-11 10:24:48.812] [info] Checking for update
+[2022-09-11 10:24:49.662] [info] Found version 1.0.9 (url: Todoist-1.0.9.AppImage)
+[2022-09-11 10:24:49.663] [info] Downloading update from Todoist-1.0.9.AppImage
+[2022-09-11 10:24:50.091] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.0.9.AppImage).
+[2022-09-12 11:26:47.362] [info] Checking for update
+[2022-09-12 11:26:48.881] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-09-15 06:15:25.926] [info] Checking for update
+[2022-09-15 06:15:28.322] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-09-16 16:32:42.546] [info] Checking for update
+[2022-09-16 16:32:42.847] [error] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-09-19 14:31:17.718] [info] Checking for update
+[2022-09-19 14:31:18.657] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-09-21 21:19:22.548] [info] Checking for update
+[2022-09-21 21:19:23.337] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-09-24 11:21:42.704] [info] Checking for update
+[2022-09-24 11:21:43.103] [error] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-09-26 15:51:19.687] [info] Checking for update
+[2022-09-26 23:25:33.298] [info] Checking for update
+[2022-09-26 23:25:34.198] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-10-05 22:35:55.326] [info] Checking for update
+[2022-10-05 22:35:56.250] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-10-07 00:50:17.851] [info] Checking for update
+[2022-10-07 00:50:18.745] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-10-08 19:01:26.415] [info] Checking for update
+[2022-10-08 19:01:27.026] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-10-10 21:36:04.394] [info] Checking for update
+[2022-10-10 21:36:05.406] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-10-11 17:27:12.846] [info] Checking for update
+[2022-10-11 17:27:13.469] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-10-13 13:44:12.888] [info] Checking for update
+[2022-10-13 13:44:13.692] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-10-13 15:01:30.119] [info] Checking for update
+[2022-10-13 15:01:31.157] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-10-13 19:23:16.652] [info] Checking for update
+[2022-10-13 19:23:17.574] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-10-17 19:25:18.019] [info] Checking for update
+[2022-10-17 19:25:18.602] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-10-22 23:06:58.394] [info] Checking for update
+[2022-10-22 23:08:31.828] [error] Error: Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-10-28 13:09:43.820] [info] Checking for update
+[2022-10-28 13:09:44.570] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-10-29 23:02:51.337] [info] Checking for update
+[2022-10-29 23:02:52.261] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-10-30 13:38:46.953] [info] Checking for update
+[2022-10-30 13:38:47.252] [error] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-11-01 10:22:04.776] [info] Checking for update
+[2022-11-01 10:22:05.226] [error] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-11-01 13:52:43.025] [info] Checking for update
+[2022-11-01 13:52:43.831] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-05 13:28:03.645] [info] Checking for update
+[2022-11-05 13:28:04.674] [error] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-11-05 14:19:13.046] [info] Checking for update
+[2022-11-05 14:19:14.079] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-07 03:12:57.866] [info] Checking for update
+[2022-11-07 03:12:58.362] [error] Error: Error: net::ERR_CERT_AUTHORITY_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-11-07 16:26:06.548] [info] Checking for update
+[2022-11-07 16:26:07.492] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-07 16:27:55.824] [info] Checking for update
+[2022-11-07 16:27:56.514] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-09 19:15:44.118] [info] Checking for update
+[2022-11-09 19:15:44.843] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-12 14:16:46.815] [info] Checking for update
+[2022-11-12 14:16:47.466] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-14 20:15:00.491] [info] Checking for update
+[2022-11-14 20:15:01.232] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-15 00:13:21.641] [info] Checking for update
+[2022-11-15 00:13:22.344] [error] Error: Error: net::ERR_CERT_AUTHORITY_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-11-15 00:14:39.581] [info] Checking for update
+[2022-11-15 00:14:40.390] [error] Error: Error: net::ERR_CERT_AUTHORITY_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-11-18 18:05:26.945] [info] Checking for update
+[2022-11-18 18:05:27.725] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-21 17:10:03.009] [info] Checking for update
+[2022-11-21 17:10:08.125] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-21 17:53:55.628] [info] Checking for update
+[2022-11-21 17:53:56.180] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-23 15:22:27.666] [info] Checking for update
+[2022-11-23 15:22:28.351] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-27 21:29:32.213] [info] Checking for update
+[2022-11-27 21:29:32.786] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-27 22:24:03.276] [info] Checking for update
+[2022-11-27 22:24:03.823] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-11-30 07:35:06.332] [info] Checking for update
+[2022-11-30 07:35:06.886] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-12-05 10:29:14.395] [info] Checking for update
+[2022-12-05 10:29:14.919] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-12-06 23:07:25.994] [info] Checking for update
+[2022-12-06 23:07:26.741] [error] Error: Error: net::ERR_CERT_AUTHORITY_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2022-12-10 09:38:33.134] [info] Checking for update
+[2022-12-10 09:38:33.870] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-12-11 13:41:21.960] [info] Checking for update
+[2022-12-11 13:41:22.899] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-12-14 11:34:35.440] [info] Checking for update
+[2022-12-14 11:34:35.999] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-12-15 22:16:50.980] [info] Checking for update
+[2022-12-15 22:16:51.634] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-12-17 17:04:20.156] [info] Checking for update
+[2022-12-17 17:04:21.044] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2022-12-20 15:41:56.629] [info] Checking for update
+[2023-01-29 10:05:32.165] [info] Checking for update
+[2023-01-29 10:05:32.672] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-02-02 18:23:07.234] [info] Checking for update
+[2023-02-02 18:23:09.560] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-02-07 18:52:58.771] [info] Checking for update
+[2023-02-07 18:52:59.583] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-02-11 07:54:15.498] [info] Checking for update
+[2023-02-11 07:54:16.014] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-02-11 19:34:45.546] [info] Checking for update
+[2023-02-11 19:34:49.193] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-02-12 16:52:33.330] [info] Checking for update
+[2023-02-18 09:49:17.625] [info] Checking for update
+[2023-02-18 09:49:18.134] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-02-21 12:50:55.551] [info] Checking for update
+[2023-02-21 12:50:56.161] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-02-25 08:23:31.132] [info] Checking for update
+[2023-02-25 08:23:35.734] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-02-27 04:14:00.212] [info] Checking for update
+[2023-02-27 04:14:00.701] [error] Error: Error: net::ERR_CERT_AUTHORITY_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2023-03-04 18:05:18.301] [info] Checking for update
+[2023-03-04 18:05:18.971] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-03-07 11:08:11.076] [info] Checking for update
+[2023-03-07 11:08:11.591] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-03-07 19:14:38.007] [info] Checking for update
+[2023-03-07 19:14:38.525] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-03-12 13:10:02.405] [info] Checking for update
+[2023-03-12 13:10:03.196] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-03-19 13:58:16.562] [info] Checking for update
+[2023-03-19 13:58:18.014] [error] Error: Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2023-03-20 21:03:53.005] [info] Checking for update
+[2023-03-20 21:03:55.092] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-03-22 13:37:35.513] [info] Checking for update
+[2023-03-22 13:37:36.395] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-03-22 20:14:48.329] [info] Checking for update
+[2023-03-22 20:14:49.254] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-03-27 21:27:31.177] [info] Checking for update
+[2023-03-27 21:27:31.998] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-04-06 18:54:02.221] [info] Checking for update
+[2023-04-06 18:54:04.130] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-04-07 18:45:57.780] [info] Checking for update
+[2023-04-07 18:45:58.722] [info] Update for version 1.0.9 is not available (latest version: 1.0.9, downgrade is disallowed).
+[2023-04-10 19:48:58.837] [info] Checking for update
+[2023-04-17 16:28:10.105] [info] Checking for update
+[2023-04-17 16:28:10.631] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-04-17 16:28:10.631] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-04-17 16:28:10.679] [info] File has 4367 changed blocks
+[2023-04-17 16:28:10.706] [info] Full: 88,702.78 KB, To download: 88,230.63 KB (99%)
+[2023-04-17 16:28:14.638] [info] New version 1.1.2 has been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage
+[2023-04-17 18:12:19.315] [info] Checking for update
+[2023-04-17 18:12:20.389] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-04-17 18:12:20.389] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-04-17 18:12:20.779] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).
+[2023-04-17 18:12:22.233] [info] Auto install update on quit
+[2023-04-17 18:12:22.233] [info] Install: isSilent: true, isForceRunAfter: false
+[2023-04-17 18:12:22.235] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at Object.unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todois973igE/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:76:14)
+    at AppImageUpdater.install (/tmp/.mount_todois973igE/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:52:25)
+    at /tmp/.mount_todois973igE/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:83:18
+    at App.<anonymous> (/tmp/.mount_todois973igE/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:35:48)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todois973igE/resources/app.asar/node_modules/@sentry/electron/main/integrations/electron-breadcrumbs.js:121:20)
+    at MainProcessSession.<anonymous> (/tmp/.mount_todois973igE/resources/app.asar/node_modules/@sentry/electron/main/integrations/main-process-session.js:28:28)
+[2023-04-19 14:30:59.446] [info] Checking for update
+[2023-04-19 14:30:59.726] [error] Error: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2023-04-21 13:45:42.927] [info] Checking for update
+[2023-04-21 13:45:43.447] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-04-21 13:45:43.448] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-04-21 13:45:44.366] [info] File has 4367 changed blocks
+[2023-04-21 13:45:44.372] [info] Full: 88,702.78 KB, To download: 88,230.63 KB (99%)
+[2023-04-22 16:16:25.317] [info] Checking for update
+[2023-04-22 16:17:56.436] [error] Error: Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7068)
+    at SimpleURLLoaderWrapper.emit (node:events:394:28)
+    at SimpleURLLoaderWrapper.emit (node:domain:475:12)
+[2023-04-24 07:27:16.478] [info] Checking for update
+[2023-04-24 07:27:17.384] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-04-24 07:27:17.385] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-04-24 07:27:18.329] [info] File has 4367 changed blocks
+[2023-04-24 07:27:18.354] [info] Full: 88,702.78 KB, To download: 88,230.63 KB (99%)
+[2023-04-26 17:03:43.967] [info] Checking for update
+[2023-04-26 17:03:44.808] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-04-26 17:03:44.809] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-04-26 17:03:46.433] [info] File has 4367 changed blocks
+[2023-04-26 17:03:46.453] [info] Full: 88,702.78 KB, To download: 88,230.63 KB (99%)
+[2023-04-26 22:04:26.607] [info] Checking for update
+[2023-04-26 22:04:27.356] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-04-26 22:04:27.357] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-04-26 22:04:27.403] [info] File has 4367 changed blocks
+[2023-04-26 22:04:27.444] [info] Full: 88,702.78 KB, To download: 88,230.63 KB (99%)
+[2023-04-26 22:04:34.569] [info] New version 1.1.2 has been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage
+[2023-04-27 14:08:47.595] [info] Checking for update
+[2023-04-30 14:22:04.339] [info] Checking for update
+[2023-04-30 14:22:05.159] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-04-30 14:22:05.160] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-04-30 14:22:05.601] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).
+[2023-04-30 18:40:51.808] [info] Checking for update
+[2023-04-30 18:40:53.328] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-04-30 18:40:53.329] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-04-30 18:40:53.770] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).
+[2023-05-01 11:43:14.820] [info] Checking for update
+[2023-05-01 11:43:15.643] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-05-01 11:43:15.645] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-05-01 11:43:16.608] [info] File has 4367 changed blocks
+[2023-05-01 11:43:16.617] [info] Full: 88,702.78 KB, To download: 88,230.63 KB (99%)
+[2023-05-01 11:44:57.048] [info] New version 1.1.2 has been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage
+[2023-05-01 13:16:14.286] [info] Auto install update on quit
+[2023-05-01 13:16:14.286] [info] Install: isSilent: true, isForceRunAfter: false
+[2023-05-01 13:16:14.287] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at Object.unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todoisOW8SeW/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:76:14)
+    at AppImageUpdater.install (/tmp/.mount_todoisOW8SeW/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:52:25)
+    at /tmp/.mount_todoisOW8SeW/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:83:18
+    at App.<anonymous> (/tmp/.mount_todoisOW8SeW/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:35:48)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todoisOW8SeW/resources/app.asar/node_modules/@sentry/electron/main/integrations/electron-breadcrumbs.js:121:20)
+    at MainProcessSession.<anonymous> (/tmp/.mount_todoisOW8SeW/resources/app.asar/node_modules/@sentry/electron/main/integrations/main-process-session.js:28:28)
+[2023-05-01 13:40:37.099] [info] Checking for update
+[2023-05-01 13:40:38.380] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-05-01 13:40:38.380] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-05-01 13:40:38.589] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).
+[2023-05-01 22:51:33.510] [info] Checking for update
+[2023-05-01 22:51:34.674] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-05-01 22:51:34.674] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-05-01 22:51:34.969] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).
+[2023-05-01 22:51:57.660] [info] Auto install update on quit
+[2023-05-01 22:51:57.661] [info] Install: isSilent: true, isForceRunAfter: false
+[2023-05-01 22:51:57.662] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at Object.unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todoisps4f1W/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:76:14)
+    at AppImageUpdater.install (/tmp/.mount_todoisps4f1W/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:52:25)
+    at /tmp/.mount_todoisps4f1W/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:83:18
+    at App.<anonymous> (/tmp/.mount_todoisps4f1W/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:35:48)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todoisps4f1W/resources/app.asar/node_modules/@sentry/electron/main/integrations/electron-breadcrumbs.js:121:20)
+    at MainProcessSession.<anonymous> (/tmp/.mount_todoisps4f1W/resources/app.asar/node_modules/@sentry/electron/main/integrations/main-process-session.js:28:28)
+[2023-05-02 01:50:20.197] [info] Checking for update
+[2023-05-02 01:50:20.935] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-05-02 01:50:20.936] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-05-02 01:50:21.218] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).
+[2023-05-02 12:13:28.891] [info] Checking for update
+[2023-05-02 12:13:34.502] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-05-02 12:13:34.503] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-05-02 12:13:35.049] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).
+[2023-05-02 12:17:41.893] [info] Checking for update
+[2023-05-02 12:17:44.507] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-05-02 12:17:44.507] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-05-02 12:17:44.894] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).
+[2023-05-03 22:29:12.958] [info] Auto install update on quit
+[2023-05-03 22:29:12.960] [info] Install: isSilent: true, isForceRunAfter: false
+[2023-05-03 22:29:12.961] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at Object.unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todois2pXG1D/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:76:14)
+    at AppImageUpdater.install (/tmp/.mount_todois2pXG1D/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:52:25)
+    at /tmp/.mount_todois2pXG1D/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:83:18
+    at App.<anonymous> (/tmp/.mount_todois2pXG1D/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:35:48)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todois2pXG1D/resources/app.asar/node_modules/@sentry/electron/main/integrations/electron-breadcrumbs.js:121:20)
+    at MainProcessSession.<anonymous> (/tmp/.mount_todois2pXG1D/resources/app.asar/node_modules/@sentry/electron/main/integrations/main-process-session.js:28:28)
+[2023-05-03 22:54:30.410] [info] Checking for update
+[2023-05-03 22:54:31.168] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-05-03 22:54:31.169] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-05-03 22:54:32.901] [info] File has 4367 changed blocks
+[2023-05-03 22:54:32.910] [info] Full: 88,702.78 KB, To download: 88,230.63 KB (99%)
+[2023-05-03 22:54:39.637] [info] New version 1.1.2 has been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage
+[2023-05-04 19:04:15.533] [info] Checking for update
+[2023-05-04 19:04:16.126] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-05-04 19:04:16.126] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-05-04 19:04:16.385] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).
+[2023-05-05 13:26:38.354] [info] Checking for update
+[2023-05-05 13:26:39.080] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-05-05 13:26:39.080] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-05-05 13:26:39.424] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).

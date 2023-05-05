@@ -1,0 +1,7 @@
+2023/04/07-00:20:37.182 93a Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/07-00:20:37.183 93a Recovering log #3
+2023/04/07-00:20:37.183 93a Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/000003.log 
+2023/04/07-02:05:54.600 93b Level-0 table #5: started
+2023/04/07-02:05:54.602 93b Level-0 table #5: 8945 bytes OK
+2023/04/07-02:05:54.604 93b Delete type=0 #3
+2023/04/07-02:05:54.604 93b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

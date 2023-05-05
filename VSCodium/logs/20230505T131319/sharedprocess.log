@@ -1,0 +1,16 @@
+2023-05-05 13:13:21.563 [info] Starting worker process with pid 1038317 (type: fileWatcher, window: 1).
+2023-05-05 13:13:37.796 [info] Getting Manifest... vadimcn.vscode-lldb
+2023-05-05 13:13:38.315 [info] Installing extension: vadimcn.vscode-lldb
+2023-05-05 13:13:39.552 [info] Extension signature verification is not done: vadimcn.vscode-lldb
+2023-05-05 13:13:39.585 [info] Extracted extension to /home/i0xfce/.vscode-oss/extensions/.ee3cfa93-b1f2-42c4-80f2-6357c3e21e52: vadimcn.vscode-lldb
+2023-05-05 13:13:39.591 [info] Renamed to /home/i0xfce/.vscode-oss/extensions/vadimcn.vscode-lldb-1.9.1-universal
+2023-05-05 13:13:39.595 [info] Extracting extension completed. vadimcn.vscode-lldb
+2023-05-05 13:13:39.610 [info] Extension installed successfully: vadimcn.vscode-lldb
+2023-05-05 13:13:39.616 [info] Marked extension as uninstalled vadimcn.vscode-lldb-1.8.1
+2023-05-05 13:13:41.958 [info] Getting Manifest... rogalmic.bash-debug
+2023-05-05 13:13:42.238 [info] Installing extension: rogalmic.bash-debug
+2023-05-05 13:13:44.227 [info] Extension signature verification is not done: rogalmic.bash-debug
+2023-05-05 13:13:44.398 [info] Extracted extension to /home/i0xfce/.vscode-oss/extensions/.ea499652-6ac0-4b2b-8fb7-6ee59502869d: rogalmic.bash-debug
+2023-05-05 13:13:44.405 [info] Renamed to /home/i0xfce/.vscode-oss/extensions/rogalmic.bash-debug-0.3.9-universal
+2023-05-05 13:13:44.408 [info] Extracting extension completed. rogalmic.bash-debug
+2023-05-05 13:13:44.415 [info] Extension installed successfully: rogalmic.bash-debug

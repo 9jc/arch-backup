@@ -1,0 +1,7 @@
+2022/10/11-19:47:37.827 1b56b Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_my.ine.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/11-19:47:37.827 1b56b Recovering log #3
+2022/10/11-19:47:37.828 1b56b Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_my.ine.com_0.indexeddb.leveldb/000003.log 
+2022/10/11-23:50:08.145 282c8 Level-0 table #5: started
+2022/10/11-23:50:08.147 282c8 Level-0 table #5: 3433 bytes OK
+2022/10/11-23:50:08.148 282c8 Delete type=0 #3
+2022/10/11-23:50:08.148 282c8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

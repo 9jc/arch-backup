@@ -1,0 +1,10 @@
+2023-04-17 18:39:57.194 [info] Starting worker process with pid 45432 (type: fileWatcher, window: 1).
+2023-04-17 18:40:02.546 [info] Getting Manifest... ms-python.python
+2023-04-17 18:40:05.104 [info] Installing extension: ms-python.python
+2023-04-17 18:40:20.836 [info] Extracted extension to /home/i0xfce/.vscode-oss/extensions/.b4cb8cfa-c4c9-4481-80fc-471be03e2a63: ms-python.python
+2023-04-17 18:40:20.842 [info] Renamed to /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.4.1-universal
+2023-04-17 18:40:20.846 [info] Extracting extension completed. ms-python.python
+2023-04-17 18:40:20.853 [info] Extension installed successfully: ms-python.python
+2023-04-17 18:40:20.857 [info] Marked extension as uninstalled ms-python.python-2023.4.0-universal
+2023-04-17 18:40:30.831 [info] Getting Manifest... redhat.java
+2023-04-17 18:40:31.791 [info] Installing extension: redhat.java

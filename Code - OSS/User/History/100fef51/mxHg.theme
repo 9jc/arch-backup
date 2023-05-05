@@ -1,0 +1,109 @@
+# Colors should be in 6 or 2 character hexadecimal or single spaced rgb decimal: "#RRGGBB", "#BW" or "0-255 0-255 0-255"
+# example for white: "#ffffff", "#ff" or "255 255 255".
+
+# All graphs and meters can be gradients
+# For single color graphs leave "mid" and "end" variable empty.
+# Use "start" and "end" variables for two color gradient
+# Use "start", "mid" and "end" for three color gradient
+
+. "$HOME/.cache/wal/colors.sh"
+BG=`printf "%s\n" "$background"`
+FG=`printf "%s\n" "$foreground"`
+FGA=`printf "%s\n" "$color7"`
+SH0=`printf "%s\n" "$color0"`
+SH1=`printf "%s\n" "$color1"`
+SH2=`printf "%s\n" "$color2"`
+SH3=`printf "%s\n" "$color3"`
+SH4=`printf "%s\n" "$color4"`
+SH5=`printf "%s\n" "$color5"`
+SH6=`printf "%s\n" "$color6"`
+SH7=`printf "%s\n" "$color7"`
+SH8=`printf "%s\n" "$color8"`
+SH9=`printf "%s\n" "$color9"`
+SH10=`printf "%s\n" "$color10"`
+SH11=`printf "%s\n" "$color11"`
+SH12=`printf "%s\n" "$color12"`
+SH13=`printf "%s\n" "$color13"`
+SH14=`printf "%s\n" "$color14"`
+SH15=`printf "%s\n" "$color15"`
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#1C1C31"
+
+# Main text color
+theme[main_fg]="#${FG}"
+
+# Title color for boxes
+theme[title]="${FG}"
+
+# Higlight color for keyboard shortcuts
+theme[hi_fg]="${SH14}"
+
+# Background color of selected item in processes box
+theme[selected_bg]="${BG}"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#FFE6B3"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#585273"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#2D2B40"
+
+# Cpu box outline color
+theme[cpu_box]="#585273"
+
+# Memory/disks box outline color
+theme[mem_box]="#585273"
+
+# Net up/down box outline color
+theme[net_box]="#585273"
+
+# Processes box outline color
+theme[proc_box]="#585273"
+
+# Box divider line and small boxes line color
+theme[div_line]="#3E3859"
+
+# Temperature graph colors
+theme[temp_start]="#A1EFD3"
+theme[temp_mid]="${SH14}"
+theme[temp_end]="#FFE6B3"
+
+# CPU graph colors
+theme[cpu_start]="${SH14}"
+theme[cpu_end]="#FFE6B3"
+
+# Mem/Disk free meter
+# End is hight start is low
+theme[free_end]="${SH14}"
+theme[free_mid]="#FFE6B3"
+theme[free_start]="${SH13}"
+
+# Mem/Disk cached meter
+# End is hight start is low
+theme[cached_start]="${SH14}"
+theme[cached_mid]="#FFE6B3"
+theme[cached_end]="${SH13}"
+
+# Mem/Disk available meter
+# End is hight start is low
+theme[available_end]="${SH14}"
+theme[available_mid]="#FFE6B3"
+theme[available_start]="${SH13}"
+
+# Mem/Disk used meter
+theme[used_start]="${SH14}"
+theme[used_end]="#FFE6B3"
+
+# Download graph colors
+theme[download_start]="${SH14}"
+theme[download_mid]="#A1EFD3"
+theme[download_end]="${SH14}"
+
+# Upload graph colors
+theme[upload_start]="${SH14}"
+theme[upload_mid]="#A1EFD3"
+theme[upload_end]="${SH14}"
+

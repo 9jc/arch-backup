@@ -1,0 +1,6 @@
+2023/04/05-15:34:13.251 109817 Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_wf.murf.ai_0.indexeddb.leveldb since it was missing.
+2023/04/05-15:34:13.253 109817 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_wf.murf.ai_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/05-15:34:13.260 109817 Level-0 table #5: started
+2023/04/05-15:34:13.261 109817 Level-0 table #5: 1224 bytes OK
+2023/04/05-15:34:13.263 109817 Delete type=0 #3
+2023/04/05-15:34:13.263 109817 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

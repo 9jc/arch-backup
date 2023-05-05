@@ -1,0 +1,15 @@
+[I 2023-04-06T08:31:26.057Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-04-06T08:31:27.973Z main:store:plugins:editors:EditorFrame] Not find editor view: undefined file:///opt/Xmind/resources/app.asar/renderer/editor-frame.html?frameId=1&_apr=dark
+[I 2023-04-06T08:31:28.075Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-04-06T08:31:28.119Z main:store:plugins:editors:EditorFrame] Frame 1 webContents destroyed
+[I 2023-04-06T08:31:28.304Z main:store:plugins:electron] All windows closed. Quit application....
+[I 2023-04-06T08:31:28.305Z main:store:plugins:electron] Application is intended to quit.
+[I 2023-04-06T08:31:28.305Z main:store:plugins:electron] Application status is quitting:  false
+[I 2023-04-06T08:31:28.305Z main:store:plugins:electron] Asking all editors to close their documents...
+[I 2023-04-06T08:31:28.305Z main:store:plugins:electron] All documents are closed.
+[I 2023-04-06T08:31:28.308Z main:store:plugins:activation-updater] Stop updating per-machine license information periodically.
+[I 2023-04-06T08:31:28.308Z main:store:plugins:activation-updater] Stop updating subscription information periodically.
+[I 2023-04-06T08:31:28.310Z main:store:plugins:electron] Application is intended to quit.
+[I 2023-04-06T08:31:28.310Z main:store:plugins:electron] Application status is quitting:  true
+[I 2023-04-06T08:31:28.310Z main:store:plugins:electron] Application will quit.
+[I 2023-04-06T08:31:28.310Z main:store:plugins:electron] Application quitted.

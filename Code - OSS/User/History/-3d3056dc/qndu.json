@@ -1,0 +1,259 @@
+{
+    "categories": [
+      {
+        "name": [
+          "Work"
+        ],
+        "rule": {
+          "type": "regex",
+          "regex": "Google Docs|libreoffice|ReText|Obsidian|Zathura"
+        },
+        "data": {
+          "color": "#0F0"
+        },
+        "name_pretty": "Work",
+        "subname": "Work",
+        "parent": null,
+        "depth": 0,
+        "id": 0
+      },
+      {
+        "name": [
+          "Work",
+          "Programming"
+        ],
+        "rule": {
+          "type": "regex",
+          "regex": "GitHub|Stack Overflow|BitBucket|Gitlab|vim|Spyder|kate|Ghidra|Scite|Nvim|Vim|code-oss|neovide",
+          "ignore_case": true
+        },
+        "name_pretty": "Work>Programming",
+        "subname": "Programming",
+        "parent": [
+          "Work"
+        ],
+        "depth": 1,
+        "id": 1,
+        "data": {
+          "color": "#73D8FF"
+        }
+      },
+      {
+        "name": [
+          "Work",
+          "Audio"
+        ],
+        "rule": {
+          "type": "regex",
+          "regex": "Audacity|ncmpccp|spotify",
+          "ignore_case": true
+        },
+        "name_pretty": "Work>Audio",
+        "subname": "Audio",
+        "parent": [
+          "Work"
+        ],
+        "depth": 1,
+        "id": 5,
+        "data": {
+          "color": "#A4DD00"
+        }
+      },
+      {
+        "name": [
+          "Work",
+          "3D"
+        ],
+        "rule": {
+          "type": "regex",
+          "regex": "Blender"
+        },
+        "name_pretty": "Work>3D",
+        "subname": "3D",
+        "parent": [
+          "Work"
+        ],
+        "depth": 1,
+        "id": 6
+      },
+      {
+        "name": [
+          "Media",
+          "Games"
+        ],
+        "rule": {
+          "type": "regex",
+          "regex": "Minecraft|RimWorld"
+        },
+        "data": {
+          "color": "#F80"
+        },
+        "name_pretty": "Media>Games",
+        "subname": "Games",
+        "parent": [
+          "Media"
+        ],
+        "depth": 1,
+        "id": 7
+      },
+      {
+        "name": [
+          "Media",
+          "Video"
+        ],
+        "rule": {
+          "type": "regex",
+          "regex": "YouTube|Plex|VLC|mpv|mplayer|celluloid",
+          "ignore_case": true
+        },
+        "data": {
+          "color": "#F33"
+        },
+        "name_pretty": "Media>Video",
+        "subname": "Video",
+        "parent": [
+          "Media"
+        ],
+        "depth": 1,
+        "id": 8
+      },
+      {
+        "name": [
+          "Media",
+          "Social Media"
+        ],
+        "rule": {
+          "type": "regex",
+          "regex": "reddit|Facebook|Twitter|Instagram|devRant|Ferdium",
+          "ignore_case": true
+        },
+        "data": {
+          "color": "#FA28FF"
+        },
+        "name_pretty": "Media>Social Media",
+        "subname": "Social Media",
+        "parent": [
+          "Media"
+        ],
+        "depth": 1,
+        "id": 9
+      },
+      {
+        "name": [
+          "Media",
+          "Music"
+        ],
+        "rule": {
+          "type": "regex",
+          "regex": "Spotify|Deezer",
+          "ignore_case": true
+        },
+        "data": {
+          "color": "#A8FC00"
+        },
+        "name_pretty": "Media>Music",
+        "subname": "Music",
+        "parent": [
+          "Media"
+        ],
+        "depth": 1,
+        "id": 10
+      },
+      {
+        "name": [
+          "Comms",
+          "IM"
+        ],
+        "rule": {
+          "type": "regex",
+          "regex": "Messenger|Telegram|Signal|WhatsApp|Rambox|Slack|Riot|Discord|Nheko|Ferdium",
+          "ignore_case": true
+        },
+        "name_pretty": "Comms>IM",
+        "subname": "IM",
+        "parent": [
+          "Comms"
+        ],
+        "depth": 1,
+        "id": 12,
+        "data": {
+          "color": "#FA28FF"
+        }
+      },
+      {
+        "name": [
+          "Comms",
+          "Email"
+        ],
+        "rule": {
+          "type": "regex",
+          "regex": "Gmail|Thunderbird|mutt|alpine"
+        },
+        "name_pretty": "Comms>Email",
+        "subname": "Email",
+        "parent": [
+          "Comms"
+        ],
+        "depth": 1,
+        "id": 13,
+        "data": {
+          "color": "#FDA1FF"
+        }
+      },
+      {
+        "name": [
+          "Media"
+        ],
+        "rule": {
+          "type": null
+        },
+        "name_pretty": "Media",
+        "subname": "Media",
+        "parent": null,
+        "depth": 0,
+        "id": 15
+      },
+      {
+        "name": [
+          "Work",
+          "Terminal"
+        ],
+        "rule": {
+          "type": "regex",
+          "regex": "kitty|st|alactitty|terminator",
+          "ignore_case": true
+        },
+        "id": 16,
+        "data": {
+          "color": "#009CE0"
+        },
+        "name_pretty": "Work>Terminal",
+        "subname": "Terminal",
+        "parent": [
+          "Work"
+        ],
+        "depth": 1
+      },
+      {
+        "name": [
+          "Work",
+          "Web"
+        ],
+        "rule": {
+          "type": "regex",
+          "regex": "Chromium|Firefox|librewolf",
+          "ignore_case": true
+        },
+        "id": 17,
+        "data": {
+          "color": "#FCC400"
+        },
+        "name_pretty": "Work>Web",
+        "subname": "Web",
+        "parent": [
+          "Work"
+        ],
+        "depth": 1
+      }
+    ]
+  }

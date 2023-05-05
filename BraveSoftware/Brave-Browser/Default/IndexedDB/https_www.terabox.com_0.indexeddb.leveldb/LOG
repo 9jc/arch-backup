@@ -1,0 +1,40 @@
+2022/08/27-21:30:43.099 12ac8 Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.terabox.com_0.indexeddb.leveldb since it was missing.
+2022/08/27-21:30:43.103 12ac8 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.terabox.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/08/27-21:30:43.115 11afc Level-0 table #5: started
+2022/08/27-21:30:43.117 11afc Level-0 table #5: 623 bytes OK
+2022/08/27-21:30:43.118 11afc Delete type=0 #3
+2022/08/27-21:30:43.118 11afc Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/08/27-21:30:46.466 12ac7 Level-0 table #7: started
+2022/08/27-21:30:46.467 12ac7 Level-0 table #7: 10903 bytes OK
+2022/08/27-21:30:46.469 12ac7 Delete type=0 #4
+2022/08/27-21:30:46.469 12ac7 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/08/27-21:32:06.161 14043 Level-0 table #9: started
+2022/08/27-21:32:06.162 14043 Level-0 table #9: 3250 bytes OK
+2022/08/27-21:32:06.164 14043 Delete type=0 #6
+2022/08/27-21:32:06.164 14043 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 413 : 1
+2022/08/27-21:32:06.164 14043 Compacting 1@0 + 1@1 files
+2022/08/27-21:32:06.165 14043 Generated table #10@0: 171 keys, 4055 bytes
+2022/08/27-21:32:06.165 14043 Compacted 1@0 + 1@1 files => 4055 bytes
+2022/08/27-21:32:06.166 14043 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/08/27-21:32:06.167 14043 Delete type=2 #9
+2022/08/27-21:32:06.167 14043 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 413 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/08/27-23:46:28.040 157c1 Level-0 table #12: started
+2022/08/27-23:46:28.042 157c1 Level-0 table #12: 1482 bytes OK
+2022/08/27-23:46:28.044 157c1 Delete type=0 #8
+2022/08/27-23:46:28.044 157c1 Delete type=2 #7
+2022/08/27-23:46:28.044 157c1 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x008\x006\x006\x007\x009\x004\x004\x008\x005\x005\x003\x002\x00:\x00w\x00e\x00b\x00:\x00b\x009\x00c\x003\x003\x00b\x000\x00f\x001\x002\x002\x00f\x008\x009\x007\x005\x008\x00a\x006\x00c\x00d\x009' @ 432 : 1
+2022/08/27-23:46:28.044 157c1 Compacting 1@0 + 1@1 files
+2022/08/27-23:46:28.047 157c1 Generated table #13@0: 181 keys, 4074 bytes
+2022/08/27-23:46:28.047 157c1 Compacted 1@0 + 1@1 files => 4074 bytes
+2022/08/27-23:46:28.048 157c1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/08/27-23:46:28.048 157c1 Delete type=2 #12
+2022/08/27-23:46:28.048 157c1 Delete type=2 #10
+2022/08/27-23:46:28.048 157c1 Manual compaction at level-0 from '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x008\x006\x006\x007\x009\x004\x004\x008\x005\x005\x003\x002\x00:\x00w\x00e\x00b\x00:\x00b\x009\x00c\x003\x003\x00b\x000\x00f\x001\x002\x002\x00f\x008\x009\x007\x005\x008\x00a\x006\x00c\x00d\x009' @ 432 : 1 .. (end); will stop at (end)
+2022/08/27-23:46:28.049 157c1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x01c\x001\x00:\x008\x006\x006\x007\x009\x004\x004\x008\x005\x005\x003\x002\x00:\x00w\x00e\x00b\x00:\x00b\x009\x00c\x003\x003\x00b\x000\x00f\x001\x002\x002\x00f\x008\x009\x007\x005\x008\x00a\x006\x00c\x00d\x009\x00,\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00,\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00,\x00l\x00a\x00s\x00t\x00_\x00s\x00u\x00c\x00c\x00e\x00s\x00s\x00f\x00u\x00l\x00_\x00f\x00e\x00t\x00c\x00h\x00_\x00t\x00i\x00m\x00e\x00s\x00t\x00a\x00m\x00p\x00_\x00m\x00i\x00l\x00l\x00i\x00s' @ 252 : 1
+2022/08/27-23:46:28.049 157c1 Compacting 1@1 + 1@2 files
+2022/08/27-23:46:28.050 157c1 Generated table #14@1: 44 keys, 2345 bytes
+2022/08/27-23:46:28.050 157c1 Compacted 1@1 + 1@2 files => 2345 bytes
+2022/08/27-23:46:28.052 157c1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/08/27-23:46:28.052 157c1 Delete type=2 #5
+2022/08/27-23:46:28.052 157c1 Delete type=2 #13
+2022/08/27-23:46:28.052 157c1 Manual compaction at level-1 from '\x00\x03\x01\x02\x01c\x001\x00:\x008\x006\x006\x007\x009\x004\x004\x008\x005\x005\x003\x002\x00:\x00w\x00e\x00b\x00:\x00b\x009\x00c\x003\x003\x00b\x000\x00f\x001\x002\x002\x00f\x008\x009\x007\x005\x008\x00a\x006\x00c\x00d\x009\x00,\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00,\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00,\x00l\x00a\x00s\x00t\x00_\x00s\x00u\x00c\x00c\x00e\x00s\x00s\x00f\x00u\x00l\x00_\x00f\x00e\x00t\x00c\x00h\x00_\x00t\x00i\x00m\x00e\x00s\x00t\x00a\x00m\x00p\x00_\x00m\x00i\x00l\x00l\x00i\x00s' @ 252 : 1 .. (end); will stop at (end)

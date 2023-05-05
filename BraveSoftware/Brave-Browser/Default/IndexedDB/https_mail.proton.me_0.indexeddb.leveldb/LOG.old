@@ -1,0 +1,15 @@
+2023/04/22-00:09:00.723 8495c Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.proton.me_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/22-00:09:00.723 8495c Recovering log #4
+2023/04/22-00:09:00.723 8495c Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.proton.me_0.indexeddb.leveldb/000004.log 
+2023/04/22-00:09:03.853 8495c Level-0 table #8: started
+2023/04/22-00:09:03.854 8495c Level-0 table #8: 1112 bytes OK
+2023/04/22-00:09:03.855 8495c Delete type=0 #4
+2023/04/22-00:09:03.855 8495c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/04/22-00:09:03.855 8495c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01 \x00s\x00w\x004\x006\x00f\x00h\x00p\x00h\x00j\x00v\x00w\x006\x00h\x00v\x00j\x00k\x002\x002\x004\x00l\x00h\x00v\x00r\x004\x00s\x00u\x00m\x00i\x00f\x00a\x005\x00j' @ 79 : 1
+2023/04/22-00:09:03.855 8495c Compacting 1@1 + 1@2 files
+2023/04/22-00:09:03.856 8495c Generated table #9@1: 19 keys, 497 bytes
+2023/04/22-00:09:03.857 8495c Compacted 1@1 + 1@2 files => 497 bytes
+2023/04/22-00:09:03.858 8495c compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/22-00:09:03.858 8495c Delete type=2 #5
+2023/04/22-00:09:03.858 8495c Delete type=2 #8
+2023/04/22-00:09:03.858 8495c Manual compaction at level-1 from '\x00\x01\x01\x02\x01 \x00s\x00w\x004\x006\x00f\x00h\x00p\x00h\x00j\x00v\x00w\x006\x00h\x00v\x00j\x00k\x002\x002\x004\x00l\x00h\x00v\x00r\x004\x00s\x00u\x00m\x00i\x00f\x00a\x005\x00j' @ 79 : 1 .. (end); will stop at (end)

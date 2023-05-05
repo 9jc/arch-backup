@@ -1,0 +1,71 @@
+Initial debug configuration: {}
+Initial debug configuration: {
+  type: 'lldb',
+  request: 'launch',
+  name: 'Debug',
+  program: '${workspaceFolder}/<executable file>',
+  args: [],
+  cwd: '${workspaceFolder}',
+  __configurationTarget: 6
+}
+Resolved debug configuration: {
+  type: 'lldb',
+  request: 'launch',
+  name: 'Debug',
+  program: '${workspaceFolder}/<executable file>',
+  args: [],
+  cwd: '${workspaceFolder}',
+  __configurationTarget: 6,
+  relativePathBase: '/home/i0xfce/.config/polybar/scripts',
+  _adapterSettings: {
+    displayFormat: 'auto',
+    showDisassembly: 'auto',
+    dereferencePointers: true,
+    suppressMissingSourceFiles: true,
+    evaluationTimeout: 5,
+    consoleMode: 'commands',
+    sourceLanguages: null,
+    terminalPromptClear: null,
+    evaluateForHovers: true,
+    commandCompletions: true,
+    reproducer: false
+  }
+}
+[2023-05-05T07:45:08.280Z ERROR codelldb::debug_session] unable to find executable for '/home/i0xfce/.config/polybar/scripts/<executable file>'
+Debug adapter exit code=0 (0x0), signal=null.
+Initial debug configuration: {
+  type: 'lldb',
+  request: 'launch',
+  name: 'Debug',
+  program: '${workspaceFolder}/<executable file>',
+  args: [],
+  cwd: '${workspaceFolder}',
+  __configurationTarget: 6,
+  noDebug: true
+}
+Resolved debug configuration: {
+  type: 'lldb',
+  request: 'launch',
+  name: 'Debug',
+  program: '${workspaceFolder}/<executable file>',
+  args: [],
+  cwd: '${workspaceFolder}',
+  __configurationTarget: 6,
+  noDebug: true,
+  relativePathBase: '/home/i0xfce/.config/polybar/scripts',
+  _adapterSettings: {
+    displayFormat: 'auto',
+    showDisassembly: 'auto',
+    dereferencePointers: true,
+    suppressMissingSourceFiles: true,
+    evaluationTimeout: 5,
+    consoleMode: 'commands',
+    sourceLanguages: null,
+    terminalPromptClear: null,
+    evaluateForHovers: true,
+    commandCompletions: true,
+    reproducer: false
+  }
+}
+[2023-05-05T07:45:24.947Z ERROR codelldb::debug_session] unable to find executable for '/home/i0xfce/.config/polybar/scripts/<executable file>'
+Debug adapter exit code=0 (0x0), signal=null.

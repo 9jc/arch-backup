@@ -1,0 +1,6 @@
+2023/05/03-22:54:34.413 f5b1a Reusing MANIFEST /home/i0xfce/.config/Todoist/IndexedDB/https_todoist.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/03-22:54:34.413 f5b1a Recovering log #326
+2023/05/03-22:54:34.421 f5b1a Reusing old log /home/i0xfce/.config/Todoist/IndexedDB/https_todoist.com_0.indexeddb.leveldb/000326.log 
+2023/05/03-22:54:50.781 f5b99 Level-0 table #332: started
+2023/05/03-22:54:50.791 f5b99 Level-0 table #332: 899915 bytes OK
+2023/05/03-22:54:50.792 f5b99 Delete type=0 #326

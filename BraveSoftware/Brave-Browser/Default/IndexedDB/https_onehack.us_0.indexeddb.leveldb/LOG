@@ -1,0 +1,6 @@
+2022/09/09-02:04:15.440 14e84 Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_onehack.us_0.indexeddb.leveldb since it was missing.
+2022/09/09-02:04:15.442 14e84 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_onehack.us_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/09-02:04:17.449 2ee71 Level-0 table #5: started
+2022/09/09-02:04:17.450 2ee71 Level-0 table #5: 243 bytes OK
+2022/09/09-02:04:17.452 2ee71 Delete type=0 #3
+2022/09/09-02:04:17.452 2ee71 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,16 @@
+2023-04-17 18:45:46.358 [info] Starting worker process with pid 53916 (type: fileWatcher, window: 1).
+2023-04-17 18:45:46.954 [info] Deleted from disk ms-python.python /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.4.0-universal
+2023-04-17 18:46:02.597 [info] Getting Manifest... redhat.java
+2023-04-17 18:46:02.610 [info] Installing extension: redhat.java
+2023-04-17 18:47:12.243 [info] Getting Manifest... vscjava.vscode-java-debug
+2023-04-17 18:47:12.673 [info] Installing extension: vscjava.vscode-java-debug
+2023-04-17 18:47:17.733 [info] Extracted extension to /home/i0xfce/.vscode-oss/extensions/.e466564d-c22c-48bf-b7fc-1a2cc44a512d: vscjava.vscode-java-debug
+2023-04-17 18:47:17.737 [info] Renamed to /home/i0xfce/.vscode-oss/extensions/vscjava.vscode-java-debug-0.49.1-universal
+2023-04-17 18:47:17.748 [info] Extracting extension completed. vscjava.vscode-java-debug
+2023-04-17 18:47:17.760 [info] Extension installed successfully: vscjava.vscode-java-debug
+2023-04-17 18:47:21.197 [info] Extracted extension to /home/i0xfce/.vscode-oss/extensions/.2ba1bfcd-b936-4cbb-a696-9e80b7fa3d75: redhat.java
+2023-04-17 18:47:21.203 [info] Renamed to /home/i0xfce/.vscode-oss/extensions/redhat.java-1.16.0-linux-x64
+2023-04-17 18:47:21.205 [info] Extracting extension completed. redhat.java
+2023-04-17 18:47:21.266 [info] Extension installed successfully: redhat.java
+2023-04-17 20:53:15.156 [warning] No ptyHost heartbeat after 6 seconds
+2023-04-18 02:19:36.551 [warning] No ptyHost heartbeat after 6 seconds

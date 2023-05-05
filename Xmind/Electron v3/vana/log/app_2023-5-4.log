@@ -1,0 +1,95 @@
+
+-------- SESSION 2023-05-04T08:30:44.690Z (22.11.3656+202301100025, linux, x64, 16459444224, XMIND LTD., vana_linux) --------
+[I 2023-05-04T08:30:44.704Z main:store:plugins:electron] current pid is "1760081"
+[I 2023-05-04T08:30:44.719Z usage-stats] sync data
+[I 2023-05-04T08:30:44.762Z auto-updater] current version is "22.11.3656"
+[I 2023-05-04T08:30:45.155Z main:store:plugins:electron] Application will finish launching.
+[I 2023-05-04T08:30:45.161Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-05-04T08:30:45.167Z main:store:plugins:electron] Application is ready.
+[I 2023-05-04T08:30:45.196Z main:store:plugins:open-handler] Recover: Map(1) {
+  '1' => [
+    {
+      source: 'file:///home/i0xfce/Documents/Goals.xmind',
+      editorId: 'c6eb77f731b9cff1cee769ad98'
+    }
+  ]
+}
+[I 2023-05-04T08:30:45.198Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-05-04T08:30:45.198Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-05-04T08:30:45.198Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-05-04T08:30:45.198Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[E 2023-05-04T08:30:45.498Z main:store:plugins:feature-request] Error: Request to https://www.xmind.app/_api/check_vana_trial failed, reason: net::ERR_INTERNET_DISCONNECTED
+    at ClientRequest.<anonymous> (/opt/Xmind/resources/app.asar/main/main.js:1:336935)
+    at ClientRequest.emit (node:events:390:28)
+    at ClientRequest._die (node:electron/js2c/browser_init:101:8492)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7229)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[W 2023-05-04T08:30:45.504Z main:store:plugins:electron] Failed to load pricing: Error: Request to https://www.xmind.app/_res/get-vana-price?p=vana_linux&v=22.11.3656.202301100025&os=linux&ar=x64&nl=en-US failed, reason: net::ERR_INTERNET_DISCONNECTED
+    at ClientRequest.<anonymous> (/opt/Xmind/resources/app.asar/main/main.js:1:336935)
+    at ClientRequest.emit (node:events:390:28)
+    at ClientRequest._die (node:electron/js2c/browser_init:101:8492)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7229)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[I 2023-05-04T08:30:45.505Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[E 2023-05-04T08:30:45.507Z Notification] Error: Request to https://www.xmind.app/_api/events?p=vana_linux&v=22.11.3656.202301100025&ar=x64&nl=en-US&ac=trial&lic=&ts0=1679770155159&ts1=1682745992992&ts2=1682962120237&ts3=1683089987764&os=linux&version=22.11.3656&buildid=22.11.3656.202301100025&arch=x64&distrib=vana_linux&account_type=trial&license_info=&firstStartTimestamp=1679770155159&startTimestamp1=1682745992992&startTimestamp2=1682962120237&startTimestamp3=1683089987764 failed, reason: net::ERR_INTERNET_DISCONNECTED
+    at ClientRequest.<anonymous> (/opt/Xmind/resources/app.asar/main/main.js:1:336935)
+    at ClientRequest.emit (node:events:390:28)
+    at ClientRequest._die (node:electron/js2c/browser_init:101:8492)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7229)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[I 2023-05-04T08:31:06.546Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-05-04T08:31:09.706Z main:store:plugins:editors:EditorFrame] Not find editor view: undefined file:///opt/Xmind/resources/app.asar/renderer/editor-frame.html?frameId=1&_apr=dark
+[I 2023-05-04T08:31:09.835Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-05-04T08:31:09.876Z main:store:plugins:editors:EditorFrame] Frame 1 webContents destroyed
+[I 2023-05-04T08:31:45.199Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-05-04T08:31:45.200Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[W 2023-05-04T08:32:48.932Z ipc] API "POST /command/handle/frame/2" unregistered on webContents "5" destroyed.
+-------- SESSION 2023-05-04T08:57:25.022Z (22.11.3656+202301100025, linux, x64, 16459444224, XMIND LTD., vana_linux) --------
+[I 2023-05-04T08:57:25.036Z main:store:plugins:electron] current pid is "1769505"
+[I 2023-05-04T08:57:25.049Z usage-stats] sync data
+[I 2023-05-04T08:57:25.092Z auto-updater] current version is "22.11.3656"
+[I 2023-05-04T08:57:25.504Z main:store:plugins:electron] Application will finish launching.
+[I 2023-05-04T08:57:25.510Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-05-04T08:57:25.517Z main:store:plugins:electron] Application is ready.
+[I 2023-05-04T08:57:25.550Z main:store:plugins:open-handler] Recover: Map(1) {
+  '2' => [
+    {
+      source: 'file:///home/i0xfce/Documents/Project%20PassFX.xmind',
+      editorId: '4158f3ae126a2a2b4e716be9a1'
+    }
+  ]
+}
+[I 2023-05-04T08:57:25.553Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-05-04T08:57:25.553Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-05-04T08:57:25.553Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-05-04T08:57:25.553Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[E 2023-05-04T08:57:25.856Z main:store:plugins:feature-request] Error: Request to https://www.xmind.app/_api/check_vana_trial failed, reason: net::ERR_INTERNET_DISCONNECTED
+    at ClientRequest.<anonymous> (/opt/Xmind/resources/app.asar/main/main.js:1:336935)
+    at ClientRequest.emit (node:events:390:28)
+    at ClientRequest._die (node:electron/js2c/browser_init:101:8492)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7229)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[I 2023-05-04T08:57:25.860Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[W 2023-05-04T08:57:25.861Z main:store:plugins:electron] Failed to load pricing: Error: Request to https://www.xmind.app/_res/get-vana-price?p=vana_linux&v=22.11.3656.202301100025&os=linux&ar=x64&nl=en-US failed, reason: net::ERR_INTERNET_DISCONNECTED
+    at ClientRequest.<anonymous> (/opt/Xmind/resources/app.asar/main/main.js:1:336935)
+    at ClientRequest.emit (node:events:390:28)
+    at ClientRequest._die (node:electron/js2c/browser_init:101:8492)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7229)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[E 2023-05-04T08:57:25.863Z Notification] Error: Request to https://www.xmind.app/_api/events?p=vana_linux&v=22.11.3656.202301100025&ar=x64&nl=en-US&ac=trial&lic=&ts0=1679770155159&ts1=1682962120237&ts2=1683089987764&ts3=1683189045507&os=linux&version=22.11.3656&buildid=22.11.3656.202301100025&arch=x64&distrib=vana_linux&account_type=trial&license_info=&firstStartTimestamp=1679770155159&startTimestamp1=1682962120237&startTimestamp2=1683089987764&startTimestamp3=1683189045507 failed, reason: net::ERR_INTERNET_DISCONNECTED
+    at ClientRequest.<anonymous> (/opt/Xmind/resources/app.asar/main/main.js:1:336935)
+    at ClientRequest.emit (node:events:390:28)
+    at ClientRequest._die (node:electron/js2c/browser_init:101:8492)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7229)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[I 2023-05-04T08:58:25.554Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-05-04T08:58:25.555Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-05-04T09:03:46.139Z snowbrush] null
+[I 2023-05-04T09:04:02.142Z snowbrush] null
+[I 2023-05-04T09:04:03.059Z snowbrush] null
+[I 2023-05-04T09:04:04.175Z snowbrush] null
+[I 2023-05-04T09:04:05.291Z snowbrush] null
+[I 2023-05-04T09:04:15.439Z snowbrush] null
+[I 2023-05-04T09:04:16.846Z snowbrush] null
+[I 2023-05-04T09:04:19.021Z snowbrush] null
+[W 2023-05-04T13:33:49.848Z ipc] API "POST /generate/image" unregistered on webContents "3" destroyed.

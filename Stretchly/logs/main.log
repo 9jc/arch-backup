@@ -1,0 +1,36 @@
+[2022-06-06 03:42:01.381] [info]  Stretchly: initializing...
+[2022-06-06 03:42:01.394] [info]  Stretchly: loading preferences
+[2022-06-06 03:42:01.400] [info]  Stretchly: starting Idle time monitoring
+[2022-06-06 03:42:01.401] [info]  Stretchly: starting Do Not Disturb monitoring
+[2022-06-06 03:42:03.369] [info]  Stretchly: checking for new version (local: v1.10.0, remote: 1.10.0)
+[2022-06-06 03:42:09.179] [info]  Stretchly: setting 'isFirstRun' to 'false' (was 'true')
+[2022-06-06 03:51:51.404] [info]  Stretchly: showing Mini Break notification
+[2022-06-06 03:52:01.636] [info]  Stretchly: showing window 1 of 1
+[2022-06-06 03:52:01.637] [info]  Stretchly: starting Mini Break
+[2022-06-06 03:52:21.640] [info]  Stretchly: finishing Mini Break
+[2022-06-06 04:02:11.646] [info]  Stretchly: showing Mini Break notification
+[2022-06-06 04:02:21.879] [info]  Stretchly: showing window 1 of 1
+[2022-06-06 04:02:21.880] [info]  Stretchly: starting Mini Break
+[2022-06-06 04:02:41.881] [info]  Stretchly: finishing Mini Break
+[2022-06-06 04:06:29.773] [info]  Stretchly: setting 'mainColor' to '#1D1F21' (was '#478484')
+[2022-06-06 04:06:48.423] [info]  Stretchly: setting 'useMonochromeTrayIcon' to 'true' (was 'false')
+[2022-06-06 04:06:49.961] [info]  Stretchly: setting 'useMonochromeInvertedTrayIcon' to 'true' (was 'false')
+[2022-06-06 04:06:55.063] [info]  Stretchly: setting 'useMonochromeTrayIcon' to 'false' (was 'true')
+[2022-06-06 04:06:56.702] [info]  Stretchly: setting 'useMonochromeTrayIcon' to 'true' (was 'false')
+[2022-06-06 04:06:59.016] [info]  Stretchly: setting 'useMonochromeInvertedTrayIcon' to 'false' (was 'true')
+[2022-06-06 04:06:59.600] [info]  Stretchly: setting 'useMonochromeInvertedTrayIcon' to 'true' (was 'false')
+[2022-06-06 04:07:00.595] [info]  Stretchly: setting 'useMonochromeInvertedTrayIcon' to 'false' (was 'true')
+[2022-06-06 04:07:01.752] [info]  Stretchly: setting 'useMonochromeInvertedTrayIcon' to 'true' (was 'false')
+[2022-06-06 04:07:22.850] [info]  Stretchly: setting 'breakInterval' to '5' (was '2')
+[2022-06-06 04:07:27.855] [info]  Stretchly: setting 'breakDuration' to '600000' (was '300000')
+[2022-06-06 04:07:36.243] [info]  Stretchly: setting 'breakStrictMode' to 'true' (was 'false')
+[2022-06-06 04:08:01.885] [info]  Stretchly: setting 'microbreakInterval' to '900000' (was '600000')
+[2022-06-06 04:08:04.344] [info]  Stretchly: setting 'microbreakInterval' to '1200000' (was '900000')
+[2022-06-06 04:08:10.955] [info]  Stretchly: setting 'breakInterval' to '3' (was '5')
+[2022-06-06 04:08:29.403] [info]  Stretchly: setting 'microbreakInterval' to '300000' (was '1200000')
+[2022-06-06 04:08:36.884] [info]  Stretchly: setting 'microbreakStrictMode' to 'true' (was 'false')
+[2022-06-06 04:08:44.633] [info]  Stretchly: setting 'fullscreen' to 'true' (was 'false')
+[2022-06-06 04:12:11.886] [info]  Stretchly: showing Long Break notification
+[2022-06-06 04:12:22.120] [info]  Stretchly: showing window 1 of 1
+[2022-06-06 04:12:22.121] [info]  Stretchly: starting Mini Break
+[2022-06-06 04:12:42.123] [info]  Stretchly: finishing Mini Break

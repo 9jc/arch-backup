@@ -1,0 +1,6 @@
+2022/10/18-08:06:24.094 48dbb Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_olympics.com_0.indexeddb.leveldb since it was missing.
+2022/10/18-08:06:24.097 48dbb Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_olympics.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/18-08:11:04.893 4ae48 Level-0 table #5: started
+2022/10/18-08:11:04.895 4ae48 Level-0 table #5: 2581 bytes OK
+2022/10/18-08:11:04.896 4ae48 Delete type=0 #3
+2022/10/18-08:11:04.896 4ae48 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

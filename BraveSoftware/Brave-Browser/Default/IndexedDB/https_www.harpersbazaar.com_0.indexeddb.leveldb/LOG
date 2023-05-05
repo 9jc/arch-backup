@@ -1,0 +1,6 @@
+2022/11/14-19:10:33.880 27e2dc Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.harpersbazaar.com_0.indexeddb.leveldb since it was missing.
+2022/11/14-19:10:33.885 27e2dc Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.harpersbazaar.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/14-19:11:28.460 2a1303 Level-0 table #5: started
+2022/11/14-19:11:28.463 2a1303 Level-0 table #5: 2835 bytes OK
+2022/11/14-19:11:28.467 2a1303 Delete type=0 #3
+2022/11/14-19:11:28.467 2a1303 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,89 @@
+# Ignored apps
+#
+# This .gitignore file categorizes the apps that should be ignored when backing up
+# Arch Linux config files to a GitHub repository
+
+# Activity and productivity apps
+autostart/
+taskwarrior/
+ticktick/
+
+# Audio and multimedia apps
+featherpad/
+pulseeffects/
+spotify-tui/
+stacer/
+stretchly/
+
+# Browser and internet apps/
+aether/
+brave/
+chromium/
+element/
+firefox/
+google-chrome/
+microsoft-edge/
+opera/
+surf/
+teamviewer/
+windscribe/
+zoomus.conf/
+
+# Development and coding apps/
+atom/
+dconf/
+font-manager/
+fontforge/
+gambas3/
+gcolor3/
+gnuplot/
+gpick/
+inkscape/
+leafpad/
+libinput-gestures.conf/
+mango-hud/
+matplotlib/
+obmenu-generator/
+parcellite/
+qt5ct/
+qtproject/
+screenkey.json/
+sublime/
+surfer/
+telegram-desktop/
+
+# File and system managers/
+bitwarden/
+bitwarden-cli/
+safeeyes/
+
+# Games and entertainment apps/
+celly/
+
+# Graphics and design apps/
+blender/
+gimp/
+inkscape/
+
+# Input and keyboard apps/
+ibus/
+klavaro/
+
+# Miscellaneous apps/
+anonymous/
+balena-etcher/
+balena-etcher-electron/
+betterdiscord/
+betterdiscord-installer/
+boop-gtk/
+free-tube/
+galculator/
+mousepad/
+opensnitch/
+procps/
+redshift/
+stumpwm/
+systemd/
+wal/
+whoozle.github.io/
+yarn/

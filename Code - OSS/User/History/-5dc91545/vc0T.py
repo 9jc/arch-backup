@@ -1,0 +1,22 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+API_KEY_WALLHEAVEN = os.environ.get(wall)
+print(API_KEY_WALLHEAVEN)
+
+
+
+
+# API_KEY_TELEGRAM = "5288309065:AAHCKuCF5HiAgZZsVRsA_D8B8wRQIUT0LUM"
+
+# API_KEY_WALLHEAVEN = "1NbHRAIrnsPn7e0wpjeDf4Jk0HFXX4g7"
+# API_KEY_IPFRAUD = "H6jwxJhTlE7lK550NVgicOHvFPupeycz"
+
+# CLIENT_KEY_REDDIT = ""
+# SECRET_TOKEN_REDDIT = "CF3O7NJ3QkOK9Fce4GxxhtVVnSdcAw"
+# REDT_USERNAME = "Jolly-Product-2916"
+# REDT_PASSWD = ""
+
+# GOOGLE_DEV_API = "AIzaSyBVDxF542cAitCKE_N_hXhA_C7nfSpVD5s"
+# GOOGLE_CSV = "a43806c60ffaaf5fd"

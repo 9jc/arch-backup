@@ -1,0 +1,34 @@
+[Added Associations]
+text/plain=neovide.desktop;wine-extension-txt.desktop;sublime-text2.desktop;sublime_text.desktop;code-oss.desktop;
+application/x-shellscript=neovide.desktop;code-oss.desktop;sublime_text.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-AEARJ1.desktop;userapp-Telegram Desktop-A24PQ1.desktop;userapp-Telegram Desktop-TQGWW1.desktop;org.telegram.desktop.desktop;
+application/x-vmware-vm=vmware-workstation.desktop;
+inode/directory=vscodium.desktop;code-oss-url-handler.desktop;atom.desktop;
+application/toml=code-oss.desktop;sublime_text.desktop;
+application/pdf=org.pwmt.zathura.desktop;brave-browser.desktop;foxitreader.desktop;microsoft-edge.desktop;zatackax.desktop;librewolf.desktop;
+image/png=feh.desktop;
+image/jpeg=feh.desktop;chromium.desktop;
+text/x-csrc=code-oss.desktop;
+image/svg+xml=feh.desktop;
+application/xml=sublime_text.desktop;code-oss.desktop;
+application/octet-stream=gambas3.desktop;higgins.desktop;
+application/json=code-oss.desktop;
+image/gif=brave-browser.desktop;feh.desktop;
+text/x-lua=code-oss.desktop;
+application/x-theme=code-oss.desktop;
+video/mp4=mpv.desktop;io.github.celluloid_player.Celluloid.desktop;mplayer.desktop;
+video/mp2t=mpv.desktop;
+video/x-matroska=mpv.desktop;
+audio/mpeg=mpv.desktop;
+text/x-python=neovide.desktop;vscodium.desktop;
+
+[Default Applications]
+x-scheme-handler/tg=org.telegram.desktop.desktop
+application/pdf=FoxitReader.desktop
+application/ppdf=FoxitReader.desktop
+text/html=brave-browser.desktop
+x-scheme-handler/http=brave-browser.desktop
+x-scheme-handler/https=brave-browser.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/unknown=brave-browser.desktop
+x-scheme-handler/etcher=balena-etcher.desktop

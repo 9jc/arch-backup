@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Dracula Dark+",
+    "debug.terminal.clearBeforeReusing": true,
+    "window.zoomLevel": -1,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 22
+}

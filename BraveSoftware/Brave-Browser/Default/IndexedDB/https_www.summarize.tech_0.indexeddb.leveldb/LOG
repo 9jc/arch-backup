@@ -1,0 +1,14 @@
+2023/05/03-23:03:48.571 886c7 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.summarize.tech_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/03-23:03:48.572 886c7 Recovering log #74
+2023/05/03-23:03:48.572 886c7 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.summarize.tech_0.indexeddb.leveldb/000074.log 
+2023/05/03-23:03:48.572 886c7 Delete type=2 #73
+2023/05/03-23:03:48.580 886ca Level-0 table #79: started
+2023/05/03-23:03:48.581 886ca Level-0 table #79: 890 bytes OK
+2023/05/03-23:03:48.584 886ca Delete type=0 #74
+2023/05/03-23:03:48.584 886ca Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1b\x00\x00\x05' @ 966 : 1
+2023/05/03-23:03:48.584 886ca Compacting 1@0 + 1@1 files
+2023/05/03-23:03:48.585 886ca Generated table #80@0: 46 keys, 1390 bytes
+2023/05/03-23:03:48.585 886ca Compacted 1@0 + 1@1 files => 1390 bytes
+2023/05/03-23:03:48.586 886ca compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/03-23:03:48.586 886ca Delete type=2 #79
+2023/05/03-23:03:48.586 886c7 Manual compaction at level-0 from '\x00\x1b\x00\x00\x05' @ 966 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)

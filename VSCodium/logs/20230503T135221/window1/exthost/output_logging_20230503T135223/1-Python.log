@@ -1,0 +1,35 @@
+Telemetry level is off
+Experiments are disabled, only manually opted experiments are active.
+Python interpreter path: /bin/python
+Starting Jedi language server for Paxvault.
+> conda info --json
+> /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /bin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-4-3 13:52:30.539]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /bin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /sbin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-4-3 13:52:30.569]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /sbin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-4-3 13:52:30.602]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /usr/bin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /usr/sbin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-4-3 13:52:30.633]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /usr/sbin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+DAP Server launched with command: /bin/python /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/python/debugpy/adapter
+Send text to terminal:  /usr/bin/env /bin/python /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 43705 -- /home/i0xfce/MEGAsync/Projects/Python/Paxvault/Testing/mysql/main.py 
+DAP Server launched with command: /bin/python /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/python/debugpy/adapter
+Send text to terminal: clear
+Send text to terminal:  cd /home/i0xfce/MEGAsync/Projects/Python/Paxvault ; /usr/bin/env /bin/python /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 53861 -- /home/i0xfce/MEGAsync/Projects/Python/Paxvault/Testing/mysql/main.py 
+DAP Server launched with command: /bin/python /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/python/debugpy/adapter
+Send text to terminal: clear
+Send text to terminal:  cd /home/i0xfce/MEGAsync/Projects/Python/Paxvault ; /usr/bin/env /bin/python /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 52331 -- /home/i0xfce/MEGAsync/Projects/Python/Paxvault/Testing/mysql/main.py 
+DAP Server launched with command: /bin/python /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/python/debugpy/adapter
+Send text to terminal: clear
+Send text to terminal:  cd /home/i0xfce/MEGAsync/Projects/Python/Paxvault ; /usr/bin/env /bin/python /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 41801 -- /home/i0xfce/MEGAsync/Projects/Python/Paxvault/Testing/mysql/main.py 
+DAP Server launched with command: /bin/python /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/python/debugpy/adapter
+Send text to terminal: clear
+Send text to terminal:  cd /home/i0xfce/MEGAsync/Projects/Python/Paxvault ; /usr/bin/env /bin/python /home/i0xfce/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 39919 -- /home/i0xfce/MEGAsync/Projects/Python/Paxvault/Testing/mysql/main.py 

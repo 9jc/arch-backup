@@ -1,0 +1,15 @@
+2023/04/14-14:12:03.171 3b49cc Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/14-14:12:03.172 3b49cc Recovering log #4
+2023/04/14-14:12:03.172 3b49cc Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/000004.log 
+2023/04/14-14:12:15.197 3b49cd Level-0 table #8: started
+2023/04/14-14:12:15.198 3b49cd Level-0 table #8: 4024 bytes OK
+2023/04/14-14:12:15.200 3b49cd Delete type=0 #4
+2023/04/14-14:12:15.200 3b49cd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/04/14-14:12:15.200 3b49cd Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01?\x00b\x00y\x00t\x00e\x00d\x00-\x00w\x00e\x00b\x00a\x00p\x00p\x00-\x00r\x00e\x00g\x00i\x00s\x00t\x00e\x00r\x00!\x001\x00:\x009\x009\x005\x001\x002\x000\x002\x004\x004\x006\x008\x001\x00:\x00w\x00e\x00b\x00:\x00d\x001\x007\x005\x00c\x00a\x00e\x00b\x004\x003\x00d\x00e\x004\x003\x005\x003\x00d\x00e\x00e\x00a\x001\x008' @ 279 : 1
+2023/04/14-14:12:15.200 3b49cd Compacting 1@1 + 1@2 files
+2023/04/14-14:12:15.201 3b49cd Generated table #9@1: 21 keys, 1362 bytes
+2023/04/14-14:12:15.201 3b49cd Compacted 1@1 + 1@2 files => 1362 bytes
+2023/04/14-14:12:15.203 3b49cd compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/14-14:12:15.203 3b49cd Delete type=2 #5
+2023/04/14-14:12:15.203 3b49cd Delete type=2 #8
+2023/04/14-14:12:15.203 3b49cd Manual compaction at level-1 from '\x00\x01\x01\x02\x01?\x00b\x00y\x00t\x00e\x00d\x00-\x00w\x00e\x00b\x00a\x00p\x00p\x00-\x00r\x00e\x00g\x00i\x00s\x00t\x00e\x00r\x00!\x001\x00:\x009\x009\x005\x001\x002\x000\x002\x004\x004\x006\x008\x001\x00:\x00w\x00e\x00b\x00:\x00d\x001\x007\x005\x00c\x00a\x00e\x00b\x004\x003\x00d\x00e\x004\x003\x005\x003\x00d\x00e\x00e\x00a\x001\x008' @ 279 : 1 .. (end); will stop at (end)

@@ -1,0 +1,25 @@
+2022/12/23-08:47:19.749 38a772 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.apollopharmacy.in_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/23-08:47:19.749 38a772 Recovering log #33
+2022/12/23-08:47:19.749 38a772 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.apollopharmacy.in_0.indexeddb.leveldb/000033.log 
+2022/12/23-08:47:19.749 38a772 Delete type=2 #32
+2022/12/23-08:47:20.004 38a799 Level-0 table #38: started
+2022/12/23-08:47:20.005 38a799 Level-0 table #38: 1694 bytes OK
+2022/12/23-08:47:20.006 38a799 Delete type=0 #33
+2022/12/23-08:47:20.006 38a799 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0f\x00\x00\x05' @ 1402 : 1
+2022/12/23-08:47:20.006 38a799 Compacting 1@0 + 1@1 files
+2022/12/23-08:47:20.008 38a799 Generated table #39@0: 396 keys, 6411 bytes
+2022/12/23-08:47:20.008 38a799 Compacted 1@0 + 1@1 files => 6411 bytes
+2022/12/23-08:47:20.010 38a799 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/23-08:47:20.010 38a799 Delete type=2 #38
+2022/12/23-08:47:20.010 38a8c3 Manual compaction at level-0 from '\x00\x0f\x00\x00\x05' @ 1402 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/23-08:47:28.584 38a8c4 Level-0 table #41: started
+2022/12/23-08:47:28.585 38a8c4 Level-0 table #41: 879 bytes OK
+2022/12/23-08:47:28.586 38a8c4 Delete type=0 #37
+2022/12/23-08:47:28.586 38a8c4 Delete type=2 #35
+2022/12/23-08:47:28.586 38a8c4 Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at '\x00\x10\x00\x00\x05' @ 1435 : 1
+2022/12/23-08:47:28.586 38a8c4 Compacting 1@0 + 1@1 files
+2022/12/23-08:47:28.588 38a8c4 Generated table #42@0: 396 keys, 6417 bytes
+2022/12/23-08:47:28.588 38a8c4 Compacted 1@0 + 1@1 files => 6417 bytes
+2022/12/23-08:47:28.589 38a8c4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/23-08:47:28.589 38a8c4 Delete type=2 #41
+2022/12/23-08:47:28.589 38a8c4 Manual compaction at level-0 from '\x00\x10\x00\x00\x05' @ 1435 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)

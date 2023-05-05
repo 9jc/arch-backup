@@ -1,0 +1,23 @@
+VSCodium (1.77.3, undefined, desktop)
+Jupyter Extension Version: 2023.3.100.
+Python Extension Version: 2023.6.1.
+Workspace folder /home/i0xfce/MEGAsync/Projects/Python/Paxvault
+info 13:52:30.286: LSP Notebooks experiment is enabled
+warn 13:52:30.354: Failed to get activated env vars with python /bin/python in 54ms
+info 13:52:30.376: Process Execution: > /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+info 13:52:30.411: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+info 13:53:25.239: Ending debug session 8a0451a1-f441-4cb4-84c9-9c2f15fff5c9
+info 13:53:25.239: Ending debug session 8a0451a1-f441-4cb4-84c9-9c2f15fff5c9
+info 13:54:53.747: Ending debug session c83c8c39-5c29-468a-b96a-826e4264b077
+info 13:54:53.747: Ending debug session c83c8c39-5c29-468a-b96a-826e4264b077
+info 13:55:12.108: Ending debug session c83c8c39-5c29-468a-b96a-826e4264b077
+info 13:55:12.108: Ending debug session c83c8c39-5c29-468a-b96a-826e4264b077
+info 13:55:14.051: Ending debug session c83c8c39-5c29-468a-b96a-826e4264b077
+info 13:55:14.051: Ending debug session c83c8c39-5c29-468a-b96a-826e4264b077
+info 13:55:27.161: Ending debug session 159efd35-7a5c-4361-b737-305be605aea5
+info 13:55:27.161: Ending debug session 159efd35-7a5c-4361-b737-305be605aea5
+info 23:26:58.011: Shutting down notebooks for 5d4807b5-fdc9-41d2-a35b-4d676ecdaf29
+info 23:26:58.011: Disposing HostJupyterExecution b0025d7f-2d27-41d1-874e-98136b904507
+info 23:26:58.012: Disposing HostJupyterExecution b0025d7f-2d27-41d1-874e-98136b904507

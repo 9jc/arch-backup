@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCSessions Version="1" MinVersion="1">
+	<TSessionFolder>
+		<Items>
+			<TSessionFolder>
+				<Items>
+					<TDirCompareSession Value="ncmpcpp &lt;--> ncmpcpp.back2">
+						<LastModified Value="2023-05-02 10:02:53"/>
+						<Specs>
+							<Left Value="/home/i0xfce/.config/ncmpcpp"/>
+							<Right Value="/home/i0xfce/.config/ncmpcpp.back2"/>
+						</Specs>
+					</TDirCompareSession>
+					<TTextCompareSession Value="gcd-vig.py &lt;--> gcd-ard.py">
+						<LastModified Value="2022-10-13 16:19:58"/>
+						<Specs>
+							<Left Value="/home/i0xfce/Documents/Python/Stuff/gcd-vig.py"/>
+							<Right Value="/home/i0xfce/Documents/Python/Stuff/gcd-ard.py"/>
+						</Specs>
+					</TTextCompareSession>
+				</Items>
+			</TSessionFolder>
+		</Items>
+	</TSessionFolder>
+</BCSessions>

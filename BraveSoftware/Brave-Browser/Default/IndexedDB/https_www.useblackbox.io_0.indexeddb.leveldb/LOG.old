@@ -1,0 +1,10 @@
+2022/10/09-16:19:57.697 103960 Creating DB /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.useblackbox.io_0.indexeddb.leveldb since it was missing.
+2022/10/09-16:19:57.700 103960 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.useblackbox.io_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/09-16:19:57.756 103960 Level-0 table #5: started
+2022/10/09-16:19:57.757 103960 Level-0 table #5: 631 bytes OK
+2022/10/09-16:19:57.759 103960 Delete type=0 #3
+2022/10/09-16:19:57.759 1034e4 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/10/09-16:20:13.663 f7beb Level-0 table #7: started
+2022/10/09-16:20:13.664 f7beb Level-0 table #7: 2173 bytes OK
+2022/10/09-16:20:13.666 f7beb Delete type=0 #4
+2022/10/09-16:20:13.667 f7beb Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

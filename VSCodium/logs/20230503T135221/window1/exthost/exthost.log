@@ -1,0 +1,17 @@
+2023-05-03 13:52:23.021 [info] Extension host with pid 749426 started
+2023-05-03 13:52:23.021 [info] Skipping acquiring lock for /home/i0xfce/.config/VSCodium/User/workspaceStorage/c1acccda9d8569df6d5b0b15fe6db863.
+2023-05-03 13:52:23.151 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-03 13:52:23.192 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-03 13:52:23.192 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-03 13:52:23.285 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:*.py', root cause: ms-python.isort
+2023-05-03 13:52:23.619 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: true, activationEvent: 'workspaceContains:*.py'
+2023-05-03 13:52:23.635 [info] Eager extensions activated
+2023-05-03 13:52:23.677 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-03 13:52:23.677 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-03 13:52:23.677 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2023-05-03 13:52:29.905 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-05-03 13:52:29.905 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-03 13:52:30.340 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-05-03 13:52:41.013 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-05-03 23:26:57.999 [info] Extension host terminating: renderer closed the socket
+2023-05-03 23:26:58.023 [info] Extension host with pid 749426 exiting with code 0

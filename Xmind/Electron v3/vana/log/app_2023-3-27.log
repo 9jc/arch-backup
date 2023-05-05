@@ -1,0 +1,102 @@
+
+-------- SESSION 2023-03-26T19:43:44.356Z (22.11.3656+202301100025, linux, x64, 16459456512, XMIND LTD., vana_linux) --------
+[I 2023-03-26T19:43:44.370Z main:store:plugins:electron] current pid is "169430"
+[I 2023-03-26T19:43:44.382Z usage-stats] sync data
+[I 2023-03-26T19:43:44.427Z auto-updater] current version is "22.11.3656"
+
+-------- SESSION 2023-03-26T19:44:09.028Z (22.11.3656+202301100025, linux, x64, 16459456512, XMIND LTD., vana_linux) --------
+[I 2023-03-26T19:44:09.037Z main:store:plugins:electron] current pid is "169833"
+[I 2023-03-26T19:44:09.044Z usage-stats] sync data
+[I 2023-03-26T19:44:09.071Z auto-updater] current version is "22.11.3656"
+[I 2023-03-26T19:44:09.438Z main:store:plugins:electron] Application will finish launching.
+[I 2023-03-26T19:44:09.444Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-03-26T19:44:09.455Z main:store:plugins:electron] Application is ready.
+[I 2023-03-26T19:44:09.488Z main:store:plugins:open-handler] Recover: Map(2) {
+  '3' => [
+    {
+      source: 'new://workbook',
+      editorId: '056876b5dcc83edabc942b8001'
+    }
+  ],
+  '1' => [
+    {
+      source: 'file:///home/i0xfce/Documents/Daily%20Routine.xmind',
+      editorId: 'c95b5409271b1a7aa8f86849b4'
+    }
+  ]
+}
+[I 2023-03-26T19:44:09.491Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-03-26T19:44:09.491Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-03-26T19:44:09.491Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-03-26T19:44:09.491Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-03-26T19:44:09.934Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[I 2023-03-26T19:44:12.695Z fonts] App Locale: en
+[I 2023-03-26T19:44:12.696Z fonts] start get system fonts
+[I 2023-03-26T19:44:14.713Z fonts] Consuming 2017 ms to get system fonts
+[I 2023-03-26T19:45:09.492Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-26T19:45:09.492Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-27T09:46:54.104Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-27T09:46:54.105Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-27T10:46:54.106Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-27T10:46:54.106Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-27T15:32:15.521Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-27T15:32:15.521Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-27T15:56:34.300Z main:store:plugins:electron] Application is intended to quit.
+[I 2023-03-27T15:56:34.301Z main:store:plugins:electron] Application status is quitting:  false
+[I 2023-03-27T15:56:34.301Z main:store:plugins:electron] Asking all editors to close their documents...
+[W 2023-03-27T15:56:34.325Z ipc] API "POST /command/handle/frame/2" unregistered on webContents "5" destroyed.
+-------- SESSION 2023-03-27T18:04:35.871Z (22.11.3656+202301100025, linux, x64, 16459452416, XMIND LTD., vana_linux) --------
+[I 2023-03-27T18:04:35.886Z main:store:plugins:electron] current pid is "68684"
+[I 2023-03-27T18:04:35.909Z usage-stats] sync data
+[I 2023-03-27T18:04:35.971Z auto-updater] current version is "22.11.3656"
+[I 2023-03-27T18:04:36.630Z main:store:plugins:electron] Application will finish launching.
+[I 2023-03-27T18:04:36.641Z main:store:plugins:electron] Application arguments: ["/opt/Xmind/xmind"]
+[I 2023-03-27T18:04:36.662Z main:store:plugins:electron] Application is ready.
+[I 2023-03-27T18:04:36.691Z main:store:plugins:open-handler] Recover: Map(2) {
+  '1' => [
+    {
+      source: 'new://workbook',
+      editorId: '056876b5dcc83edabc942b8001'
+    }
+  ],
+  '2' => [
+    {
+      source: 'file:///home/i0xfce/Documents/Daily%20Routine.xmind',
+      editorId: 'c95b5409271b1a7aa8f86849b4'
+    }
+  ]
+}
+[I 2023-03-27T18:04:36.693Z main:store:plugins:activation-updater] Start updating subscription information periodically.
+[I 2023-03-27T18:04:36.694Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-03-27T18:04:36.694Z main:store:plugins:activation-updater] Start updating per-machine license information periodically.
+[I 2023-03-27T18:04:36.694Z main:store:plugins:activation-updater] Schedule refresh timeout(60000).
+[I 2023-03-27T18:04:37.171Z main:store:plugins:electron] Device ID: e1f2411e-a9b6-4b7b-80d6-5e863c368b40
+[E 2023-03-27T18:04:37.383Z main:store:plugins:feature-request] Error: Request to https://www.xmind.app/_api/check_vana_trial failed, reason: net::ERR_CERT_AUTHORITY_INVALID
+    at ClientRequest.<anonymous> (/opt/Xmind/resources/app.asar/main/main.js:1:336935)
+    at ClientRequest.emit (node:events:390:28)
+    at ClientRequest._die (node:electron/js2c/browser_init:101:8492)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7229)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[E 2023-03-27T18:04:37.399Z Notification] Error: Request to https://www.xmind.app/_api/events?p=vana_linux&v=22.11.3656.202301100025&ar=x64&nl=en-US&ac=trial&lic=&ts0=1679770155159&ts1=1679770155159&ts2=1679805315692&ts3=1679859850894&os=linux&version=22.11.3656&buildid=22.11.3656.202301100025&arch=x64&distrib=vana_linux&account_type=trial&license_info=&firstStartTimestamp=1679770155159&startTimestamp1=1679770155159&startTimestamp2=1679805315692&startTimestamp3=1679859850894 failed, reason: net::ERR_CERT_AUTHORITY_INVALID
+    at ClientRequest.<anonymous> (/opt/Xmind/resources/app.asar/main/main.js:1:336935)
+    at ClientRequest.emit (node:events:390:28)
+    at ClientRequest._die (node:electron/js2c/browser_init:101:8492)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7229)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[W 2023-03-27T18:04:37.400Z main:store:plugins:electron] Failed to load pricing: Error: Request to https://www.xmind.app/_res/get-vana-price?p=vana_linux&v=22.11.3656.202301100025&os=linux&ar=x64&nl=en-US failed, reason: net::ERR_CERT_AUTHORITY_INVALID
+    at ClientRequest.<anonymous> (/opt/Xmind/resources/app.asar/main/main.js:1:336935)
+    at ClientRequest.emit (node:events:390:28)
+    at ClientRequest._die (node:electron/js2c/browser_init:101:8492)
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7229)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[I 2023-03-27T18:04:39.983Z fonts] App Locale: en
+[I 2023-03-27T18:04:39.984Z fonts] start get system fonts
+[I 2023-03-27T18:04:40.328Z snowbrush] Export image collect time: 15
+[I 2023-03-27T18:04:40.345Z snowbrush] Export image time: 32
+[I 2023-03-27T18:04:41.939Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-03-27T18:04:42.080Z fonts] Consuming 2096 ms to get system fonts
+[I 2023-03-27T18:04:48.725Z main:store:plugins:editors:EditorFrame] Not find editor view: undefined file:///opt/Xmind/resources/app.asar/renderer/editor-frame.html?frameId=1&_apr=dark
+[I 2023-03-27T18:04:48.844Z main:store:plugins:editors:EditorFrame] Frame 1 close
+[I 2023-03-27T18:04:48.893Z main:store:plugins:editors:EditorFrame] Frame 1 webContents destroyed
+[I 2023-03-27T18:05:36.694Z main:store:plugins:activation-updater] Schedule refresh timeout(null).
+[I 2023-03-27T18:05:36.695Z main:store:plugins:activation-updater] Schedule refresh timeout(null).

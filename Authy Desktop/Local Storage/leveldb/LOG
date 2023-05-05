@@ -1,0 +1,8 @@
+2022/09/09-02:08:52.911 318c7 Reusing MANIFEST /home/i0xfce/.config/Authy Desktop/Local Storage/leveldb/MANIFEST-000001
+2022/09/09-02:08:52.911 318c7 Recovering log #4
+2022/09/09-02:08:52.912 318c7 Level-0 table #7: started
+2022/09/09-02:08:52.961 318c7 Level-0 table #7: 47768 bytes OK
+2022/09/09-02:08:52.961 318c7 Recovering log #7
+2022/09/09-02:08:52.962 318c7 Reusing old log /home/i0xfce/.config/Authy Desktop/Local Storage/leveldb/000007.log 
+2022/09/09-02:08:52.963 318c7 Delete type=2 #8
+2022/09/09-02:08:52.963 318c7 Delete type=0 #4

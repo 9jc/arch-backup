@@ -1,0 +1,38 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "src/assets/icons/promptstorm-128.png",
+         "16": "src/assets/icons/promptstorm-16.png",
+         "32": "src/assets/icons/promptstorm-32.png",
+         "48": "src/assets/icons/promptstorm-48.png"
+      }
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "css": [ "assets/index.1eac2f64.css" ],
+      "js": [ "assets/index.ts-loader.bb9d8c05.js" ],
+      "matches": [ "https://chat.openai.com/*", "https://*.promptstorm.app/*" ]
+   } ],
+   "description": "We give you loads of skillfully crafted engineered prompts at your fingertips that you can use with Chat GPT 3 & 4",
+   "host_permissions": [ "*://*.promptstorm.app/*", "*://chat.openai.com/*" ],
+   "icons": {
+      "128": "src/assets/icons/promptstorm-128.png",
+      "16": "src/assets/icons/promptstorm-16.png",
+      "32": "src/assets/icons/promptstorm-32.png",
+      "48": "src/assets/icons/promptstorm-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl63ZXGINqtHj/Itk2Cav0RPB9qISDQ0TxIGYUIKVsTNLuJW0pcPr5y+bsMNctU4oI0e/VK9/nti0xGunVoHBbwamhXx6lwz/dVIyiTp0vD93t9yF4QxZOoUAOmkDjYR8huKU00tkLygE79ttxoBjH40/dFWCg5KSjxksQuoPIoJarGSaCQn1O4A9aHfYro1j1dusM9DzLKDhGQGNTDFXAzRlKXbZ2uhrEsqwzrRdcwODT1ApMKIcvxZ3Gf7Wbrz1BZLUH/mOhA30gwMycRboddCdx/gL/+vnRVE60WRpiqdUKGcpIUAqfxKAr95IEb+NnojoVfhEm7LrwMq+7disCwIDAQAB",
+   "manifest_version": 3,
+   "name": "PromptStorm fill in the blank ChatGPT Prompts",
+   "permissions": [ "tabs", "cookies", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*.promptstorm.app/*", "https://chat.openai.com/*" ],
+      "resources": [ "assets/storage.013c1453.js", "assets/index.ts.c78b64b6.js" ],
+      "use_dynamic_url": true
+   } ]
+}

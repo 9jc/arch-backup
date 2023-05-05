@@ -1,0 +1,22 @@
+2023/05/01-23:11:42.106 182c Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/01-23:11:42.107 182c Recovering log #19
+2023/05/01-23:11:42.120 182c Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/000019.log 
+2023/05/02-01:12:13.505 182d Level-0 table #23: started
+2023/05/02-01:12:13.523 182d Level-0 table #23: 960115 bytes OK
+2023/05/02-01:12:13.526 182d Delete type=0 #19
+2023/05/02-01:12:13.526 182d Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01$\x00f\x00f\x008\x003\x007\x004\x003\x008\x00-\x00e\x001\x00e\x003\x00-\x004\x00f\x006\x007\x00-\x00b\x003\x00c\x004\x00-\x009\x00e\x003\x00e\x009\x001\x000\x007\x009\x00e\x00a\x00c' @ 17978 : 1
+2023/05/02-01:12:13.526 182d Compacting 1@0 + 1@1 files
+2023/05/02-01:12:13.540 182d Generated table #24@0: 4574 keys, 41369 bytes
+2023/05/02-01:12:13.540 182d Compacted 1@0 + 1@1 files => 41369 bytes
+2023/05/02-01:12:13.542 182d compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/02-01:12:13.542 182d Delete type=2 #23
+2023/05/02-01:12:13.542 182d Delete type=2 #20
+2023/05/02-01:12:13.543 182d Manual compaction at level-0 from '\x00\x08\x01\x02\x01$\x00f\x00f\x008\x003\x007\x004\x003\x008\x00-\x00e\x001\x00e\x003\x00-\x004\x00f\x006\x007\x00-\x00b\x003\x00c\x004\x00-\x009\x00e\x003\x00e\x009\x001\x000\x007\x009\x00e\x00a\x00c' @ 17978 : 1 .. (end); will stop at (end)
+2023/05/02-01:12:13.543 182d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x09\x00\x00\xc8\x12\x00O\x00f\x00f\x00l\x00i\x00n\x00e\x00U\x00p\x00l\x00o\x00a\x00d\x00S\x00t\x00o\x00r\x00e' @ 2054 : 1
+2023/05/02-01:12:13.543 182d Compacting 1@1 + 1@2 files
+2023/05/02-01:12:13.545 182d Generated table #25@1: 193 keys, 3203 bytes
+2023/05/02-01:12:13.545 182d Compacted 1@1 + 1@2 files => 3203 bytes
+2023/05/02-01:12:13.546 182d compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/02-01:12:13.546 182d Delete type=2 #17
+2023/05/02-01:12:13.546 182d Delete type=2 #24
+2023/05/02-01:12:13.546 182d Manual compaction at level-1 from '\x00\x09\x00\x00\xc8\x12\x00O\x00f\x00f\x00l\x00i\x00n\x00e\x00U\x00p\x00l\x00o\x00a\x00d\x00S\x00t\x00o\x00r\x00e' @ 2054 : 1 .. (end); will stop at (end)
