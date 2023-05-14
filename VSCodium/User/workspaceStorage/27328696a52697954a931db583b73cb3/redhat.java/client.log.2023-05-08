@@ -1,0 +1,130 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-20-jdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/lombok/lombok-1.18.27.jar -jar /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/i0xfce/.config/VSCodium/User/globalStorage/redhat.java/1.18.0/config_ss_linux -data /home/i0xfce/.config/VSCodium/User/workspaceStorage/27328696a52697954a931db583b73cb3/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-05-08 06:32:51.865'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-20-jdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/lombok/lombok-1.18.27.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/i0xfce/.config/VSCodium/User/workspaceStorage/27328696a52697954a931db583b73cb3/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/i0xfce/.config/VSCodium/User/globalStorage/redhat.java/1.18.0/config_linux -data /home/i0xfce/.config/VSCodium/User/workspaceStorage/27328696a52697954a931db583b73cb3/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-05-08 06:32:52.111'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.concurrent, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2023-05-08 06:32:52.339'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.concurrent\n',
+  level: 'info',
+  timestamp: '2023-05-08 06:32:52.343'
+}
+{
+  message: '[Error - 6:32:59 AM] May 8, 2023, 6:32:59 AM Error occured while building workspace. Details: \n' +
+    ' message: Syntax error on tokens, delete these tokens; code: 1610612969; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 1\n' +
+    ' message: Syntax error on tokens, delete these tokens; code: 1610612969; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 4\n' +
+    ' message: Syntax error on token "a", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 4\n' +
+    ' message: Syntax error on token "generate", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 4\n' +
+    ' message: Syntax error, insert ";" to complete RecordBodyDeclaration; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 4\n' +
+    ' message: Syntax error on token "class", = expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 4\n' +
+    ' message: Thus cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5\n' +
+    ' message: Syntax error on token "the", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5\n' +
+    ' message: program cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5\n' +
+    ' message: Syntax error on token "generate", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5\n' +
+    ' message: generate cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5\n' +
+    ' message: Syntax error, insert ";" to complete RecordBodyDeclaration; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5\n' +
+    ' message: numbers cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5\n' +
+    ' message: Syntax error on token "class", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5\n' +
+    ' message: excuted cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5\n' +
+    ' message: Syntax error on token "and", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5\n' +
+    ' message: the cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5\n' +
+    ' message: Syntax error, insert ";" to complete RecordBodyDeclaration; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5\n' +
+    ' message: Syntax error on token "2.", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 7\n' +
+    ' message: Vector cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 7\n' +
+    ' message: Syntax error on token "-", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8\n' +
+    ' message: To cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8\n' +
+    ' message: Syntax error, insert ";" to complete RecordBodyDeclaration; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8\n' +
+    ' message: a cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8\n' +
+    ' message: Syntax error on token "for", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8\n' +
+    ' message: implement cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8\n' +
+    ' message: Syntax error, insert ";" to complete RecordBodyDeclaration; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8\n' +
+    ' message: of cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8\n' +
+    ' message: Duplicate field RESULTS.is.vector; code: 33554772; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8\n' +
+    ' message: Thus cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9\n' +
+    ' message: Syntax error on token "program", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9\n' +
+    ' message: program cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9\n' +
+    ' message: Syntax error on token "vector", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9\n' +
+    ' message: Duplicate field RESULTS.is.vector; code: 33554772; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9\n' +
+    ' message: The nested type is cannot hide an enclosing type; code: 16777534; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9\n' +
+    ' message: Syntax error on token "excuted", { expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9\n' +
+    ' message: Syntax error, insert ";" to complete ClassBodyDeclarations; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9\n' +
+    ' message: Syntax error on token(s), misplaced construct(s); code: 1610612972; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9\n' +
+    ' message: Syntax error on token "AIM", = expected after this token; code: 1610612967; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 24\n' +
+    ' message: Syntax error, insert ";" to complete FieldDeclaration; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 25\n' +
+    ' message: Syntax error, insert "}" to complete ClassBody; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 25\n' +
+    ' message: The type frames_exer is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/framesandcontrol.java; line: 4\n' +
+    ' message: The type control_exer is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/framesandcontrol.java; line: 13\n' +
+    ' message: The type imple_prg is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/interfaces.java; line: 5\n' +
+    ' message: The type find_odd_even is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/interfaces.java; line: 15\n' +
+    ' message: The type inter is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/interfaces.java; line: 1\n' +
+    ' message: The type layout_exer is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/panelandlayout.java; line: 4\n' +
+    ' message: The type panel_exer is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/panelandlayout.java; line: 27\n' +
+    ' message: The type random_exer is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/random.java; line: 3\n' +
+    ' message: The type vector_exer is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/vector.java; line: 4',
+  level: 'info',
+  timestamp: '2023-05-08 06:32:59.140'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1039, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-08 09:07:08.424'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1041, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-08 09:07:08.700'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1054, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-08 09:07:25.365'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1061, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-08 09:07:29.672'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1157, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-08 09:07:47.617'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1195, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-08 09:08:22.532'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1337, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-08 09:09:12.893'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1362, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-08 09:10:49.202'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1432, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-08 09:51:15.035'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1459, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-08 09:51:49.839'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1523, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-08 09:52:11.117'
+}

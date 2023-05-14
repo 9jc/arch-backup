@@ -527,3 +527,35 @@
 [2023-05-05 13:26:39.080] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
 [2023-05-05 13:26:39.080] [info] Downloading update from Todoist-1.1.2.AppImage
 [2023-05-05 13:26:39.424] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).
+[2023-05-07 20:58:37.696] [info] Checking for update
+[2023-05-07 20:58:38.519] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-05-07 20:58:38.520] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-05-07 20:58:39.025] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).
+[2023-05-08 06:23:43.352] [info] Auto install update on quit
+[2023-05-08 06:23:43.354] [info] Install: isSilent: true, isForceRunAfter: false
+[2023-05-08 06:23:43.355] [error] Error: Error: EACCES: permission denied, unlink '/opt/todoist-appimage/todoist-appimage.AppImage'
+    at Object.unlinkSync (node:fs:1718:3)
+    at AppImageUpdater.doInstall (/tmp/.mount_todois4FhcGy/resources/app.asar/node_modules/electron-updater/out/AppImageUpdater.js:76:14)
+    at AppImageUpdater.install (/tmp/.mount_todois4FhcGy/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:52:25)
+    at /tmp/.mount_todois4FhcGy/resources/app.asar/node_modules/electron-updater/out/BaseUpdater.js:83:18
+    at App.<anonymous> (/tmp/.mount_todois4FhcGy/resources/app.asar/node_modules/electron-updater/out/ElectronAppAdapter.js:35:48)
+    at Object.onceWrapper (node:events:514:26)
+    at App.emit (node:events:406:35)
+    at App.emit (node:domain:475:12)
+    at App.emitter.emit (/tmp/.mount_todois4FhcGy/resources/app.asar/node_modules/@sentry/electron/main/integrations/electron-breadcrumbs.js:121:20)
+    at MainProcessSession.<anonymous> (/tmp/.mount_todois4FhcGy/resources/app.asar/node_modules/@sentry/electron/main/integrations/main-process-session.js:28:28)
+[2023-05-08 06:23:58.301] [info] Checking for update
+[2023-05-08 06:23:59.198] [info] Found version 1.1.2 (url: Todoist-1.1.2.AppImage)
+[2023-05-08 06:23:59.199] [info] Downloading update from Todoist-1.1.2.AppImage
+[2023-05-08 06:23:59.474] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-1.1.2.AppImage).
+[2023-05-12 21:46:42.240] [info] Checking for update
+[2023-05-12 21:46:43.075] [info] Found version 8.2.0 (url: Todoist-8.2.0-x86_64.AppImage)
+[2023-05-12 21:46:43.075] [info] Downloading update from Todoist-8.2.0-x86_64.AppImage
+[2023-05-12 21:46:43.078] [info] Cached update sha512 checksum doesn't match the latest available update. New update must be downloaded. Cached: TfmZKHlS3nVUXwroI3cC56zVD4CLSr4xTMvVz7l5FQ9LTCvVdA845HyQAI3NdzTYfSK60vo8ryfIpdMvJFWjBQ==, expected: UjwNj0wkrfZN9/0/8S9GHuXPSn4Y7gTZwE54I91n1N5NbT7mwC+7GzVleynK2na7ONqoHutmogVbWFonJK/xmQ==. Directory for cached update will be cleaned
+[2023-05-12 21:46:43.162] [info] File has 4355 changed blocks
+[2023-05-12 21:46:43.209] [info] Full: 88,682.48 KB, To download: 88,215.65 KB (99%)
+[2023-05-12 21:46:46.755] [info] New version 8.2.0 has been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-8.2.0-x86_64.AppImage
+[2023-05-14 20:13:13.816] [info] Checking for update
+[2023-05-14 20:13:14.377] [info] Found version 8.2.0 (url: Todoist-8.2.0-x86_64.AppImage)
+[2023-05-14 20:13:14.378] [info] Downloading update from Todoist-8.2.0-x86_64.AppImage
+[2023-05-14 20:13:14.650] [info] Update has already been downloaded to /home/i0xfce/.cache/todoist-updater/pending/Todoist-8.2.0-x86_64.AppImage).

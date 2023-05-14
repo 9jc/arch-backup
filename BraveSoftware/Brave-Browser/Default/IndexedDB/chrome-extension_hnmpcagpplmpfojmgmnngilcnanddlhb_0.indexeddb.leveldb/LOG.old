@@ -1,11 +1,15 @@
-2023/05/05-03:14:04.783 b4cdb Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/05-03:14:04.783 b4cdb Recovering log #686
-2023/05/05-03:14:04.785 b4cdb Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/000686.log 
-2023/05/05-03:14:04.885 b4ceb Level-0 table #691: started
-2023/05/05-03:14:04.889 b4ceb Level-0 table #691: 126239 bytes OK
-2023/05/05-03:14:04.890 b4ceb Delete type=0 #686
-2023/05/05-03:14:04.891 b4cea Manual compaction at level-0 from '\x00\xaf\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xb0\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/05/05-03:14:06.003 b4cda Compacting 1@1 + 1@2 files
-2023/05/05-03:14:06.068 b4cda Generated table #692@1: 7424 keys, 517607 bytes
-2023/05/05-03:14:06.068 b4cda Compacted 1@1 + 1@2 files => 517607 bytes
-2023/05/05-03:14:06.070 b4cda compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-13:06:13.949 3846ac Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/14-13:06:13.949 3846ac Recovering log #726
+2023/05/14-13:06:13.952 3846ac Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/000726.log 
+2023/05/14-13:06:13.953 3846ac Delete type=2 #727
+2023/05/14-13:06:13.953 3846ac Delete type=2 #724
+2023/05/14-13:06:14.105 3846aa Level-0 table #731: started
+2023/05/14-13:06:14.108 3846aa Level-0 table #731: 93783 bytes OK
+2023/05/14-13:06:14.109 3846aa Delete type=0 #726
+2023/05/14-13:06:14.110 3846aa Manual compaction at level-0 from '\x00\xbb\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xbc\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/05/14-13:06:15.586 3846c3 Compacting 1@1 + 1@2 files
+2023/05/14-13:06:15.608 3846c3 Generated table #732@1: 7701 keys, 553984 bytes
+2023/05/14-13:06:15.609 3846c3 Compacted 1@1 + 1@2 files => 553984 bytes
+2023/05/14-13:06:15.611 3846c3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-13:06:15.611 3846c3 Delete type=2 #731
+2023/05/14-13:06:15.611 3846c3 Delete type=2 #728

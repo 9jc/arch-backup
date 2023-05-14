@@ -1,15 +1,13 @@
-2023/05/05-13:38:00.246 456d Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/05-13:38:00.248 456d Recovering log #690
-2023/05/05-13:38:00.254 456d Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/000690.log 
-2023/05/05-13:38:00.255 456d Delete type=2 #688
-2023/05/05-13:38:00.255 456d Delete type=2 #691
-2023/05/05-13:38:00.364 457d Level-0 table #695: started
-2023/05/05-13:38:00.367 457d Level-0 table #695: 90581 bytes OK
-2023/05/05-13:38:00.368 457d Delete type=0 #690
-2023/05/05-13:38:00.369 457d Manual compaction at level-0 from '\x00\xb0\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xb1\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/05/05-13:38:02.186 456e Compacting 1@1 + 1@2 files
-2023/05/05-13:38:02.197 456e Generated table #696@1: 7669 keys, 538955 bytes
-2023/05/05-13:38:02.197 456e Compacted 1@1 + 1@2 files => 538955 bytes
-2023/05/05-13:38:02.198 456e compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/05/05-13:38:02.199 456e Delete type=2 #695
-2023/05/05-13:38:02.199 456e Delete type=2 #692
+2023/05/14-20:19:06.416 2c99 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/14-20:19:06.417 2c99 Recovering log #730
+2023/05/14-20:19:06.419 2c99 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_hnmpcagpplmpfojmgmnngilcnanddlhb_0.indexeddb.leveldb/000730.log 
+2023/05/14-20:19:06.518 2c99 Level-0 table #735: started
+2023/05/14-20:19:06.520 2c99 Level-0 table #735: 83760 bytes OK
+2023/05/14-20:19:06.522 2c99 Delete type=0 #730
+2023/05/14-20:19:06.522 2c99 Manual compaction at level-0 from '\x00\xbc\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xbd\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/05/14-20:19:09.374 2c88 Compacting 1@1 + 1@2 files
+2023/05/14-20:19:09.387 2c88 Generated table #736@1: 7917 keys, 574425 bytes
+2023/05/14-20:19:09.388 2c88 Compacted 1@1 + 1@2 files => 574425 bytes
+2023/05/14-20:19:09.389 2c88 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-20:19:09.389 2c88 Delete type=2 #732
+2023/05/14-20:19:09.389 2c88 Delete type=2 #735

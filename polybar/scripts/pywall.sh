@@ -17,16 +17,19 @@ my_array=(/$HOME/Pictures/Wallpapers/*)
 
 # Get colors
 pywal_get() {
-    wal -t -e -i ${my_array[$(( $RANDOM % ${#my_array[@]}))]} -a 80
+    wal -t -i ${my_array[$(( $RANDOM % ${#my_array[@]}))]} -a 80
 }
 
 # Change colors
 change_theme_polybar() {
 
 	# polybar
+  printf "$BG"
+  printf "HIOo"
+  echo"BG = $BG"
 	sed -i -e "s/background = #.*/background = ${BG}/g" $Polybar
-        sed -i "/background-alt = #8C/c background-alt = #8C${BGA}" $Polybar
-        sed -i -e "s/foreground = #.*/foreground = ${FG}/g" $Polybar
+  sed -i "/background-alt = #8C/c background-alt = #8C${BGA}" $Polybar
+  sed -i -e "s/foreground = #.*/foreground = ${FG}/g" $Polybar
 	sed -i -e "s/themes = #.*/themes = $SH14/g" $Polybar
 	
 	# rofi
@@ -145,9 +148,9 @@ if [[ $1 = "--theme" ]]; then
 
     # Source the pywal color file
     . "$HOME/.cache/wal/colors.sh"
-    BG=`printf "%s\n" "$background"`
-    BGA=`printf $background | cut -c2-`
-    FG=`printf "%s\n" "$foreground"`
+    BG=`printf "%s\n" "$color0"`
+    BGA=`printf $color0 | cut -c2-`
+    FG=`printf "%s\n" "$color15"`
     FGA=`printf "%s\n" "$color7"`
     SH0=`printf "%s\n" "$color0"`
     SH1=`printf "%s\n" "$color1"`
@@ -171,6 +174,7 @@ if [[ $1 = "--theme" ]]; then
     
     change_theme_polybar
     change_theme_overall
+    echo $bg
     printf "\n Successfully changed the theme!! \n"
 else
     echo "./pywal.sh --theme"echo -e "\n Usage : ./pywal.sh --theme \n"

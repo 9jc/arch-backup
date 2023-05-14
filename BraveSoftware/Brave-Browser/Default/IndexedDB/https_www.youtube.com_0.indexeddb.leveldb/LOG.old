@@ -1,39 +1,84 @@
-2023/05/05-03:14:07.559 b4cda Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/05-03:14:07.559 b4cda Recovering log #4375
-2023/05/05-03:14:07.564 b4cda Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/004375.log 
-2023/05/05-03:15:01.281 b4cdb Level-0 table #4380: started
-2023/05/05-03:15:01.295 b4cdb Level-0 table #4380: 1298470 bytes OK
-2023/05/05-03:15:01.297 b4cdb Delete type=0 #4375
-2023/05/05-03:15:01.709 b4cdd Compacting 1@1 + 1@2 files
-2023/05/05-03:15:01.718 b4cdd Generated table #4381@1: 1540 keys, 106862 bytes
-2023/05/05-03:15:01.718 b4cdd Compacted 1@1 + 1@2 files => 106862 bytes
-2023/05/05-03:15:01.719 b4cdd compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/05/05-03:15:01.719 b4cdd Delete type=2 #4377
-2023/05/05-03:15:01.719 b4cdd Delete type=2 #4380
-2023/05/05-03:20:47.722 b4cdb Level-0 table #4383: started
-2023/05/05-03:20:47.733 b4cdb Level-0 table #4383: 944380 bytes OK
-2023/05/05-03:20:47.735 b4cdb Delete type=0 #4379
-2023/05/05-03:20:55.793 b4cda Compacting 1@1 + 1@2 files
-2023/05/05-03:20:55.802 b4cda Generated table #4384@1: 1558 keys, 121316 bytes
-2023/05/05-03:20:55.802 b4cda Compacted 1@1 + 1@2 files => 121316 bytes
-2023/05/05-03:20:55.803 b4cda compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/05/05-03:20:55.804 b4cda Delete type=2 #4383
-2023/05/05-03:20:55.804 b4cda Delete type=2 #4381
-2023/05/05-03:28:13.631 b4cdb Level-0 table #4386: started
-2023/05/05-03:28:13.645 b4cdb Level-0 table #4386: 1132410 bytes OK
-2023/05/05-03:28:13.647 b4cdb Delete type=0 #4382
-2023/05/05-03:35:31.406 b4cdd Compacting 1@1 + 1@2 files
-2023/05/05-03:35:31.459 b4cdd Generated table #4387@1: 1506 keys, 98636 bytes
-2023/05/05-03:35:31.459 b4cdd Compacted 1@1 + 1@2 files => 98636 bytes
-2023/05/05-03:35:31.461 b4cdd compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/05/05-03:35:31.461 b4cdd Delete type=2 #4384
-2023/05/05-03:35:31.461 b4cdd Delete type=2 #4386
-2023/05/05-04:05:37.995 b4cdb Level-0 table #4389: started
-2023/05/05-04:05:38.007 b4cdb Level-0 table #4389: 1119030 bytes OK
-2023/05/05-04:05:38.008 b4cdb Delete type=0 #4385
-2023/05/05-04:07:40.393 b4cdb Compacting 1@1 + 1@2 files
-2023/05/05-04:07:40.430 b4cdb Generated table #4390@1: 1541 keys, 101515 bytes
-2023/05/05-04:07:40.430 b4cdb Compacted 1@1 + 1@2 files => 101515 bytes
-2023/05/05-04:07:40.433 b4cdb compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/05/05-04:07:40.433 b4cdb Delete type=2 #4387
-2023/05/05-04:07:40.433 b4cdb Delete type=2 #4389
+2023/05/14-13:06:19.513 3846aa Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/14-13:06:19.514 3846aa Recovering log #4637
+2023/05/14-13:06:19.528 3846aa Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/004637.log 
+2023/05/14-13:06:32.837 3846aa Level-0 table #4642: started
+2023/05/14-13:06:32.863 3846aa Level-0 table #4642: 1101375 bytes OK
+2023/05/14-13:06:32.864 3846aa Delete type=0 #4637
+2023/05/14-13:06:34.682 3846ac Compacting 1@1 + 1@2 files
+2023/05/14-13:06:34.695 3846ac Generated table #4643@1: 2101 keys, 128449 bytes
+2023/05/14-13:06:34.695 3846ac Compacted 1@1 + 1@2 files => 128449 bytes
+2023/05/14-13:06:34.696 3846ac compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-13:06:34.697 3846ac Delete type=2 #4639
+2023/05/14-13:06:34.697 3846ac Delete type=2 #4642
+2023/05/14-13:38:37.073 3846aa Level-0 table #4645: started
+2023/05/14-13:38:37.084 3846aa Level-0 table #4645: 1160593 bytes OK
+2023/05/14-13:38:37.087 3846aa Delete type=0 #4641
+2023/05/14-13:42:12.507 3846a9 Compacting 1@1 + 1@2 files
+2023/05/14-13:42:12.520 3846a9 Generated table #4646@1: 2147 keys, 118434 bytes
+2023/05/14-13:42:12.520 3846a9 Compacted 1@1 + 1@2 files => 118434 bytes
+2023/05/14-13:42:12.521 3846a9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-13:55:43.260 3846aa Level-0 table #4648: started
+2023/05/14-13:55:43.374 3846aa Level-0 table #4648: 1122353 bytes OK
+2023/05/14-13:55:43.433 3846aa Delete type=2 #4645
+2023/05/14-13:55:43.433 3846aa Delete type=2 #4643
+2023/05/14-13:55:43.433 3846aa Delete type=0 #4644
+2023/05/14-13:56:22.188 3846a9 Compacting 1@1 + 1@2 files
+2023/05/14-13:56:22.194 3846a9 Generated table #4649@1: 2204 keys, 118065 bytes
+2023/05/14-13:56:22.194 3846a9 Compacted 1@1 + 1@2 files => 118065 bytes
+2023/05/14-13:56:22.242 3846a9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-13:56:22.243 3846a9 Delete type=2 #4646
+2023/05/14-13:56:22.243 3846a9 Delete type=2 #4648
+2023/05/14-14:07:02.627 3846a9 Level-0 table #4651: started
+2023/05/14-14:07:02.637 3846a9 Level-0 table #4651: 1088987 bytes OK
+2023/05/14-14:07:02.639 3846a9 Delete type=0 #4647
+2023/05/14-14:08:47.364 3846a9 Compacting 1@1 + 1@2 files
+2023/05/14-14:08:47.369 3846a9 Generated table #4652@1: 2177 keys, 117054 bytes
+2023/05/14-14:08:47.369 3846a9 Compacted 1@1 + 1@2 files => 117054 bytes
+2023/05/14-14:08:47.373 3846a9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-14:08:47.373 3846a9 Delete type=2 #4651
+2023/05/14-14:08:47.373 3846a9 Delete type=2 #4649
+2023/05/14-14:22:40.144 3846aa Level-0 table #4654: started
+2023/05/14-14:22:40.156 3846aa Level-0 table #4654: 908605 bytes OK
+2023/05/14-14:22:40.158 3846aa Delete type=0 #4650
+2023/05/14-14:29:35.843 3846aa Compacting 1@1 + 1@2 files
+2023/05/14-14:29:35.854 3846aa Generated table #4655@1: 2235 keys, 120245 bytes
+2023/05/14-14:29:35.854 3846aa Compacted 1@1 + 1@2 files => 120245 bytes
+2023/05/14-14:29:35.857 3846aa compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-14:29:35.857 3846aa Delete type=2 #4652
+2023/05/14-14:29:35.857 3846aa Delete type=2 #4654
+2023/05/14-14:56:03.608 3846aa Level-0 table #4657: started
+2023/05/14-14:56:03.627 3846aa Level-0 table #4657: 853253 bytes OK
+2023/05/14-14:56:03.632 3846aa Delete type=0 #4653
+2023/05/14-14:57:40.516 3846a9 Compacting 1@1 + 1@2 files
+2023/05/14-14:57:40.522 3846a9 Generated table #4658@1: 2270 keys, 114393 bytes
+2023/05/14-14:57:40.522 3846a9 Compacted 1@1 + 1@2 files => 114393 bytes
+2023/05/14-14:57:40.525 3846a9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-14:57:40.525 3846a9 Delete type=2 #4655
+2023/05/14-14:57:40.525 3846a9 Delete type=2 #4657
+2023/05/14-15:11:12.539 3846aa Level-0 table #4660: started
+2023/05/14-15:11:12.560 3846aa Level-0 table #4660: 857484 bytes OK
+2023/05/14-15:11:12.563 3846aa Delete type=0 #4656
+2023/05/14-19:01:39.966 3846aa Compacting 1@1 + 1@2 files
+2023/05/14-19:01:40.003 3846aa Generated table #4661@1: 2317 keys, 121560 bytes
+2023/05/14-19:01:40.003 3846aa Compacted 1@1 + 1@2 files => 121560 bytes
+2023/05/14-19:01:40.006 3846aa compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-19:01:40.007 3846aa Delete type=2 #4658
+2023/05/14-19:01:40.007 3846aa Delete type=2 #4660
+2023/05/14-19:34:21.990 3846aa Level-0 table #4663: started
+2023/05/14-19:34:22.012 3846aa Level-0 table #4663: 950190 bytes OK
+2023/05/14-19:34:22.016 3846aa Delete type=0 #4659
+2023/05/14-19:34:35.965 3846ac Compacting 1@1 + 1@2 files
+2023/05/14-19:34:35.982 3846ac Generated table #4664@1: 2226 keys, 185340 bytes
+2023/05/14-19:34:35.982 3846ac Compacted 1@1 + 1@2 files => 185340 bytes
+2023/05/14-19:34:35.983 3846ac compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-19:34:35.983 3846ac Delete type=2 #4663
+2023/05/14-19:34:35.983 3846ac Delete type=2 #4661
+2023/05/14-19:44:06.134 3846aa Level-0 table #4666: started
+2023/05/14-19:44:06.312 3846aa Level-0 table #4666: 953237 bytes OK
+2023/05/14-19:44:06.363 3846aa Delete type=0 #4662
+2023/05/14-19:46:22.968 3846a9 Compacting 1@1 + 1@2 files
+2023/05/14-19:46:22.985 3846a9 Generated table #4667@1: 2191 keys, 116811 bytes
+2023/05/14-19:46:22.985 3846a9 Compacted 1@1 + 1@2 files => 116811 bytes
+2023/05/14-19:46:22.988 3846a9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-19:46:22.989 3846a9 Delete type=2 #4664
+2023/05/14-19:46:22.989 3846a9 Delete type=2 #4666

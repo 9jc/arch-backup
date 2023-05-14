@@ -144,14 +144,14 @@ gradient = 1
 gradient_count = 8
 
 # Pywall Gradient - 1 
-gradient_color_1 = '#DBAD9A'
-gradient_color_2 = '#E24FA1'
-gradient_color_3 = '#B18679'
-gradient_color_4 = '#976A62'
-gradient_color_5 = '#B18679'
-gradient_color_6 = '#976A62'
-gradient_color_7 = '#B1364D'
-gradient_color_8 = '#6E5756'
+gradient_color_1 = '#55B3C6'
+gradient_color_2 = '#A97293'
+gradient_color_3 = '#505A95'
+gradient_color_4 = '#2D5692'
+gradient_color_5 = '#505A95'
+gradient_color_6 = '#2D5692'
+gradient_color_7 = '#CB455F'
+gradient_color_8 = '#2E496E'
 
 [smoothing]
 

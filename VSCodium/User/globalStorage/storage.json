@@ -2,8 +2,8 @@
     "telemetry.machineId": "8eb88076ac9fcfe08741d9c074e36d69168ef190d756fc7dbdc9c437998625d5",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/i0xfce/.config/polybar/scripts",
-            "backupPath": "/home/i0xfce/.config/VSCodium/Backups/2afd72b62d2432b5ec14e77c17e5c640",
+            "folder": "file:///home/i0xfce/Documents/Vels%20PDF/java",
+            "backupPath": "/home/i0xfce/.config/VSCodium/Backups/31f67bf4cd7504bf1ace60e72134bf25",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -52,10 +52,22 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/i0xfce/Documents/Vels%20PDF/java",
+                                        "path": "/home/i0xfce/Documents/Vels PDF/java",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Vels PDF/java"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -152,6 +164,28 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/i0xfce/Documents/Vels",
+                                        "path": "/home/i0xfce/Documents/Vels",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Vels"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/i0xfce/Documents/Vels%20PDF/java/PDF/java",
+                                        "path": "/home/i0xfce/Documents/Vels PDF/java/PDF/java",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Vels PDF/java/PDF/java"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/i0xfce/MEGAsync/Projects/Python/Wallpaper_Downloader/.env",
                                         "path": "/home/i0xfce/MEGAsync/Projects/Python/Wallpaper_Downloader/.env",
                                         "scheme": "file"
@@ -235,28 +269,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/Vels PDF/Python/Practical/selection_sort.py"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/i0xfce/Documents/Vels%20PDF/Python/Practical/max_list.py",
-                                        "path": "/home/i0xfce/Documents/Vels PDF/Python/Practical/max_list.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/Vels PDF/Python/Practical/max_list.py"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/i0xfce/Desktop/bunary.py",
-                                        "path": "/home/i0xfce/Desktop/bunary.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Desktop/bunary.py"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -658,8 +670,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -852,10 +863,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -900,8 +907,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1120,7 +1126,8 @@
                     },
                     {
                         "id": "workbench.action.debug.configure",
-                        "label": "Open &&Configurations"
+                        "label": "Open &&Configurations",
+                        "enabled": false
                     },
                     {
                         "id": "debug.addConfiguration",
@@ -1817,10 +1824,14 @@
                 "folderUri": "file:///home/i0xfce/Documents/Vels%20PDF/Python/Practical"
             },
             {
-                "folderUri": "file:///home/i0xfce/.config/polybar/scripts"
+                "folderUri": "file:///home/i0xfce/Documents/Vels%20PDF/java"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1683507731187"
+            }
+        ]
     },
     "userDataProfilesMigration": true,
     "profileAssociations": {
@@ -1828,7 +1839,8 @@
             "file:///home/i0xfce/Documents/Vels%20PDF/Python/Practical": "__default__profile__",
             "file:///home/i0xfce/MEGAsync/Projects/Python/Wallpaper_Downloader": "__default__profile__",
             "file:///home/i0xfce/MEGAsync/Projects/Python/Paxvault": "__default__profile__",
-            "file:///home/i0xfce/.config/polybar/scripts": "__default__profile__"
+            "file:///home/i0xfce/.config/polybar/scripts": "__default__profile__",
+            "file:///home/i0xfce/Documents/Vels%20PDF/java": "__default__profile__"
         },
         "emptyWindows": {}
     },

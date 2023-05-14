@@ -1,6 +1,6 @@
-2023/05/05-03:14:04.187 3 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2023/05/05-03:14:04.188 3 Recovering log #444
-2023/05/05-03:14:04.190 3 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000444.log 
-2023/05/05-04:32:06.381 4 Level-0 table #448: started
-2023/05/05-04:32:06.385 4 Level-0 table #448: 16673 bytes OK
-2023/05/05-04:32:06.388 4 Delete type=0 #444
+2023/05/14-13:06:13.197 3 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2023/05/14-13:06:13.197 3 Recovering log #527
+2023/05/14-13:06:13.198 3 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000527.log 
+2023/05/14-15:11:16.952 3 Level-0 table #531: started
+2023/05/14-15:11:16.957 3 Level-0 table #531: 16660 bytes OK
+2023/05/14-15:11:16.961 3 Delete type=0 #527

@@ -35,8 +35,8 @@ alt + F6
 	bspc node older.local.!floating -f
 
 # Bspwm Layout switch
-/* super + space */
-	/* bspc node -t {tiled,pseudo_tiled,floating,fullscreen} */
+# super + space */
+	# bspc node -t {tiled,pseudo_tiled,floating,fullscreen} */
 
 # Send to background & hide
 super + Left
@@ -91,7 +91,7 @@ super + c
 
 # killall mpv or use mpv
 super + x
-    if pgrep mpv; then killall mpv; else mpv  --osd-bar=no --save-position-on-quit --fs $HOME/Telegram\ Desktop/*; fi
+    if pgrep mpv; then killall mpv; else mpv  --osd-bar=no --save-position-on-quit --fs $HOME/Telegram\ Desktop#; fi
 
 # Bleachbit
 super + shift + c
@@ -252,8 +252,8 @@ ctrl + alt + o
     ~/.config/leftwm/scripts/picom-toggle.sh
 
 # Killall MPV
-/* ctrl + alt + v */
-    /* killall mpv */
+# ctrl + alt + v */
+    # killall mpv */
 
 # brave Normal
 ctrl + alt + g ; g
@@ -316,8 +316,8 @@ super + g ; g ; p
     bw generate -lusn --length 20 | xclip -selection clipboard; notify-send "Generated Random Passowrd"
 
 # Generate random password (Sys)
-/* super + g ; g ; p */
-    /* tr -dc "a-zA-Z0-9_#@.-" < /dev/urandom | head -c 20 | xclip -selection clipboard; notify-send "Generated Random Passowrd" */
+# super + g ; g ; p */
+    # tr -dc "a-zA-Z0-9_#@.-" < /dev/urandom | head -c 20 | xclip -selection clipboard; notify-send "Generated Random Passowrd" */
 
 # Bitwarden rolfi-menu
 super + g ; g ; b
@@ -363,7 +363,7 @@ super + space
 # state/flags  [ set the window state ] ---------------------------------------------------
 
 # Bspwm move to window X (1,2,3,4...)
-        /* bspc desktop -f 2 */
+        # bspc desktop -f 2 */
 
 # Bspwm Tiled
 super + shift + a
@@ -437,8 +437,8 @@ super + shift + {Left,Down,Up,Right}
     bspc node --to-node {west,south,north,east}
 
 # Move a floating window
-/* super + shift + {Left,Down,Up,Right} */
-	/* bspc node -v {-20 0,0 20,0 -20,20 0} */
+# super + shift + {Left,Down,Up,Right} */
+	# bspc node -v {-20 0,0 20,0 -20,20 0} */
 
 # Expand/Contract a window 
 super + shift + {h,j,k,l}

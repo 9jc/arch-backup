@@ -1,5 +1,5 @@
 [Configuration]
-LastActiveMode=THUNAR_RENAMER_MODE_NAME
+LastActiveMode=THUNAR_RENAMER_MODE_BOTH
 LastActiveRenamer=ThunarSbrNumberRenamer
 
 [ThunarSbrRemoveRenamer]
@@ -22,7 +22,7 @@ Regexp=FALSE
 
 [ThunarSbrNumberRenamer]
 TextMode=THUNAR_SBR_TEXT_MODE_TN
-Text=wallheaven-
+Text=
 Mode=THUNAR_SBR_NUMBER_MODE_123
 Start=1
 

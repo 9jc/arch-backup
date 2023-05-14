@@ -1,12 +1,12 @@
-2023/05/05-13:38:09.387 456e Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/05-13:38:09.388 456e Recovering log #4388
-2023/05/05-13:38:09.405 456e Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/004388.log 
-2023/05/05-13:38:18.603 456e Level-0 table #4393: started
-2023/05/05-13:38:18.614 456e Level-0 table #4393: 1317878 bytes OK
-2023/05/05-13:38:18.616 456e Delete type=0 #4388
-2023/05/05-13:38:20.391 456e Compacting 1@1 + 1@2 files
-2023/05/05-13:38:20.405 456e Generated table #4394@1: 1540 keys, 127689 bytes
-2023/05/05-13:38:20.405 456e Compacted 1@1 + 1@2 files => 127689 bytes
-2023/05/05-13:38:20.406 456e compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/05/05-13:38:20.407 456e Delete type=2 #4390
-2023/05/05-13:38:20.407 456e Delete type=2 #4393
+2023/05/14-20:19:07.112 2c88 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/14-20:19:07.114 2c88 Recovering log #4665
+2023/05/14-20:19:07.119 2c88 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/004665.log 
+2023/05/14-21:28:56.777 2c89 Level-0 table #4670: started
+2023/05/14-21:28:56.788 2c89 Level-0 table #4670: 1463127 bytes OK
+2023/05/14-21:28:56.790 2c89 Delete type=0 #4665
+2023/05/14-22:21:02.782 2c8a Compacting 1@1 + 1@2 files
+2023/05/14-22:21:02.788 2c8a Generated table #4671@1: 2249 keys, 110826 bytes
+2023/05/14-22:21:02.788 2c8a Compacted 1@1 + 1@2 files => 110826 bytes
+2023/05/14-22:21:02.790 2c8a compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/14-22:21:02.790 2c8a Delete type=2 #4667
+2023/05/14-22:21:02.790 2c8a Delete type=2 #4670

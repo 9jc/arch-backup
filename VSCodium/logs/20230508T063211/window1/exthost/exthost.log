@@ -1,0 +1,104 @@
+2023-05-08 06:32:12.408 [info] Extension host with pid 3676708 started
+2023-05-08 06:32:12.443 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-08 06:32:12.456 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-08 06:32:12.462 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-08 06:32:12.462 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-08 06:32:12.517 [info] Eager extensions activated
+2023-05-08 06:32:12.526 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-08 06:32:12.526 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-08 06:32:12.527 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2023-05-08 06:32:39.405 [info] Extension host terminating: received terminate message from renderer
+2023-05-08 06:32:39.410 [info] Extension host with pid 3676708 exiting with code 0
+2023-05-08 06:32:40.392 [info] Extension host with pid 3677585 started
+2023-05-08 06:32:40.392 [info] Skipping acquiring lock for /home/i0xfce/.config/VSCodium/User/workspaceStorage/27328696a52697954a931db583b73cb3.
+2023-05-08 06:32:40.464 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-08 06:32:40.521 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-08 06:32:40.522 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-08 06:32:40.788 [info] Eager extensions activated
+2023-05-08 06:32:40.791 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-08 06:32:40.791 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-08 06:32:40.791 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2023-05-08 06:32:51.671 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onCustomEditor:decompiled.javaClass'
+2023-05-08 06:32:51.850 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-05-08 06:32:52.038 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-05-08 06:32:53.282 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2023-05-08 06:32:53.282 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-08 06:32:55.477 [error] [redhat.java] provider FAILED
+2023-05-08 06:32:55.480 [error] Error: The request (id: 1, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-08 06:51:17.367 [error] [redhat.java] provider FAILED
+2023-05-08 06:51:17.376 [error] Error: The request (id: 131, method: 'textDocument/hover') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-08 07:14:01.198 [error] [redhat.java] provider FAILED
+2023-05-08 07:14:01.199 [error] Error: The request (id: 469, method: 'textDocument/hover') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-08 09:07:33.739 [error] [redhat.java] provider FAILED
+2023-05-08 09:07:33.747 [error] Error: The request (id: 1074, method: 'textDocument/hover') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-08 09:27:00.177 [error] [redhat.java] provider FAILED
+2023-05-08 09:27:00.180 [error] Error: The request (id: 1399, method: 'textDocument/hover') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-08 09:51:12.242 [info] ExtensionService#_doActivateExtension vscode.references-view, startup: false, activationEvent: 'onCommand:references-view.findReferences'
+2023-05-08 09:51:46.043 [error] [redhat.java] provider FAILED
+2023-05-08 09:51:46.043 [error] Error: The request (id: 1451, method: 'textDocument/hover') has been cancelled
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/i0xfce/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-08 14:10:32.274 [info] Extension host terminating: renderer closed the socket
+2023-05-08 14:10:32.288 [error] Canceled: Canceled
+	at new l (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:112850)
+	at c._remoteCall (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:14408)
+	at q.<computed>.X.charCodeAt.q.<computed> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:10948)
+	at m._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:133756)
+	at m.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:133067)
+	at L.registerCommand.description (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:132294)
+	at m._executeContributedCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:134391)
+	at m._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:133207)
+	at m.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:133067)
+	at Object.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:26386)
+	at D (/usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:1467105)
+	at E.invoke (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2680)
+	at n.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2213)
+	at Object.m [as dispose] (/usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:1481834)
+	at /usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:1485901
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:1485887)
+	at t.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:13663)
+	at t.dispose (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:13798)
+	at t.<anonymous> (/usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:1469235)
+	at t.dispose (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:13798)
+	at D (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12152)
+	at E._deactivate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:13177)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:10540
+	at Array.map (<anonymous>)
+	at E._deactivateAll (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:10527)
+	at E.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:10909)
+	at d.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:1712)
+	at p (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:19913)
+	at Socket.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:17537)
+	at Socket.emit (node:events:538:35)
+	at Pipe.<anonymous> (node:net:687:12) setContext undefined
+2023-05-08 14:10:32.292 [info] Extension host with pid 3677585 exiting with code 0

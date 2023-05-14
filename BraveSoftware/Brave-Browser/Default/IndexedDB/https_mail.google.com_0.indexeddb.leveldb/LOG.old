@@ -1,12 +1,15 @@
-2023/05/01-23:22:40.743 182c Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/01-23:22:40.743 182c Recovering log #110
-2023/05/01-23:22:41.049 182c Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000110.log 
-2023/05/01-23:23:09.916 182d Level-0 table #116: started
-2023/05/01-23:23:09.934 182d Level-0 table #116: 2041216 bytes OK
-2023/05/01-23:23:09.936 182d Delete type=0 #110
-2023/05/01-23:23:26.995 182d Compacting 1@1 + 1@2 files
-2023/05/01-23:23:26.999 182d Generated table #117@1: 198 keys, 138016 bytes
-2023/05/01-23:23:26.999 182d Compacted 1@1 + 1@2 files => 138016 bytes
-2023/05/01-23:23:27.000 182d compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/05/01-23:23:27.000 182d Delete type=2 #116
-2023/05/01-23:23:27.000 182d Delete type=2 #113
+2023/05/07-14:53:32.398 2b2441 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/07-14:53:32.398 2b2441 Recovering log #122
+2023/05/07-14:53:32.401 2b2441 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000122.log 
+2023/05/07-15:53:53.441 2b2442 Level-0 table #128: started
+2023/05/07-15:53:53.464 2b2442 Level-0 table #128: 1195302 bytes OK
+2023/05/07-15:53:53.467 2b2442 Delete type=0 #122
+2023/05/07-15:53:53.468 2b2442 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/05/07-15:53:53.468 2b2442 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0a\x01\x02\x01(\x00S\x00t\x00o\x00r\x00e\x00d\x00N\x00e\x00t\x00w\x00o\x00r\x00k\x00F\x00e\x00t\x00c\x00h\x00C\x00o\x00u\x00n\x00t\x00e\x00r\x00s\x00:\x00:\x00S\x00T\x00A\x00T\x00I\x00C\x00_\x00A\x00S\x00S\x00E\x00T' @ 67693 : 1
+2023/05/07-15:53:53.468 2b2442 Compacting 1@1 + 1@2 files
+2023/05/07-15:53:53.476 2b2442 Generated table #129@1: 180 keys, 66718 bytes
+2023/05/07-15:53:53.476 2b2442 Compacted 1@1 + 1@2 files => 66718 bytes
+2023/05/07-15:53:53.477 2b2442 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/07-15:53:53.477 2b2442 Delete type=2 #128
+2023/05/07-15:53:53.477 2b2442 Delete type=2 #125
+2023/05/07-15:53:53.477 2b2442 Manual compaction at level-1 from '\x00\x0a\x01\x02\x01(\x00S\x00t\x00o\x00r\x00e\x00d\x00N\x00e\x00t\x00w\x00o\x00r\x00k\x00F\x00e\x00t\x00c\x00h\x00C\x00o\x00u\x00n\x00t\x00e\x00r\x00s\x00:\x00:\x00S\x00T\x00A\x00T\x00I\x00C\x00_\x00A\x00S\x00S\x00E\x00T' @ 67693 : 1 .. (end); will stop at (end)

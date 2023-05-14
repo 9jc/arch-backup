@@ -1,120 +1,68 @@
-2023/05/05-01:29:20.947 2afb Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-020418
-2023/05/05-01:29:20.947 2afb Recovering log #20890
-2023/05/05-01:29:20.947 2afb Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/020890.log 
-2023/05/05-01:29:35.280 2afc Level-0 table #20900: started
-2023/05/05-01:29:35.293 2afc Level-0 table #20900: 1196724 bytes OK
-2023/05/05-01:29:35.294 2afc Delete type=0 #20890
-2023/05/05-01:29:35.298 2afc Compacting 1@1 + 5@2 files
-2023/05/05-01:29:35.343 2afc Generated table #20901@1: 44355 keys, 2526374 bytes
-2023/05/05-01:29:35.379 2afc Generated table #20902@1: 1902 keys, 2860608 bytes
-2023/05/05-01:29:35.396 2afc Generated table #20903@1: 12956 keys, 2186464 bytes
-2023/05/05-01:29:35.419 2afc Generated table #20904@1: 11095 keys, 2180681 bytes
-2023/05/05-01:29:35.461 2afc Generated table #20905@1: 20879 keys, 2205955 bytes
-2023/05/05-01:29:35.470 2afc Generated table #20906@1: 17552 keys, 376915 bytes
-2023/05/05-01:29:35.470 2afc Compacted 1@1 + 5@2 files => 12336997 bytes
-2023/05/05-01:29:35.472 2afc compacted to: files[ 0 0 7 0 0 0 0 ]
-2023/05/05-01:29:35.472 2afc Delete type=2 #20892
-2023/05/05-01:29:35.472 2afc Delete type=2 #20895
-2023/05/05-01:29:35.472 2afc Delete type=2 #20900
-2023/05/05-01:29:35.472 2afc Delete type=2 #20893
-2023/05/05-01:29:35.472 2afc Delete type=2 #20896
-2023/05/05-01:29:35.472 2afc Delete type=2 #20894
-2023/05/05-01:29:36.144 2afc Level-0 table #20908: started
-2023/05/05-01:29:36.156 2afc Level-0 table #20908: 1295368 bytes OK
-2023/05/05-01:29:36.157 2afc Delete type=0 #20899
-2023/05/05-01:29:36.158 2afc Compacting 1@1 + 5@2 files
-2023/05/05-01:29:36.192 2afc Generated table #20909@1: 59602 keys, 2389254 bytes
-2023/05/05-01:29:36.224 2afc Generated table #20910@1: 1865 keys, 2874131 bytes
-2023/05/05-01:29:36.245 2afc Generated table #20911@1: 12826 keys, 2345665 bytes
-2023/05/05-01:29:36.264 2afc Generated table #20912@1: 4381 keys, 2150722 bytes
-2023/05/05-01:29:36.296 2afc Generated table #20913@1: 27999 keys, 2253202 bytes
-2023/05/05-01:29:36.302 2afc Generated table #20914@1: 1875 keys, 671545 bytes
-2023/05/05-01:29:36.302 2afc Compacted 1@1 + 5@2 files => 12684519 bytes
-2023/05/05-01:29:36.304 2afc compacted to: files[ 0 0 8 0 0 0 0 ]
-2023/05/05-01:29:36.584 2afc Level-0 table #20916: started
-2023/05/05-01:29:36.613 2afc Level-0 table #20916: 1215962 bytes OK
-2023/05/05-01:29:36.615 2afc Delete type=2 #20903
-2023/05/05-01:29:36.615 2afc Delete type=0 #20907
-2023/05/05-01:29:36.615 2afc Delete type=2 #20904
-2023/05/05-01:29:36.615 2afc Delete type=2 #20901
-2023/05/05-01:29:36.615 2afc Delete type=2 #20902
-2023/05/05-01:29:36.615 2afc Delete type=2 #20908
-2023/05/05-01:29:36.615 2afc Delete type=2 #20905
-2023/05/05-01:29:36.621 2afc Compacting 1@1 + 5@2 files
-2023/05/05-01:29:36.672 2afc Generated table #20917@1: 51176 keys, 2416269 bytes
-2023/05/05-01:29:36.720 2afc Generated table #20918@1: 1819 keys, 2884844 bytes
-2023/05/05-01:29:36.743 2afc Generated table #20919@1: 13028 keys, 2294619 bytes
-2023/05/05-01:29:36.757 2afc Generated table #20920@1: 6177 keys, 2153885 bytes
-2023/05/05-01:29:36.792 2afc Generated table #20921@1: 27017 keys, 2235143 bytes
-2023/05/05-01:29:36.792 2afc Compacted 1@1 + 5@2 files => 11984760 bytes
-2023/05/05-01:29:36.794 2afc compacted to: files[ 0 0 8 0 0 0 0 ]
-2023/05/05-01:29:36.794 2afc Delete type=2 #20911
-2023/05/05-01:29:36.794 2afc Delete type=2 #20912
-2023/05/05-01:29:36.794 2afc Delete type=2 #20916
-2023/05/05-01:29:36.794 2afc Delete type=2 #20913
-2023/05/05-01:29:36.794 2afc Delete type=2 #20909
-2023/05/05-01:29:36.795 2afc Delete type=2 #20910
-2023/05/05-01:29:40.035 2afc Level-0 table #20923: started
-2023/05/05-01:29:40.052 2afc Level-0 table #20923: 1224298 bytes OK
-2023/05/05-01:29:40.054 2afc Delete type=0 #20915
-2023/05/05-01:29:40.059 2afb Compacting 1@1 + 8@2 files
-2023/05/05-01:29:40.101 2afb Generated table #20924@1: 51945 keys, 2507807 bytes
-2023/05/05-01:29:40.137 2afb Generated table #20925@1: 1928 keys, 2868628 bytes
-2023/05/05-01:29:40.157 2afb Generated table #20926@1: 13617 keys, 2217783 bytes
-2023/05/05-01:29:40.173 2afb Generated table #20927@1: 8678 keys, 2165645 bytes
-2023/05/05-01:29:40.203 2afb Generated table #20928@1: 24539 keys, 2234109 bytes
-2023/05/05-01:29:40.237 2afb Generated table #20929@1: 82022 keys, 2228553 bytes
-2023/05/05-01:29:40.245 2afb Generated table #20930@1: 17841 keys, 571535 bytes
-2023/05/05-01:29:40.245 2afb Compacted 1@1 + 8@2 files => 14794060 bytes
-2023/05/05-01:29:40.247 2afb compacted to: files[ 0 0 7 0 0 0 0 ]
-2023/05/05-01:29:40.247 2afb Delete type=2 #20921
-2023/05/05-01:29:40.247 2afb Delete type=2 #20918
-2023/05/05-01:29:40.247 2afb Delete type=2 #20919
-2023/05/05-01:29:40.247 2afb Delete type=2 #20920
-2023/05/05-01:29:40.247 2afb Delete type=2 #20914
-2023/05/05-01:29:40.247 2afb Delete type=2 #20906
-2023/05/05-01:29:40.247 2afb Delete type=2 #20917
-2023/05/05-01:29:40.247 2afb Delete type=2 #20923
-2023/05/05-01:29:40.247 2afb Delete type=2 #20897
-2023/05/05-01:30:27.032 2afc Level-0 table #20932: started
-2023/05/05-01:30:27.052 2afc Level-0 table #20932: 1058021 bytes OK
-2023/05/05-01:30:27.054 2afc Delete type=0 #20922
-2023/05/05-01:30:38.032 2afc Compacting 1@1 + 7@2 files
-2023/05/05-01:30:38.099 2afc Generated table #20933@1: 51218 keys, 2513574 bytes
-2023/05/05-01:30:38.145 2afc Generated table #20934@1: 1917 keys, 2859220 bytes
-2023/05/05-01:30:38.173 2afc Generated table #20935@1: 13657 keys, 2216863 bytes
-2023/05/05-01:30:38.199 2afc Generated table #20936@1: 8847 keys, 2166793 bytes
-2023/05/05-01:30:38.241 2afc Generated table #20937@1: 23726 keys, 2236930 bytes
-2023/05/05-01:30:38.294 2afc Generated table #20938@1: 81021 keys, 2227768 bytes
-2023/05/05-01:30:38.311 2afc Generated table #20939@1: 24710 keys, 733273 bytes
-2023/05/05-01:30:38.311 2afc Compacted 1@1 + 7@2 files => 14954421 bytes
-2023/05/05-01:30:38.316 2afc compacted to: files[ 0 0 7 0 0 0 0 ]
-2023/05/05-01:30:38.316 2afc Delete type=2 #20927
-2023/05/05-01:30:38.316 2afc Delete type=2 #20929
-2023/05/05-01:30:38.316 2afc Delete type=2 #20930
-2023/05/05-01:30:38.316 2afc Delete type=2 #20924
-2023/05/05-01:30:38.316 2afc Delete type=2 #20932
-2023/05/05-01:30:38.316 2afc Delete type=2 #20926
-2023/05/05-01:30:38.316 2afc Delete type=2 #20925
-2023/05/05-01:30:38.316 2afc Delete type=2 #20928
-2023/05/05-01:53:12.347 2afb Level-0 table #20941: started
-2023/05/05-01:53:12.369 2afb Level-0 table #20941: 1280158 bytes OK
-2023/05/05-01:53:12.373 2afb Delete type=0 #20931
-2023/05/05-01:53:12.701 2afc Compacting 1@1 + 7@2 files
-2023/05/05-01:53:12.761 2afc Generated table #20942@1: 53324 keys, 2502651 bytes
-2023/05/05-01:53:12.813 2afc Generated table #20943@1: 1891 keys, 2856599 bytes
-2023/05/05-01:53:12.844 2afc Generated table #20944@1: 13755 keys, 2246833 bytes
-2023/05/05-01:53:12.868 2afc Generated table #20945@1: 7753 keys, 2162124 bytes
-2023/05/05-01:53:12.909 2afc Generated table #20946@1: 24480 keys, 2243926 bytes
-2023/05/05-01:53:12.962 2afc Generated table #20947@1: 78125 keys, 2222342 bytes
-2023/05/05-01:53:12.981 2afc Generated table #20948@1: 28110 keys, 813375 bytes
-2023/05/05-01:53:12.981 2afc Compacted 1@1 + 7@2 files => 15047850 bytes
-2023/05/05-01:53:12.983 2afc compacted to: files[ 0 0 7 0 0 0 0 ]
-2023/05/05-01:53:12.983 2afc Delete type=2 #20934
-2023/05/05-01:53:12.983 2afc Delete type=2 #20941
-2023/05/05-01:53:12.983 2afc Delete type=2 #20939
-2023/05/05-01:53:12.983 2afc Delete type=2 #20935
-2023/05/05-01:53:12.983 2afc Delete type=2 #20933
-2023/05/05-01:53:12.983 2afc Delete type=2 #20936
-2023/05/05-01:53:12.983 2afc Delete type=2 #20937
-2023/05/05-01:53:12.983 2afc Delete type=2 #20938
+2023/05/14-13:06:14.423 3846a9 Reusing MANIFEST /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-021045
+2023/05/14-13:06:14.424 3846a9 Recovering log #21572
+2023/05/14-13:06:14.440 3846a9 Reusing old log /home/i0xfce/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/021572.log 
+2023/05/14-13:06:34.619 3846aa Level-0 table #21587: started
+2023/05/14-13:06:34.647 3846aa Level-0 table #21587: 1368392 bytes OK
+2023/05/14-13:06:34.648 3846aa Delete type=0 #21572
+2023/05/14-13:06:34.650 3846aa Compacting 1@0 + 0@1 files
+2023/05/14-13:06:34.682 3846aa Generated table #21588@0: 18077 keys, 557433 bytes
+2023/05/14-13:06:34.684 3846aa Generated table #21589@0: 7 keys, 993 bytes
+2023/05/14-13:06:34.684 3846aa Compacted 1@0 + 0@1 files => 558426 bytes
+2023/05/14-13:06:34.687 3846aa compacted to: files[ 0 2 10 0 0 0 0 ]
+2023/05/14-13:06:34.867 3846ac Compacting 1@1 + 9@2 files
+2023/05/14-13:06:34.959 3846ac Generated table #21590@1: 64838 keys, 2343146 bytes
+2023/05/14-13:06:35.071 3846ac Generated table #21591@1: 1872 keys, 2928593 bytes
+2023/05/14-13:06:35.163 3846ac Generated table #21592@1: 7713 keys, 2684089 bytes
+2023/05/14-13:06:35.213 3846ac Generated table #21593@1: 8996 keys, 2160176 bytes
+2023/05/14-13:06:35.254 3846ac Generated table #21594@1: 2206 keys, 2144374 bytes
+2023/05/14-13:06:35.322 3846ac Generated table #21595@1: 16826 keys, 2207321 bytes
+2023/05/14-13:06:35.472 3846ac Generated table #21596@1: 27455 keys, 2255546 bytes
+2023/05/14-13:06:35.585 3846ac Generated table #21597@1: 51669 keys, 2185649 bytes
+2023/05/14-13:06:35.671 3846ac Generated table #21598@1: 95585 keys, 2245388 bytes
+2023/05/14-13:06:35.677 3846ac Generated table #21599@1: 2013 keys, 255249 bytes
+2023/05/14-13:06:35.677 3846ac Compacted 1@1 + 9@2 files => 21409531 bytes
+2023/05/14-13:06:35.680 3846ac compacted to: files[ 0 1 11 0 0 0 0 ]
+2023/05/14-13:06:35.680 3846ac Delete type=2 #21576
+2023/05/14-13:06:35.681 3846ac Delete type=2 #21577
+2023/05/14-13:06:35.681 3846ac Delete type=2 #21582
+2023/05/14-13:06:35.681 3846ac Delete type=2 #21579
+2023/05/14-13:06:35.681 3846ac Delete type=2 #21578
+2023/05/14-13:06:35.681 3846ac Delete type=2 #21583
+2023/05/14-13:06:35.681 3846ac Delete type=2 #21580
+2023/05/14-13:06:35.681 3846ac Delete type=2 #21581
+2023/05/14-13:06:35.681 3846ac Delete type=2 #21587
+2023/05/14-13:06:35.681 3846ac Delete type=2 #21588
+2023/05/14-13:06:35.681 3846ac Delete type=2 #21575
+2023/05/14-19:00:08.958 3846ac Level-0 table #21601: started
+2023/05/14-19:00:08.996 3846ac Level-0 table #21601: 1294358 bytes OK
+2023/05/14-19:00:08.998 3846ac Delete type=0 #21586
+2023/05/14-19:00:09.001 3846ac Compacting 1@0 + 1@1 files
+2023/05/14-19:00:09.019 3846ac Generated table #21602@0: 19787 keys, 488927 bytes
+2023/05/14-19:00:09.022 3846ac Generated table #21603@0: 28 keys, 2752 bytes
+2023/05/14-19:00:09.022 3846ac Compacted 1@0 + 1@1 files => 491679 bytes
+2023/05/14-19:00:09.024 3846ac compacted to: files[ 0 2 11 0 0 0 0 ]
+2023/05/14-19:00:09.024 3846ac Delete type=2 #21601
+2023/05/14-19:00:09.024 3846ac Delete type=2 #21589
+2023/05/14-19:00:11.960 3846aa Compacting 1@1 + 9@2 files
+2023/05/14-19:00:12.050 3846aa Generated table #21604@1: 66306 keys, 2341558 bytes
+2023/05/14-19:00:12.098 3846aa Generated table #21605@1: 1879 keys, 2925039 bytes
+2023/05/14-19:00:12.238 3846aa Generated table #21606@1: 7684 keys, 2699161 bytes
+2023/05/14-19:00:12.276 3846aa Generated table #21607@1: 9038 keys, 2159365 bytes
+2023/05/14-19:00:12.395 3846aa Generated table #21608@1: 2201 keys, 2141653 bytes
+2023/05/14-19:00:12.498 3846aa Generated table #21609@1: 16157 keys, 2202568 bytes
+2023/05/14-19:00:12.567 3846aa Generated table #21610@1: 28233 keys, 2261472 bytes
+2023/05/14-19:00:12.600 3846aa Generated table #21611@1: 48090 keys, 2180354 bytes
+2023/05/14-19:00:12.645 3846aa Generated table #21612@1: 95600 keys, 2247405 bytes
+2023/05/14-19:00:12.648 3846aa Generated table #21613@1: 4064 keys, 96581 bytes
+2023/05/14-19:00:12.648 3846aa Compacted 1@1 + 9@2 files => 21255156 bytes
+2023/05/14-19:00:12.650 3846aa compacted to: files[ 0 1 12 0 0 0 0 ]
+2023/05/14-19:00:12.650 3846aa Delete type=2 #21595
+2023/05/14-19:00:12.651 3846aa Delete type=2 #21592
+2023/05/14-19:00:12.651 3846aa Delete type=2 #21591
+2023/05/14-19:00:12.651 3846aa Delete type=2 #21597
+2023/05/14-19:00:12.651 3846aa Delete type=2 #21594
+2023/05/14-19:00:12.651 3846aa Delete type=2 #21598
+2023/05/14-19:00:12.651 3846aa Delete type=2 #21593
+2023/05/14-19:00:12.651 3846aa Delete type=2 #21590
+2023/05/14-19:00:12.651 3846aa Delete type=2 #21602
+2023/05/14-19:00:12.651 3846aa Delete type=2 #21596

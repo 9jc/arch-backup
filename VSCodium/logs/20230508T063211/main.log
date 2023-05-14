@@ -1,0 +1,6 @@
+2023-05-08 06:32:11.161 [info] update#ctor - updates are disabled as there is no update URL
+2023-05-08 06:32:12.108 [info] Starting extension host with pid 3676708 (fork() took 6 ms).
+2023-05-08 06:32:39.422 [info] Extension host with pid 3676708 exited with code: 0, signal: null.
+2023-05-08 06:32:40.137 [info] Starting extension host with pid 3677585 (fork() took 6 ms).
+2023-05-08 14:10:32.252 [warning] Sending IPC message to channel 'vscode:electron-main->shared-process=exit' for shared process that is destroyed
+2023-05-08 14:10:32.253 [info] Waiting for extension host with pid 3677585 to exit.

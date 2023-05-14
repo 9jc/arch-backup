@@ -1,0 +1,52 @@
+WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.concurrent
+[Error - 6:32:59 AM] May 8, 2023, 6:32:59 AM Error occured while building workspace. Details: 
+ message: Syntax error on tokens, delete these tokens; code: 1610612969; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 1
+ message: Syntax error on tokens, delete these tokens; code: 1610612969; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 4
+ message: Syntax error on token "a", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 4
+ message: Syntax error on token "generate", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 4
+ message: Syntax error, insert ";" to complete RecordBodyDeclaration; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 4
+ message: Syntax error on token "class", = expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 4
+ message: Thus cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5
+ message: Syntax error on token "the", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5
+ message: program cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5
+ message: Syntax error on token "generate", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5
+ message: generate cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5
+ message: Syntax error, insert ";" to complete RecordBodyDeclaration; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5
+ message: numbers cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5
+ message: Syntax error on token "class", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5
+ message: excuted cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5
+ message: Syntax error on token "and", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5
+ message: the cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5
+ message: Syntax error, insert ";" to complete RecordBodyDeclaration; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 5
+ message: Syntax error on token "2.", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 7
+ message: Vector cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 7
+ message: Syntax error on token "-", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8
+ message: To cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8
+ message: Syntax error, insert ";" to complete RecordBodyDeclaration; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8
+ message: a cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8
+ message: Syntax error on token "for", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8
+ message: implement cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8
+ message: Syntax error, insert ";" to complete RecordBodyDeclaration; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8
+ message: of cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8
+ message: Duplicate field RESULTS.is.vector; code: 33554772; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 8
+ message: Thus cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9
+ message: Syntax error on token "program", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9
+ message: program cannot be resolved to a type; code: 16777218; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9
+ message: Syntax error on token "vector", ; expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9
+ message: Duplicate field RESULTS.is.vector; code: 33554772; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9
+ message: The nested type is cannot hide an enclosing type; code: 16777534; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9
+ message: Syntax error on token "excuted", { expected; code: 1610612940; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9
+ message: Syntax error, insert ";" to complete ClassBodyDeclarations; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9
+ message: Syntax error on token(s), misplaced construct(s); code: 1610612972; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 9
+ message: Syntax error on token "AIM", = expected after this token; code: 1610612967; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 24
+ message: Syntax error, insert ";" to complete FieldDeclaration; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 25
+ message: Syntax error, insert "}" to complete ClassBody; code: 1610612976; resource: /home/i0xfce/Documents/Vels PDF/java/all_utils.java; line: 25
+ message: The type frames_exer is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/framesandcontrol.java; line: 4
+ message: The type control_exer is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/framesandcontrol.java; line: 13
+ message: The type imple_prg is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/interfaces.java; line: 5
+ message: The type find_odd_even is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/interfaces.java; line: 15
+ message: The type inter is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/interfaces.java; line: 1
+ message: The type layout_exer is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/panelandlayout.java; line: 4
+ message: The type panel_exer is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/panelandlayout.java; line: 27
+ message: The type random_exer is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/random.java; line: 3
+ message: The type vector_exer is already defined; code: 16777539; resource: /home/i0xfce/Documents/Vels PDF/java/vector.java; line: 4

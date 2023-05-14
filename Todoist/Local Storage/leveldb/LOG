@@ -1,3 +1,15 @@
-2023/05/05-13:26:38.233 681 Reusing MANIFEST /home/i0xfce/.config/Todoist/Local Storage/leveldb/MANIFEST-000001
-2023/05/05-13:26:38.233 681 Recovering log #319
-2023/05/05-13:26:38.233 681 Reusing old log /home/i0xfce/.config/Todoist/Local Storage/leveldb/000319.log 
+2023/05/14-20:13:13.749 703 Reusing MANIFEST /home/i0xfce/.config/Todoist/Local Storage/leveldb/MANIFEST-000001
+2023/05/14-20:13:13.752 703 Recovering log #329
+2023/05/14-20:13:13.753 703 Reusing old log /home/i0xfce/.config/Todoist/Local Storage/leveldb/000329.log 
+2023/05/14-23:02:54.447 30129 Level-0 table #333: started
+2023/05/14-23:02:54.450 30129 Level-0 table #333: 44331 bytes OK
+2023/05/14-23:02:54.452 30129 Delete type=0 #329
+2023/05/14-23:02:54.453 30129 Compacting 4@0 + 1@1 files
+2023/05/14-23:02:54.457 30129 Generated table #334@0: 43 keys, 45615 bytes
+2023/05/14-23:02:54.457 30129 Compacted 4@0 + 1@1 files => 45615 bytes
+2023/05/14-23:02:54.459 30129 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/14-23:02:54.459 30129 Delete type=2 #324
+2023/05/14-23:02:54.459 30129 Delete type=2 #330
+2023/05/14-23:02:54.459 30129 Delete type=2 #327
+2023/05/14-23:02:54.459 30129 Delete type=2 #333
+2023/05/14-23:02:54.459 30129 Delete type=2 #321

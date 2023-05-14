@@ -1,6 +1,18 @@
-2023/05/03-22:54:34.413 f5b1a Reusing MANIFEST /home/i0xfce/.config/Todoist/IndexedDB/https_todoist.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/05/03-22:54:34.413 f5b1a Recovering log #326
-2023/05/03-22:54:34.421 f5b1a Reusing old log /home/i0xfce/.config/Todoist/IndexedDB/https_todoist.com_0.indexeddb.leveldb/000326.log 
-2023/05/03-22:54:50.781 f5b99 Level-0 table #332: started
-2023/05/03-22:54:50.791 f5b99 Level-0 table #332: 899915 bytes OK
-2023/05/03-22:54:50.792 f5b99 Delete type=0 #326
+2023/05/12-21:46:46.508 1543d8 Reusing MANIFEST /home/i0xfce/.config/Todoist/IndexedDB/https_todoist.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/12-21:46:46.508 1543d8 Recovering log #336
+2023/05/12-21:46:46.517 1543d8 Reusing old log /home/i0xfce/.config/Todoist/IndexedDB/https_todoist.com_0.indexeddb.leveldb/000336.log 
+2023/05/12-21:46:47.538 1543d8 Compacting 1@1 + 1@2 files
+2023/05/12-21:46:47.542 1543d8 Generated table #339@1: 100 keys, 21018 bytes
+2023/05/12-21:46:47.542 1543d8 Compacted 1@1 + 1@2 files => 21018 bytes
+2023/05/12-21:46:47.544 1543d8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/12-21:46:47.544 1543d8 Delete type=2 #337
+2023/05/12-21:46:47.544 1543d8 Delete type=2 #334
+2023/05/12-21:47:03.163 154448 Level-0 table #341: started
+2023/05/12-21:47:03.173 154448 Level-0 table #341: 920565 bytes OK
+2023/05/12-21:47:03.181 154448 Delete type=0 #336
+2023/05/12-23:34:01.931 173b9e Compacting 1@1 + 1@2 files
+2023/05/12-23:34:01.941 173b9e Generated table #342@1: 100 keys, 20951 bytes
+2023/05/12-23:34:01.941 173b9e Compacted 1@1 + 1@2 files => 20951 bytes
+2023/05/12-23:34:01.942 173b9e compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/12-23:34:01.943 173b9e Delete type=2 #339
+2023/05/12-23:34:01.943 173b9e Delete type=2 #341

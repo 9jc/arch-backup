@@ -1,0 +1,156 @@
+2023-05-08 06:32:12.518 [info] Log level: Info
+2023-05-08 06:32:12.518 [info] Validating found git in: "git"
+2023-05-08 06:32:12.518 [info] Using git "2.40.1" from "git"
+2023-05-08 06:32:40.629 [info] Log level: Info
+2023-05-08 06:32:40.629 [info] Validating found git in: "git"
+2023-05-08 06:32:40.629 [info] Using git "2.40.1" from "git"
+2023-05-08 06:32:40.629 [info] > git rev-parse --show-toplevel [1ms]
+2023-05-08 06:32:40.629 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:32:40.629 [info] > git rev-parse --show-toplevel [1ms]
+2023-05-08 06:32:40.629 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:32:40.629 [info] > git rev-parse --show-toplevel [1ms]
+2023-05-08 06:32:40.629 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:32:40.629 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 06:32:40.629 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:32:40.629 [info] > git rev-parse --show-toplevel [1ms]
+2023-05-08 06:32:40.629 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:32:40.633 [info] > git rev-parse --show-toplevel [1ms]
+2023-05-08 06:32:40.633 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:32:40.917 [info] > git rev-parse --show-toplevel [0ms]
+2023-05-08 06:32:40.917 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:32:53.246 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-08 06:32:53.246 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:32:56.612 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-08 06:32:56.612 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:33:01.037 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 06:33:01.037 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:33:02.637 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-08 06:33:02.637 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:33:12.616 [info] > git rev-parse --show-toplevel [1ms]
+2023-05-08 06:33:12.616 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:33:18.872 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 06:33:18.873 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:33:25.057 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 06:33:25.057 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:33:32.588 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 06:33:32.588 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:33:39.964 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 06:33:39.964 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:42:13.741 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-08 06:42:13.741 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:51:16.822 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 06:51:16.822 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:54:55.398 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-08 06:54:55.398 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:56:56.251 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-08 06:56:56.252 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:57:06.327 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-08 06:57:06.327 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:57:08.039 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-08 06:57:08.039 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:57:10.144 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-08 06:57:10.144 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:57:26.711 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-08 06:57:26.711 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:57:33.371 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 06:57:33.371 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:57:42.780 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-08 06:57:42.780 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:57:44.327 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-08 06:57:44.327 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:57:51.975 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-08 06:57:51.975 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:57:53.292 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-08 06:57:53.292 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:58:03.274 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-08 06:58:03.275 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:58:14.624 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-08 06:58:14.624 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:58:19.000 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 06:58:19.000 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:58:30.116 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-08 06:58:30.116 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:58:46.461 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-08 06:58:46.461 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:58:47.247 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 06:58:47.247 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:59:42.021 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-08 06:59:42.021 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:59:47.619 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 06:59:47.619 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:59:48.377 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-08 06:59:48.377 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:59:54.007 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-08 06:59:54.008 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 06:59:54.959 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-08 06:59:54.959 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 07:12:54.314 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-08 07:12:54.314 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 07:13:45.036 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 07:13:45.037 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 07:14:28.295 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 07:14:28.295 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 07:14:48.821 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-08 07:14:48.821 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 07:40:37.904 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 07:40:37.938 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 08:14:02.045 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-08 08:14:02.045 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-08 09:12:04.284 [info] > git rev-parse --show-toplevel [1ms]
+2023-05-08 09:12:04.296 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-05-08 09:12:04.312 [info] Open repository: /home/i0xfce/Documents/Vels PDF/java
+2023-05-08 09:12:04.333 [info] No remotes found in the git config file.
+2023-05-08 09:12:04.334 [info] > git config --get commit.template [11ms]
+2023-05-08 09:12:04.335 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-05-08 09:12:04.351 [info] > git status -z -uall [5ms]
+2023-05-08 09:12:04.367 [info] > git config --get commit.template [2ms]
+2023-05-08 09:12:04.367 [info] No remotes found in the git config file.
+2023-05-08 09:12:04.375 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-05-08 09:12:04.382 [info] > git status -z -uall [1ms]
+2023-05-08 09:12:04.660 [info] > git show --textconv :all_utils.java [27ms]
+2023-05-08 09:12:04.660 [info] > git show --textconv :vector.java [18ms]
+2023-05-08 09:12:04.660 [info] > git ls-files --stage -- /home/i0xfce/Documents/Vels PDF/java/all_utils.java [8ms]
+2023-05-08 09:12:04.663 [info] > git ls-files --stage -- /home/i0xfce/Documents/Vels PDF/java/vector.java [4ms]
+2023-05-08 09:12:04.860 [info] > git check-ignore -v -z --stdin [1ms]
+2023-05-08 09:14:50.746 [info] > git config --get commit.template [14ms]
+2023-05-08 09:14:50.747 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-05-08 09:14:50.758 [info] > git status -z -uall [1ms]
+2023-05-08 09:14:50.826 [info] > git ls-files --stage -- /home/i0xfce/Documents/Vels PDF/java/all_utils.java [15ms]
+2023-05-08 09:14:50.840 [info] > git ls-files --stage -- /home/i0xfce/Documents/Vels PDF/java/vector.java [15ms]
+2023-05-08 09:14:50.848 [info] > git cat-file -s 7fd00bfa8e1509a621a099cfc4ebf8edf29fb9d5 [9ms]
+2023-05-08 09:14:50.849 [info] > git cat-file -s 22c1106828713ec20e2ba365c91258247e0a53b9 [3ms]
+2023-05-08 09:14:50.868 [info] > git show --textconv :all_utils.java [10ms]
+2023-05-08 09:14:50.868 [info] > git show --textconv :vector.java [2ms]
+2023-05-08 09:20:44.168 [info] > git ls-files --stage -- /home/i0xfce/Documents/Vels PDF/java/all_utils.java [9ms]
+2023-05-08 09:20:44.177 [info] > git config --get commit.template [30ms]
+2023-05-08 09:20:44.185 [info] > git ls-files --stage -- /home/i0xfce/Documents/Vels PDF/java/vector.java [18ms]
+2023-05-08 09:20:44.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2023-05-08 09:20:44.205 [info] > git cat-file -s 7fd00bfa8e1509a621a099cfc4ebf8edf29fb9d5 [28ms]
+2023-05-08 09:20:44.207 [info] > git cat-file -s 22c1106828713ec20e2ba365c91258247e0a53b9 [13ms]
+2023-05-08 09:20:44.208 [info] > git status -z -uall [3ms]
+2023-05-08 09:20:44.234 [info] > git show --textconv :all_utils.java [11ms]
+2023-05-08 09:20:44.237 [info] > git show --textconv :vector.java [3ms]
+2023-05-08 09:20:49.229 [info] > git config --get commit.template [7ms]
+2023-05-08 09:20:49.230 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-05-08 09:20:49.239 [info] > git status -z -uall [2ms]
+2023-05-08 09:51:12.986 [info] > git show --textconv :5/vector.java [8ms]
+2023-05-08 09:51:12.988 [info] > git ls-files --stage -- /home/i0xfce/Documents/Vels PDF/java/5/vector.java [1ms]
+2023-05-08 09:51:12.998 [info] > git cat-file -s 22c1106828713ec20e2ba365c91258247e0a53b9 [2ms]
+2023-05-08 09:52:00.174 [info] > git config --get commit.template [11ms]
+2023-05-08 09:52:00.175 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-05-08 09:52:00.187 [info] > git status -z -uall [3ms]
+2023-05-08 09:52:05.210 [info] > git config --get commit.template [8ms]
+2023-05-08 09:52:05.210 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-05-08 09:52:05.220 [info] > git status -z -uall [2ms]
+2023-05-08 09:52:12.157 [info] > git config --get commit.template [9ms]
+2023-05-08 09:52:12.158 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-05-08 09:52:12.171 [info] > git status -z -uall [3ms]
+2023-05-08 09:52:22.054 [info] > git config --get commit.template [13ms]
+2023-05-08 09:52:22.056 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-05-08 09:52:22.068 [info] > git status -z -uall [2ms]
+2023-05-08 09:52:27.094 [info] > git config --get commit.template [10ms]
+2023-05-08 09:52:27.096 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-05-08 09:52:27.107 [info] > git status -z -uall [2ms]
+2023-05-08 09:52:32.128 [info] > git config --get commit.template [7ms]
+2023-05-08 09:52:32.128 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-05-08 09:52:32.137 [info] > git status -z -uall [2ms]
